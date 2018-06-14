@@ -23,7 +23,7 @@
                 android:id="@+id/txtDuration"
                 style="@style/Wallet.PackageDuration"
                 android:text="24 hours"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
@@ -42,12 +42,12 @@
                     android:id="@+id/txtPrice"
                     style="@style/Wallet.PackagePrice"
                     android:text="3.000"
-                    app:font="@string/font_B" />
+                    app:fontTextView="@string/font_B" />
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/txtUnit"
                     style="@style/Wallet.PackageDuration"
                     android:text="VND"
-                    app:font="@string/font_M" />
+                    app:fontTextView="@string/font_M" />
             </LinearLayout>
 
         </RelativeLayout>
@@ -61,7 +61,7 @@
         android:textColor="@color/white50"
         android:gravity="center_horizontal"
         android:layout_marginTop="5dp"
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         />
 
 </LinearLayout>

@@ -15,7 +15,7 @@
 
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_B"
+        app:fontTextView="@string/font_B"
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
         android:background="#17ffffff" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -44,7 +44,7 @@
         android:textSize="12sp" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/txtUserType"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -83,7 +83,7 @@
         android:layout_height="3dp" />
 
     <com.alticast.viettelottcommons.widget.FontButtonView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/cancel_button"
         style="@style/Widget.Viettel.Button"
         android:layout_width="match_parent"
@@ -92,7 +92,7 @@
         android:textSize="14sp" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/hot_line"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

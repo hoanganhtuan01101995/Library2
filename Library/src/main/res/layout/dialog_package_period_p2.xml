@@ -29,7 +29,7 @@
             android:text="@string/period_3g_package_title"
             android:textColor="#FFFFFFFF"
             android:textSize="20sp"
-            app:font="@string/font_REB" />
+            app:fontTextView="@string/font_REB" />
 
         <ImageView
             android:id="@+id/imv_line"
@@ -55,7 +55,7 @@
             android:lineSpacingExtra="4dp"
             android:textColor="#99FFFFFF"
             android:textSize="14sp"
-            app:font="@string/font_RL" />
+            app:fontTextView="@string/font_RL" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/txtProductShortDescription"
@@ -71,7 +71,7 @@
             android:lineSpacingExtra="4dp"
             android:textColor="@color/wallet_blue"
             android:textSize="10sp"
-            app:font="@string/font_RL" />
+            app:fontTextView="@string/font_RL" />
 
         <com.alticast.viettelottcommons.widget.MyListView
             android:id="@+id/listDevices"
@@ -120,7 +120,7 @@
             android:text="@string/period_3g_package_auto_renew"
             android:textColor="#FFFFCC05"
             android:textSize="10sp"
-            app:font="@string/font_RL" />
+            app:fontTextView="@string/font_RL" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/txtCouponTitle"
@@ -138,7 +138,7 @@
             android:text="@string/period_coupon_title"
             android:textColor="@color/white"
             android:textSize="10sp"
-            app:font="@string/font_RL" />
+            app:fontTextView="@string/font_RL" />
 
         <com.alticast.viettelottcommons.widget.FontEditText
             android:id="@+id/edtCoupon"
@@ -154,7 +154,7 @@
             android:hint="Ấn vào đây để nhập mã coupon"
             android:textSize="12sp"
             android:textColorHint="@color/white50"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
         <LinearLayout
             android:id="@+id/dividerCoupon"
             android:layout_width="match_parent"
@@ -180,7 +180,7 @@
             android:lineSpacingExtra="4dp"
             android:textColor="@color/wallet_blue"
             android:textSize="10sp"
-            app:font="@string/font_RL" />
+            app:fontTextView="@string/font_RL" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -191,14 +191,14 @@
             <com.alticast.viettelottcommons.widget.FontButtonView
                 android:id="@+id/btnCancel"
                 style="@style/ButtonPurchaseDialog"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 android:text="@string/cancel" />
 
             <com.alticast.viettelottcommons.widget.FontButtonView
                 android:id="@+id/btnConfirm"
                 android:layout_alignParentRight="true"
                 android:text="@string/purchase"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 style="@style/ButtonPurchaseDialog"/>
         </RelativeLayout>
 

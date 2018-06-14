@@ -38,7 +38,7 @@
             android:singleLine="true"
             android:textColor="#dcdcdc"
             android:textSize="14sp"
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             tools:text="title" />
 
         <Space
@@ -60,7 +60,7 @@
                 android:textColor="#828282"
                 android:layout_marginRight="10dp"
                 android:textSize="12sp"
-                app:font="@string/font_M"
+                app:fontTextView="@string/font_M"
                 tools:text="MON 30/03(13:20)" />
             <ImageView
                 android:id="@+id/bar"
@@ -77,7 +77,7 @@
                 android:singleLine="true"
                 android:textColor="#b4b4b4"
                 android:textSize="12sp"
-                app:font="@string/font_M"
+                app:fontTextView="@string/font_M"
                 tools:text="250,000" />
 
             <com.alticast.viettelottcommons.widget.FontTextView
@@ -89,7 +89,7 @@
                 android:text="@string/pay_unit"
                 android:textColor="#b4b4b4"
                 android:textSize="11sp"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
 
 
             <RelativeLayout
@@ -126,7 +126,7 @@
                         android:paddingRight="6dp"
                         android:paddingTop="1dp"
                         android:paddingBottom="2dp"
-                        app:font="@string/font_M" />
+                        app:fontTextView="@string/font_M" />
                 </LinearLayout>
 
 
@@ -145,7 +145,7 @@
                         android:textColor="#828282"
                         android:textSize="10sp"
                         android:visibility="gone"
-                        app:font="@string/font_M" />
+                        app:fontTextView="@string/font_M" />
                 </LinearLayout>
             </RelativeLayout>
         </LinearLayout>

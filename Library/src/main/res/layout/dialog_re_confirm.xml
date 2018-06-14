@@ -16,7 +16,7 @@
     tools:ignore="SmallSp,ContentDescription,RtlHardCoded" >
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/reConfirmTitle"
@@ -31,7 +31,7 @@
         android:background="#17ffffff" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
@@ -41,7 +41,7 @@
         android:textSize="12dp" />
 
     <com.alticast.viettelottcommons.widget.FontButtonView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/yes_button"
         style="@style/Widget.Viettel.Button"
         android:layout_width="match_parent"
@@ -50,7 +50,7 @@
         android:textSize="13sp" />
 
     <com.alticast.viettelottcommons.widget.FontButtonView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/cancel_button"
         style="@style/Widget.Viettel.Button"
         android:layout_width="match_parent"
@@ -60,7 +60,7 @@
         android:textSize="13sp" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/hot_line"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -22,7 +22,7 @@
         android:textColor="@color/list_dialog_text"
         android:textSize="13.3sp"
         android:textStyle="bold"
-        app:font="@string/font_B" />
+        app:fontTextView="@string/font_B" />
 
 
 </com.alticast.viettelphone.widget.CheckableLinearLayout>

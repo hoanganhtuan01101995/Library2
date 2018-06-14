@@ -32,7 +32,7 @@
             android:text="@string/vWallet_select_topup_title"
             android:textColor="@color/white"
             android:textSize="16dp"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
         <ImageButton
             android:id="@+id/btnClose"

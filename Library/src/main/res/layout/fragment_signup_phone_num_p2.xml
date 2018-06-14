@@ -32,7 +32,7 @@
                 android:text="@string/create_account_title"
                 android:textColor="@color/white"
                 android:textSize="@dimen/signup_topbar"
-                app:font="@string/font_REB" />
+                app:fontTextView="@string/font_REB" />
 
         </LinearLayout>
 

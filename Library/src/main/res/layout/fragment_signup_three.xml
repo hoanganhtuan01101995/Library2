@@ -37,7 +37,7 @@
             android:hint="@string/create_account_pw_hint1"
             android:inputType="textPassword"
             android:textColorHint="#33FFFFFF"
-            app:font="@string/font_RL" />
+            app:fontTextView="@string/font_RL" />
 
     </RelativeLayout>
 
@@ -67,7 +67,7 @@
             android:inputType="textPassword"
             android:textColorHint="#33FFFFFF"
             android:textCursorDrawable="@drawable/cursor_drawable"
-            app:font="@string/font_RL" />
+            app:fontTextView="@string/font_RL" />
 
     </RelativeLayout>
 

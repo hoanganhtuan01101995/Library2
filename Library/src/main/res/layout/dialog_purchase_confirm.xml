@@ -16,7 +16,7 @@
     tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
             android:textAllCaps="true"
             android:textColor="#828282"
             android:textSize="12sp"
-            app:font="@string/font_B"
+            app:fontTextView="@string/font_B"
             android:textStyle="bold" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
@@ -60,11 +60,11 @@
             android:textAllCaps="true"
             android:textColor="#f0f0f0"
             android:textSize="12sp"
-            app:font="@string/font_B"
+            app:fontTextView="@string/font_B"
             android:textStyle="bold" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:id="@+id/currency"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
     </LinearLayout>
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
@@ -84,7 +84,7 @@
         android:textColor="#b4b4b4"
         android:textSize="12sp" />
 
-    <com.alticast.viettelottcommons.widget.FontEditText        app:font="@string/font_M"
+    <com.alticast.viettelottcommons.widget.FontEditText        app:fontTextView="@string/font_M"
         android:id="@+id/input"
         style="@style/EditText"
         android:layout_width="match_parent"
@@ -106,7 +106,7 @@
         android:background="#17ffffff" />
 
 
-    <com.alticast.viettelottcommons.widget.FontButtonView       app:font="@string/font_M"
+    <com.alticast.viettelottcommons.widget.FontButtonView       app:fontTextView="@string/font_M"
         android:id="@+id/enter_button"
         style="@style/Widget.Viettel.Button"
         android:layout_width="match_parent"
@@ -115,7 +115,7 @@
         android:text="@string/enter" />
 
 
-    <com.alticast.viettelottcommons.widget.FontButtonView       app:font="@string/font_M"
+    <com.alticast.viettelottcommons.widget.FontButtonView       app:fontTextView="@string/font_M"
         android:id="@+id/cancel_button"
         style="@style/Widget.Viettel.Button"
         android:layout_width="match_parent"

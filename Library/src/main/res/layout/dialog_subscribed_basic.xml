@@ -23,7 +23,7 @@
         android:textColor="#fff"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:font="@string/font_B" />
+        app:fontTextView="@string/font_B" />
 
     <View
         android:layout_width="match_parent"
@@ -51,7 +51,7 @@
             android:textColor="#b3f0f0f0"
             android:textSize="12sp"
             android:textStyle="bold"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:layout_width="match_parent"
@@ -61,7 +61,7 @@
             android:textColor="#828282"
             android:textSize="13sp"
             android:textStyle="bold"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
     </RelativeLayout>
     <RelativeLayout
@@ -81,7 +81,7 @@
             android:textColor="#b3f0f0f0"
             android:textSize="12sp"
             android:textStyle="bold"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:layout_width="match_parent"
@@ -91,7 +91,7 @@
             android:textColor="#828282"
             android:textSize="13sp"
             android:textStyle="bold"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
     </RelativeLayout>
 
@@ -109,7 +109,7 @@
             android:textColor="#828282"
             android:textSize="13sp"
             android:textStyle="bold"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/available_date"
@@ -120,7 +120,7 @@
             android:textColor="#b3f0f0f0"
             android:textSize="12sp"
             android:textStyle="bold"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
 
     </RelativeLayout>
 
@@ -133,7 +133,7 @@
         android:layout_marginTop="5dp"
         android:text="@string/stop_subscription"
         android:textSize="13sp"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <com.alticast.viettelottcommons.widget.FontButtonView
         android:id="@+id/close_button"
@@ -143,6 +143,6 @@
         android:layout_marginTop="5dp"
         android:text="@string/ok"
         android:textSize="13sp"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
 </LinearLayout>

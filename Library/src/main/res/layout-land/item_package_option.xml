@@ -19,7 +19,7 @@
         android:layout_height="wrap_content">
 
         <com.alticast.viettelottcommons.widget.FontTextView
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:id="@+id/txtPackageName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
             android:visibility="visible">
 
             <com.alticast.viettelottcommons.widget.FontTextView
-                app:font="@string/font_M"
+                app:fontTextView="@string/font_M"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="4dp"
@@ -67,7 +67,7 @@
                 android:src="@drawable/icon_fxpoint" />
 
             <com.alticast.viettelottcommons.widget.FontTextView
-                app:font="@string/font_M"
+                app:fontTextView="@string/font_M"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:duplicateParentState="true"
@@ -79,7 +79,7 @@
         </LinearLayout>
 
         <com.alticast.viettelottcommons.widget.FontTextView
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:id="@+id/txtPackagePriceTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -92,7 +92,7 @@
             android:visibility="gone" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:layout_marginLeft="3dp"
             android:id="@+id/txtPrice"
             android:layout_width="wrap_content"
@@ -107,7 +107,7 @@
         android:layout_width="wrap_content"
         android:layout_height="4dp" />-->
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:gravity="center"
         android:visibility="visible"
         android:id="@+id/txtDescription"

@@ -22,7 +22,7 @@
         android:minHeight="18.3dp"
         android:singleLine="false"
         android:text="@string/purchase_confirm"
-        app:font="@string/font_B"
+        app:fontTextView="@string/font_B"
         android:textColor="#d9d9d9"
         android:textSize="15sp"
         android:textStyle="bold" />
@@ -35,7 +35,7 @@
         android:background="#17ffffff" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
@@ -51,7 +51,7 @@
         android:orientation="horizontal">
 
         <com.alticast.viettelottcommons.widget.FontTextView
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:id="@+id/txtPackageName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
             android:text="@string/titleViettel3Gpackage" />
 
         <!--<com.alticast.viettelottcommons.widget.FontTextView-->
-            <!--app:font="@string/font_M"-->
+            <!--app:fontTextView="@string/font_M"-->
             <!--android:layout_width="match_parent"-->
             <!--android:layout_height="wrap_content"-->
             <!--android:gravity="center"-->
@@ -81,7 +81,7 @@
         android:orientation="horizontal">
 
         <com.alticast.viettelottcommons.widget.FontTextView
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:id="@+id/txtPeriod"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
             android:layout_height="wrap_content" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:id="@+id/txtPrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -112,7 +112,7 @@
         android:layout_height="13dp" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -128,7 +128,7 @@
         />
 
     <com.alticast.viettelottcommons.widget.FontButtonView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/btnPurchase"
         style="@style/Widget.Viettel.Button"
         android:layout_width="match_parent"
@@ -142,7 +142,7 @@
 
 
     <com.alticast.viettelottcommons.widget.FontButtonView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/btnCancel"
         style="@style/Widget.Viettel.Button"
         android:layout_width="match_parent"
@@ -151,7 +151,7 @@
         android:textSize="12.6sp" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/hot_line"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -16,6 +16,6 @@
         android:singleLine="true"
         android:text="asdfgh"
         android:textSize="@dimen/textsize_near_center_pickerui_item"
-        app:font="@string/font_RL" />
+        app:fontTextView="@string/font_RL" />
 
 </RelativeLayout>

@@ -46,7 +46,7 @@
             android:hint="@string/create_account_id_hint_phone"
             android:inputType="number"
             android:textColorHint="#33FFFFFF"
-            app:font="@string/font_RL" />
+            app:fontTextView="@string/font_RL" />
 
     </RelativeLayout>
 

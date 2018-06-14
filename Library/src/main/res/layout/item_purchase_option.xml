@@ -24,7 +24,7 @@
             android:duplicateParentState="true"
             android:focusable="false"
             android:focusableInTouchMode="false"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
 
         <Space
             android:layout_width="5dp"
@@ -40,6 +40,6 @@
         android:gravity="center_vertical"
         android:textColor="@color/button_text"
         android:textSize="12.6sp"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
 </RelativeLayout>

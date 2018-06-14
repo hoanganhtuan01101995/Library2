@@ -25,7 +25,7 @@
         android:text="@string/titleViettel3Gpackage"
         android:textColor="@color/yellow"
         android:textSize="18.3sp"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
 
     <View
@@ -49,13 +49,13 @@
         android:text="@string/msgPurchaseDataPacakge1"
         android:textColor="#b4b4b4"
         android:textSize="12sp"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <!--    <Space
             android:layout_width="wrap_content"
             android:layout_height="8dp" />
 
-        <com.alticast.widget.FontTextView        app:font="@string/fontNormal"
+        <com.alticast.widget.FontTextView        app:fontTextView="@string/fontNormal"
             android:id="@+id/txtDescription2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
         android:textColor="#ffb4b4b4"
         android:textSize="10sp"
         android:visibility="gone"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <Space
         android:layout_width="match_parent"
@@ -113,7 +113,7 @@
         android:text="@string/txtAutoRenewalMsg"
         android:textColor="#66b4b4b4"
         android:textSize="8.9sp"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <Space
         android:layout_width="match_parent"
@@ -133,7 +133,7 @@
             android:layout_weight="1"
             android:text="@string/dataPackageConfirmPurchase"
             android:textSize="12.6sp"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
 
         <Space
             android:layout_width="4dp"
@@ -147,6 +147,6 @@
             android:layout_weight="1"
             android:text="@string/dataPackageCancel"
             android:textSize="12.6sp"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
     </LinearLayout>
 </LinearLayout>

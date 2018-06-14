@@ -11,7 +11,7 @@
         android:layout_marginTop="@dimen/mediumMargin"
         android:gravity="center_horizontal"
         android:textSize="20sp"
-        app:font="@string/font_B" />
+        app:fontTextView="@string/font_B" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
         android:id="@+id/txtDescription"
@@ -22,7 +22,7 @@
         android:gravity="center_horizontal"
         android:textSize="14sp"
         android:text="@string/vWalletSelectChargeOptionDes"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
         android:id="@+id/txtPackageTitle"
@@ -30,14 +30,14 @@
         android:text="@string/enterChargeAmountTitle"
         android:layout_marginTop="@dimen/mediumMargin"
         android:gravity="center_horizontal"
-        app:font="@string/font_B" />
+        app:fontTextView="@string/font_B" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
         android:id="@+id/txtEnterAmoutDescription"
         style="@style/Wallet.PackageDescription"
         android:layout_marginTop="4dp"
         android:gravity="center_horizontal"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -60,7 +60,7 @@
                 android:gravity="center_horizontal"
                 android:textColorHint="@color/white50"
                 android:inputType="number"
-                app:font="@string/font_B" />
+                app:fontTextView="@string/font_B" />
         </LinearLayout>
 
         <LinearLayout
@@ -88,7 +88,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="@dimen/smallMargin"
             android:text="@string/agree"
-            app:font="@string/font_B"
+            app:fontTextView="@string/font_B"
             style="@style/ButtonPurchaseDialog"/>
 
         <com.alticast.viettelottcommons.widget.FontButtonView
@@ -97,7 +97,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_marginLeft="@dimen/smallMargin"
-            app:font="@string/font_B"
+            app:fontTextView="@string/font_B"
             android:text="@string/cancel" />
     </LinearLayout>
 

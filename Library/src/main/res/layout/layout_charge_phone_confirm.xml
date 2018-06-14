@@ -8,7 +8,7 @@
     <com.alticast.viettelottcommons.widget.FontTextView
         style="@style/Wallet.SectionTitle"
         android:text="@string/vWalletChargeConfirmTitle"
-        app:font="@string/font_B" />
+        app:fontTextView="@string/font_B" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
         android:id="@+id/txtFreeWifiDescription"
@@ -16,13 +16,13 @@
         android:layout_marginRight="@dimen/wallet_margin"
         android:layout_marginTop="@dimen/wallet_text_margin"
         android:text="@string/vWalletChargeConfirmDes"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
         style="@style/Wallet.PackageName"
         android:text="@string/vWalletChargeAmountTitle"
         android:layout_marginTop="@dimen/mediumMargin"
-        app:font="@string/font_B" />
+        app:fontTextView="@string/font_B" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -40,12 +40,12 @@
                 style="@style/VWallet.Money"
                 android:id="@+id/txtVWalletBalance"
                 android:text="0"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
             <com.alticast.viettelottcommons.widget.FontTextView
                 style="@style/VWallet.Unit"
                 android:text="VNĐ"
                 android:layout_marginLeft="4dp"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
         </LinearLayout>
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/txtBonus"
@@ -53,13 +53,13 @@
             android:layout_marginLeft="4dp"
             android:text="(10 % Bonus)"
             android:textColor="#FFFFCC05"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
     </LinearLayout>
     <com.alticast.viettelottcommons.widget.FontTextView
         style="@style/Wallet.PackageName"
         android:text="@string/vWalletChargeBonusTitle"
         android:layout_marginTop="@dimen/mediumMargin"
-        app:font="@string/font_B" />
+        app:fontTextView="@string/font_B" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -77,12 +77,12 @@
                 style="@style/VWallet.Money"
                 android:id="@+id/txtVWalletBonus"
                 android:text="0"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
             <com.alticast.viettelottcommons.widget.FontTextView
                 style="@style/VWallet.Unit"
                 android:text="VNĐ"
                 android:layout_marginLeft="4dp"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
         </LinearLayout>
 
     </LinearLayout>
@@ -102,7 +102,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="@dimen/smallMargin"
             android:text="@string/agree"
-            app:font="@string/font_B"
+            app:fontTextView="@string/font_B"
             style="@style/ButtonPurchaseDialog"/>
 
         <com.alticast.viettelottcommons.widget.FontButtonView
@@ -111,7 +111,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_marginLeft="@dimen/smallMargin"
-            app:font="@string/font_B"
+            app:fontTextView="@string/font_B"
             android:text="@string/cancel" />
     </LinearLayout>
 

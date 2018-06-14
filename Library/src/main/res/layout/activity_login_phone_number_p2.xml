@@ -74,7 +74,7 @@
                         android:hint="@string/create_account_id_hint_phone"
                         android:textColorHint="@color/white50"
                         android:inputType="number"
-                        app:font="@string/font_B" />
+                        app:fontTextView="@string/font_B" />
                 </LinearLayout>
 
                 <ImageView
@@ -129,7 +129,7 @@
                         android:layout_centerVertical="true"
                         android:textColorHint="@color/white50"
                         android:inputType="textPassword"
-                        app:font="@string/font_B" />
+                        app:fontTextView="@string/font_B" />
                 </LinearLayout>
 
                 <ImageView
@@ -158,7 +158,7 @@
                 android:text="@string/login_forgot_pw_phase2"
                 android:textColor="#80FFFFFF"
                 android:textSize="12sp"
-                app:font="@string/font_Roboto" />
+                app:fontTextView="@string/font_Roboto" />
 
             <com.alticast.viettelottcommons.widget.FontCheckBox
                 android:id="@+id/auto_login_check"
@@ -175,7 +175,7 @@
                 android:textColor="#8000000C"
                 android:textSize="13sp"
                 android:visibility="gone"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
         </RelativeLayout>
 
 
@@ -189,7 +189,7 @@
             android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="15sp"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
         <com.alticast.viettelottcommons.widget.FontButtonView
             android:id="@+id/bt_sign_up"
@@ -201,7 +201,7 @@
             android:textAllCaps="false"
             android:textColor="@color/yellow"
             android:textSize="15sp"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
         <com.alticast.viettelottcommons.widget.FontButtonView
             android:id="@+id/autoLogin3G"
             android:layout_width="275dp"
@@ -212,7 +212,7 @@
             android:textAllCaps="false"
             android:textColor="@color/yellow"
             android:textSize="15sp"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
         <!--<com.alticast.viettelottcommons.widget.FontTextView-->
             <!--android:id="@+id/autoLogin3G"-->
@@ -223,7 +223,7 @@
             <!--android:text="@string/loginInduceAuto3g"-->
             <!--android:textColor="@color/yellow"-->
             <!--android:textSize="14sp"-->
-            <!--app:font="@string/font_Roboto" />-->
+            <!--app:fontTextView="@string/font_Roboto" />-->
 
     </LinearLayout>
 </RelativeLayout>

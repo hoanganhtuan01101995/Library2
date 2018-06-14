@@ -22,7 +22,7 @@
             android:textColor="#d63030"
             android:textSize="13sp"
             android:textStyle="bold"
-            app:font="@string/font_B"
+            app:fontTextView="@string/font_B"
             android:visibility="gone" />
 
        <com.alticast.viettelottcommons.widget.FontTextView
@@ -33,7 +33,7 @@
             android:textColor="#242424"
             android:textSize="12sp"
             android:textStyle="bold"
-            app:font="@string/font_B"
+            app:fontTextView="@string/font_B"
             android:visibility="gone" />
 
 

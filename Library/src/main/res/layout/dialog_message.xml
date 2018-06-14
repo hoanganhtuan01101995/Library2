@@ -29,7 +29,7 @@
             android:textColor="#ffcc05"
             android:textSize="18sp"
             android:visibility="gone"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/long_title"
@@ -40,7 +40,7 @@
             android:textColor="#fff"
             android:textSize="14sp"
             android:visibility="gone"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/subtitle"
@@ -52,7 +52,7 @@
             android:textColor="#828282"
             android:textSize="13sp"
             android:visibility="gone"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/facebookTitle"
@@ -61,7 +61,7 @@
             android:gravity="center"
             android:textColor="#ffe1e1e1"
             android:textSize="18.3sp"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
 
         <View
             android:layout_width="match_parent"
@@ -80,7 +80,7 @@
         android:textColor="#1a92b6"
         android:textSize="14sp"
         android:visibility="gone"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -96,7 +96,7 @@
             android:textColor="#b4b4b4"
             android:textSize="12sp"
             android:visibility="gone"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/message"
@@ -107,7 +107,7 @@
             android:singleLine="false"
             android:textColor="#b4b4b4"
             android:textSize="13sp"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/colorMessage"
@@ -118,7 +118,7 @@
             android:singleLine="false"
             android:textColor="#ffcc05"
             android:textSize="13sp"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
     </RelativeLayout>
 
     <com.alticast.viettelottcommons.widget.FontTextView
@@ -130,7 +130,7 @@
         android:textColor="#f0f0f0"
         android:textSize="14sp"
         android:visibility="gone"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
         android:id="@+id/facebookMessage2"
@@ -141,7 +141,7 @@
         android:textColor="#ffffffff"
         android:textSize="12sp"
         android:visibility="gone"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
         android:id="@+id/message_comment"
@@ -152,7 +152,7 @@
         android:textColor="#828282"
         android:textSize="13sp"
         android:visibility="gone"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <Space
         android:id="@+id/button_space"
@@ -165,7 +165,7 @@
         android:layout_width="match_parent"
         android:layout_height="34.6dp"
         android:visibility="gone"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <com.alticast.viettelottcommons.widget.FontButtonView
         android:id="@+id/button2"
@@ -175,7 +175,7 @@
         android:layout_marginTop="5dp"
         android:textSize="13sp"
         android:visibility="gone"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <com.alticast.viettelottcommons.widget.FontButtonView
         android:id="@+id/button3"
@@ -185,6 +185,6 @@
         android:layout_marginTop="5dp"
         android:textSize="13sp"
         android:visibility="gone"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
 </LinearLayout>

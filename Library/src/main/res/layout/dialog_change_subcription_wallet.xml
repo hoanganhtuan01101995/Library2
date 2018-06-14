@@ -24,7 +24,7 @@
             android:text="@string/changeChargePeriodTitle"
             android:textColor="#FFFFFFFF"
             android:textSize="20sp"
-            app:font="@string/font_REB" />
+            app:fontTextView="@string/font_REB" />
 
         <ImageView
             android:id="@+id/imv_line"
@@ -50,7 +50,7 @@
             android:textColor="#99FFFFFF"
             android:textSize="14sp"
             android:visibility="gone"
-            app:font="@string/font_RL" />
+            app:fontTextView="@string/font_RL" />
 
         <LinearLayout
             android:id="@+id/layoutPrice"
@@ -104,7 +104,7 @@
             <com.alticast.viettelottcommons.widget.FontButtonView
                 android:id="@+id/change_subscription_button"
                 style="@style/ButtonPurchaseWalletDialog"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 android:text="@string/changeSubscriptionButton" />
 
             <com.alticast.viettelottcommons.widget.FontButtonView
@@ -113,7 +113,7 @@
                 android:layout_marginTop="8dp"
                 android:text="@string/keepSubscriptionButton"
                 style="@style/ButtonPurchaseWalletDialog"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 />
         </LinearLayout>
     </LinearLayout>

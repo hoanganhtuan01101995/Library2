@@ -22,7 +22,7 @@
             android:textColor="@color/white50"
             android:textSize="13sp"
             android:visibility="gone"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/txtRenewalTime"
@@ -33,7 +33,7 @@
             android:gravity="center_horizontal"
             android:textColor="@color/viettelBlue"
             android:textSize="10sp"
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             />
 
         <RelativeLayout
@@ -55,7 +55,7 @@
                     android:text="3.000"
                     android:textColor="@color/white"
                     android:textSize="13sp"
-                    app:font="@string/font_B" />
+                    app:fontTextView="@string/font_B" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/txtDuration"
@@ -64,7 +64,7 @@
                     android:layout_marginTop="4dp"
                     android:textSize="10sp"
                     android:textColor="@color/white"
-                    app:font="@string/font_M" />
+                    app:fontTextView="@string/font_M" />
             </LinearLayout>
         </RelativeLayout>
 
@@ -86,7 +86,7 @@
             android:id="@+id/txtPackageTitle"
             style="@style/Wallet.PackageName"
             android:text="@string/paymentHistoryTitle"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/txtPackageDescription"
@@ -96,6 +96,6 @@
             android:text="@string/paymentHistoryDescription"
             android:lines="2"
             android:ellipsize="end"
-            app:font="@string/font_M" />
+            app:fontTextView="@string/font_M" />
     </LinearLayout>
 </RelativeLayout>

@@ -7,7 +7,7 @@
     android:orientation="vertical">
     <com.alticast.viettelottcommons.widget.FontTextView
         style="@style/Wallet.PackageName"
-        app:font="@string/font_Roboto"
+        app:fontTextView="@string/font_Roboto"
         android:text="@string/settingChargeAccountDes" />
 
     <LinearLayout
@@ -45,12 +45,12 @@
                 android:text="@string/settingChargeAccountPhoneTitle"
                 android:textColor="#ffffffff"
                 android:textSize="15sp"
-                app:font="@string/font_B" />
+                app:fontTextView="@string/font_B" />
             <com.alticast.viettelottcommons.widget.FontTextView
                 style="@style/Wallet.SectionDescription"
                 android:text="@string/settingChargeAccountPhoneDes"
                 android:textColor="@color/bonus_color"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -88,12 +88,12 @@
                 android:text="@string/settingChargeAccountVWalletTitle"
                 android:textColor="#ffffffff"
                 android:textSize="15sp"
-                app:font="@string/font_B" />
+                app:fontTextView="@string/font_B" />
             <com.alticast.viettelottcommons.widget.FontTextView
                 style="@style/Wallet.SectionDescription"
                 android:text="@string/settingChargeAccountVWalletDes"
                 android:textColor="@color/bonus_color"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
         </LinearLayout>
     </LinearLayout>
 

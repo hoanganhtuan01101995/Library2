@@ -23,7 +23,7 @@
             android:clickable="false"
             android:duplicateParentState="true"
             android:focusable="false"
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:focusableInTouchMode="false" />
 
         <Space
@@ -38,7 +38,7 @@
             android:duplicateParentState="true"
             android:gravity="center_vertical"
             android:text="@string/buyfor1day"
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:textColor="@color/button_text"
             android:textSize="12.6sp" />
 
@@ -59,7 +59,7 @@
             android:duplicateParentState="true"
             android:gravity="center_vertical"
             android:text="3,000"
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:textColor="@color/yellow"
             android:textSize="13.6sp" />
 
@@ -71,7 +71,7 @@
             android:layout_marginLeft="3dp"
             android:gravity="center_vertical"
             android:text="@string/vnd"
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:textColor="@color/yellow"
             android:textSize="10.6sp" />
     </LinearLayout>

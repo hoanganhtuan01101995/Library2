@@ -27,7 +27,7 @@
             android:text="@string/period_3g_package_title"
             android:textColor="#FFFFFFFF"
             android:textSize="20sp"
-            app:font="@string/font_REB" />
+            app:fontTextView="@string/font_REB" />
 
         <ImageView
             android:id="@+id/imv_line"
@@ -53,7 +53,7 @@
             android:lineSpacingExtra="4dp"
             android:textColor="#99FFFFFF"
             android:textSize="14sp"
-            app:font="@string/font_RL" />
+            app:fontTextView="@string/font_RL" />
 
         <ListView
             android:id="@+id/listDevices"
@@ -87,7 +87,7 @@
             android:text="@string/period_3g_package_auto_renew"
             android:textColor="#FFFFCC05"
             android:textSize="10sp"
-            app:font="@string/font_RL" />
+            app:fontTextView="@string/font_RL" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -99,14 +99,14 @@
             <com.alticast.viettelottcommons.widget.FontButtonView
                 android:id="@+id/btnCancel"
                 style="@style/ButtonPurchaseDialog"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 android:text="@string/cancel" />
 
             <com.alticast.viettelottcommons.widget.FontButtonView
                 android:id="@+id/btnConfirm"
                 android:layout_alignParentRight="true"
                 android:text="@string/purchase"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 style="@style/ButtonPurchaseDialog"/>
         </RelativeLayout>
     </LinearLayout>

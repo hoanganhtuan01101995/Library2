@@ -15,7 +15,7 @@
         android:text="@string/forgot_pwd_created"
         android:textColor="#E1E1E1"
         android:textSize="18.3sp"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <ImageView
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
         android:text="@string/forgot_pwd_created_description"
         android:textColor="#B4B4B4"
         android:textSize="12sp"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <com.alticast.viettelottcommons.widget.FontButtonView
         android:id="@+id/btn_forgot_pwd_ok"
@@ -42,5 +42,5 @@
         android:text="@string/forgot_pwd_ok"
         android:textColor="@color/button_text"
         android:textSize="12.6sp"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 </LinearLayout>

@@ -25,7 +25,7 @@
             android:singleLine="true"
             android:ellipsize="end"
             android:text="dddd"
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:textColor="@color/button_text_yellow"
             android:textSize="13sp"/>
     </LinearLayout>
@@ -55,7 +55,7 @@
                 android:duplicateParentState="true"
                 android:singleLine="true"
                 android:text="@string/purchase_point_prefix"
-                app:font="@string/font_M"
+                app:fontTextView="@string/font_M"
                 android:textAppearance="@style/TextAppearance.Viettel.Button"
                 android:textColor="@color/purchase_button_text"
                 android:textSize="14sp" />
@@ -72,7 +72,7 @@
                 android:duplicateParentState="true"
                 android:singleLine="true"
                 android:text="@string/purchase_point"
-                app:font="@string/font_M"
+                app:fontTextView="@string/font_M"
                 android:textAppearance="@style/TextAppearance.Viettel.Button"
                 android:textColor="@color/purchase_button_text"
                 android:textSize="13sp" />
@@ -85,7 +85,7 @@
             android:duplicateParentState="true"
             android:singleLine="true"
             android:text="@string/purchase_normal_package_price"
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:textAppearance="@style/TextAppearance.Viettel.Button"
             android:textColor="@color/purchase_button_text"
             android:textSize="13sp"
@@ -99,7 +99,7 @@
             android:duplicateParentState="true"
             android:gravity="center_vertical"
             android:singleLine="true"
-            app:font="@string/font_M"
+            app:fontTextView="@string/font_M"
             android:textAppearance="@style/TextAppearance.Viettel.Button"
             tools:text="@string/purchase_vnd_month" />
     </LinearLayout>
@@ -115,7 +115,7 @@
         android:layout_height="wrap_content"
         android:text="description\n123456\n1234"
         android:ellipsize="end"
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:textColor="@color/button_text_package_option"
         android:textSize="10sp"/>
 </LinearLayout>

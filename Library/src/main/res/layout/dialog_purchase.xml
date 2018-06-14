@@ -14,7 +14,7 @@
     tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
         android:background="#17ffffff" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
             android:textColor="#828282"
             android:textSize="12sp"
             android:textStyle="bold"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/available_date"
@@ -71,14 +71,14 @@
             android:textAllCaps="true"
             android:textColor="#f0f0f0"
             android:textSize="12sp"
-            app:font="@string/font_B"
+            app:fontTextView="@string/font_B"
             android:textStyle="bold" />
 
     </LinearLayout>
 
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -108,7 +108,7 @@
             android:paddingRight="40dp">
 
             <com.alticast.viettelottcommons.widget.FontTextView
-                app:font="@string/font_M"
+                app:fontTextView="@string/font_M"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:duplicateParentState="true"
@@ -119,7 +119,7 @@
                 android:textSize="13sp" />
 
             <com.alticast.viettelottcommons.widget.FontTextView
-                app:font="@string/font_M"
+                app:fontTextView="@string/font_M"
                 android:id="@+id/price_cash"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -131,7 +131,7 @@
                 android:textSize="13sp" />
 
             <com.alticast.viettelottcommons.widget.FontTextView
-                app:font="@string/font_M"
+                app:fontTextView="@string/font_M"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:duplicateParentState="true"
@@ -152,7 +152,7 @@
             android:paddingRight="40dp">
 
             <com.alticast.viettelottcommons.widget.FontTextView
-                app:font="@string/font_M"
+                app:fontTextView="@string/font_M"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/icon_fxpoint"
@@ -164,7 +164,7 @@
                 android:textSize="13sp" />
 
             <com.alticast.viettelottcommons.widget.FontTextView
-                app:font="@string/font_M"
+                app:fontTextView="@string/font_M"
                 android:id="@+id/price_point"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -176,7 +176,7 @@
                 android:textSize="13sp" />
 
             <com.alticast.viettelottcommons.widget.FontTextView
-                app:font="@string/font_M"
+                app:fontTextView="@string/font_M"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:duplicateParentState="true"
@@ -190,7 +190,7 @@
 
 
     <com.alticast.viettelottcommons.widget.FontButtonView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/cancel_button"
         style="@style/Widget.Viettel.Button"
         android:layout_width="match_parent"

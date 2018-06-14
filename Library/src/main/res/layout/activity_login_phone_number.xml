@@ -36,7 +36,7 @@
                 android:textColor="#242424"
                 android:textSize="22sp"
                 android:textStyle="bold"
-                app:font="@string/font_B" />
+                app:fontTextView="@string/font_B" />
 
             <ImageButton
                 android:id="@+id/ib_login_close"
@@ -70,7 +70,7 @@
                 android:text="@string/login_title_desc"
                 android:textColor="#242424"
                 android:textSize="15sp"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
 
             <com.alticast.viettelottcommons.widget.FontTextView
                 android:id="@+id/password_error_message"
@@ -83,7 +83,7 @@
                 android:textColor="#ffc80005"
                 android:textSize="12sp"
                 android:visibility="invisible"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
 
             <GridLayout
                 android:layout_width="wrap_content"
@@ -99,7 +99,7 @@
                     android:text="@string/login_id_num"
                     android:textColor="#242424"
                     android:textSize="13sp"
-                    app:font="@string/font_M" />
+                    app:fontTextView="@string/font_M" />
 
                 <com.alticast.viettelottcommons.widget.FontEditText
                     android:id="@+id/id_input"
@@ -109,7 +109,7 @@
                     android:layout_marginBottom="4dp"
                     android:layout_marginLeft="18dp"
                     android:inputType="phone"
-                    app:font="@string/font_M" />
+                    app:fontTextView="@string/font_M" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:layout_width="wrap_content"
@@ -118,7 +118,7 @@
                     android:text="@string/login_password"
                     android:textColor="#242424"
                     android:textSize="13sp"
-                    app:font="@string/font_M" />
+                    app:fontTextView="@string/font_M" />
 
                 <com.alticast.viettelottcommons.widget.FontEditText
                     android:id="@+id/password_input"
@@ -127,7 +127,7 @@
                     android:layout_height="30dp"
                     android:enabled="false"
                     android:inputType="textPassword"
-                    app:font="@string/font_M" />
+                    app:fontTextView="@string/font_M" />
                 <View
                     android:layout_width="1dp"
                     android:layout_height="1dp"
@@ -141,7 +141,7 @@
                     android:text="@string/loginInduceAuto3g"
                     android:textColor="#242424"
                     android:textSize="14sp"
-                    app:font="@string/font_Roboto" />
+                    app:fontTextView="@string/font_Roboto" />
 
             </GridLayout>
 
@@ -161,7 +161,7 @@
                 android:text="@string/login_keep_pw"
                 android:textColor="#8000000C"
                 android:textSize="13sp"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
 
 
             <com.alticast.viettelottcommons.widget.FontCheckBox
@@ -175,7 +175,7 @@
                 android:textColor="#8000000C"
                 android:textSize="13sp"
                 android:visibility="gone"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
 
             <com.alticast.viettelottcommons.widget.FontButtonView
                 android:id="@+id/bt_login"
@@ -187,7 +187,7 @@
                 android:text="@string/login_login"
                 android:textColor="@color/btn_login_text"
                 android:textSize="13sp"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
 
             <com.alticast.viettelottcommons.widget.FontTextView
                 android:id="@+id/tv_login_forgot_pw"
@@ -198,7 +198,7 @@
                 android:text="@string/login_forgot_pw"
                 android:textColor="@color/btn_login_forgot_txt"
                 android:textSize="13sp"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
 
 
         </LinearLayout>
@@ -223,7 +223,7 @@
                 android:text="@string/login_new_account_desc"
                 android:textColor="@color/btn_login_facebook_text"
                 android:textSize="13sp"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
 
             <com.alticast.viettelottcommons.widget.FontButtonView
                 android:id="@+id/bt_sign_up"
@@ -235,9 +235,7 @@
                 android:text="@string/login_signup_button"
                 android:textColor="@color/btn_login_text"
                 android:textSize="13sp"
-                app:font="@string/font_M" />
+                app:fontTextView="@string/font_M" />
         </LinearLayout>
-
-
     </LinearLayout>
 </ScrollView>

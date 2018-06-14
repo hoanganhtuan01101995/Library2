@@ -26,7 +26,7 @@
             android:text="@string/paymentOptionTitle"
             android:textColor="#FFFFFFFF"
             android:textSize="20sp"
-            app:font="@string/font_REB" />
+            app:fontTextView="@string/font_REB" />
 
         <ImageView
             android:id="@+id/imv_line"
@@ -57,7 +57,7 @@
                     android:text="@string/priceLabel"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/originalPrice"
@@ -68,7 +68,7 @@
                     android:text="70000 VND"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -87,7 +87,7 @@
                     android:text="50000 VND"
                     android:textColor="@color/yellow"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
             </LinearLayout>
 
             <LinearLayout
@@ -104,7 +104,7 @@
                     android:text="@string/durationLabel"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/duration"
@@ -116,7 +116,7 @@
                     android:text="1 month"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
             </LinearLayout>
 
         </LinearLayout>
@@ -158,7 +158,7 @@
                     android:text="@string/post_paid_title"
                     android:textColor="#ffffffff"
                     android:textSize="15sp"
-                    app:font="@string/font_B" />
+                    app:fontTextView="@string/font_B" />
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/txtPostPaidAlert"
                     style="@style/Wallet.SectionDescription"
@@ -166,7 +166,7 @@
                     android:textColor="@color/red_error"
                     android:visibility="gone"
                     android:gravity="center_horizontal"
-                    app:font="@string/font_M" />
+                    app:fontTextView="@string/font_M" />
             </LinearLayout>
         </RelativeLayout>
         <RelativeLayout
@@ -198,7 +198,7 @@
                 android:layout_centerInParent="true"
                 android:textColor="#ffffffff"
                 android:textSize="15sp"
-                app:font="@string/font_B" />
+                app:fontTextView="@string/font_B" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -211,7 +211,7 @@
             <com.alticast.viettelottcommons.widget.FontButtonView
                 android:id="@+id/btnCancel"
                 style="@style/ButtonPurchaseDialog"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 android:text="@string/cancel" />
 
             <com.alticast.viettelottcommons.widget.FontButtonView
@@ -219,7 +219,7 @@
                 android:layout_alignParentRight="true"
                 android:text="@string/confirm"
                 style="@style/ButtonPurchaseDialog"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 />
         </RelativeLayout>
     </LinearLayout>

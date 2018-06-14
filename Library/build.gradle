@@ -1,19 +1,18 @@
 apply plugin: 'com.android.library'
-
 //apply plugin: 'com.jfrog.bintray'
 //apply plugin: 'com.github.dcendents.android-maven'
 //
-//group = 'com.hoanganhtuan95ptit.commons'
-//version = '1.0.0'
-
+//// specify POM details.
+//group = 'com.hoanganhtuan95ptit.library-commons' // Library's package name
+//version = '1.1.1' // Library's version number
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '23.0.3'
+    compileSdkVersion 24
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
-        minSdkVersion 17
-        targetSdkVersion 23
+        minSdkVersion 16
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
@@ -26,13 +25,13 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
-    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
-    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
-    compile 'com.android.support:appcompat-v7:25.0.0'
-    compile 'com.android.support:support-v4:25.0.0'
-    compile 'com.squareup.picasso:picasso:2.5.2'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    implementation 'com.android.support:appcompat-v7:25.0.0'
+    implementation 'com.android.support:support-v4:25.0.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
 }
 //
 //// Generate sources-jar
@@ -42,22 +41,22 @@ dependencies {
 //}
 //
 //// Generate javadoc-jar
-//task generateJavadocs(type: Javadoc) {
-//    source = android.sourceSets.main.java.srcDirs
-//    classpath += project.files(android.getBootClasspath()
-//            .join(File.pathSeparator))
-//}
-//
-//task generateJavadocsJar(type: Jar) {
-//    from generateJavadocs.destinationDir
-//    classifier 'javadoc'
-//}
-//
-//generateJavadocsJar.dependsOn generateJavadocs
+////task generateJavadocs(type: Javadoc) {
+////    source = android.sourceSets.main.java.srcDirs
+////    classpath += project.files(android.getBootClasspath()
+////            .join(File.pathSeparator))
+////}
+////
+////task generateJavadocsJar(type: Jar) {
+////    from generateJavadocs.destinationDir
+////    classifier 'javadoc'
+////}
+////
+////generateJavadocsJar.dependsOn generateJavadocs
 //
 //// include the generated jars
 //artifacts {
-//    archives generateJavadocsJar
+////    archives generateJavadocsJar
 //    archives generateSourcesJar
 //}
 //
@@ -71,18 +70,18 @@ dependencies {
 //    key = '8ca53fd89533d7ea3de82a82f576e41d79caacae' //your private API-key of Bintray
 //    pkg {
 //        repo = 'Commons'
-//        name = 'com.hoanganhtuan95ptit.commons' // Library's package name
+//        name = 'com.hoanganhtuan95ptit.library-commons' // Library's package name
 //
 //        version {
-//            name = '1.0.0'
+//            name = '1.1.1'
 //            desc = 'My test upload from liconrepo & this is a sample description'
 //            released  = new Date()
-//            vcsTag = '1.0.0'
+//            vcsTag = '1.1.1'
 //        }
 //
 //        licenses = ['Apache-2.0']  // Library's licence
-//        vcsUrl = 'https://github.com/hoanganhtuan95ptit/Commons.git' // Library's vcs url
-//        websiteUrl = 'https://github.com/hoanganhtuan95ptit/Commons' // Website url
+//        vcsUrl = 'https://github.com/hoanganhtuan95ptit/SampleLibraryCommons.git' // Library's vcs url
+//        websiteUrl = 'https://github.com/hoanganhtuan95ptit/SampleLibraryCommons' // Website url
 //    }
 //    configurations = ['archives']
 //}

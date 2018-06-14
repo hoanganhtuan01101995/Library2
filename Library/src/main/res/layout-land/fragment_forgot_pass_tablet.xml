@@ -34,7 +34,7 @@
                 android:text="@string/create_account_title"
                 android:textColor="@color/white"
                 android:textSize="@dimen/signup_topbar_tablet"
-                app:font="@string/font_B" />
+                app:fontTextView="@string/font_B" />
 
         </LinearLayout>
 

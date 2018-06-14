@@ -27,7 +27,7 @@
             android:text="@string/confirmPurchase"
             android:textColor="#FFFFFFFF"
             android:textSize="20sp"
-            app:font="@string/font_REB" />
+            app:fontTextView="@string/font_REB" />
 
         <ImageView
             android:id="@+id/imv_line"
@@ -58,7 +58,7 @@
                     android:text="@string/priceLabel"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/originalPrice"
@@ -69,7 +69,7 @@
                     android:text="70000 VND"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
 
             </RelativeLayout>
 
@@ -87,7 +87,7 @@
                     android:text="@string/durationLabel"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/duration"
@@ -99,7 +99,7 @@
                     android:text="1 month"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -114,7 +114,7 @@
                     android:text="@string/home_purchsed_date"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/startTime"
@@ -126,7 +126,7 @@
                     android:text="1 month"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
             </RelativeLayout>
             <RelativeLayout
                 android:id="@+id/layoutStatus"
@@ -142,7 +142,7 @@
                     android:text="@string/purchase_status_title"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/status"
@@ -154,7 +154,7 @@
                     android:text="Subcribing"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
             </RelativeLayout>
 
         </LinearLayout>
@@ -169,7 +169,7 @@
             android:gravity="center"
             android:textColor="#FFFFFFFF"
             android:textSize="14sp"
-            app:font="@string/font_REB" />
+            app:fontTextView="@string/font_REB" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -182,7 +182,7 @@
             <com.alticast.viettelottcommons.widget.FontButtonView
                 android:id="@+id/btnChangeChargePeriod"
                 style="@style/ButtonPurchaseWalletDialog"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 android:text="@string/changeChargePeriodPurchaseDetail" />
 
             <com.alticast.viettelottcommons.widget.FontButtonView
@@ -191,7 +191,7 @@
                 android:layout_marginTop="8dp"
                 android:text="@string/cancelSubscription"
                 style="@style/ButtonPurchaseWalletDialog"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 />
             <com.alticast.viettelottcommons.widget.FontButtonView
                 android:id="@+id/btnClose"
@@ -199,7 +199,7 @@
                 android:layout_marginTop="16dp"
                 android:text="@string/close"
                 style="@style/ButtonPurchaseWalletDialog"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 />
         </LinearLayout>
     </LinearLayout>

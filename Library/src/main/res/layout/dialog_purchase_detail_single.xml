@@ -27,7 +27,7 @@
             android:text="@string/confirmPurchase"
             android:textColor="#FFFFFFFF"
             android:textSize="20sp"
-            app:font="@string/font_REB" />
+            app:fontTextView="@string/font_REB" />
 
         <ImageView
             android:id="@+id/imv_line"
@@ -58,7 +58,7 @@
                     android:text="@string/priceLabel"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/originalPrice"
@@ -68,7 +68,7 @@
                     android:layout_alignParentRight="true"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
 
             </RelativeLayout>
             <RelativeLayout
@@ -84,7 +84,7 @@
                     android:text="@string/home_purchsed_date"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/startTime"
@@ -95,7 +95,7 @@
                     android:layout_alignParentRight="true"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -110,7 +110,7 @@
                     android:text="@string/expire"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/endTime"
@@ -121,7 +121,7 @@
                     android:layout_alignParentRight="true"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
             </RelativeLayout>
             <RelativeLayout
                 android:id="@+id/layoutStatus"
@@ -137,7 +137,7 @@
                     android:text="@string/purchase_status_title"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/status"
@@ -148,7 +148,7 @@
                     android:layout_alignParentRight="true"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
             </RelativeLayout>
 
         </LinearLayout>
@@ -170,7 +170,7 @@
                 style="@style/ButtonPurchaseWalletDialog"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 android:layout_marginRight="8dp"
                 />
             <com.alticast.viettelottcommons.widget.FontButtonView
@@ -181,7 +181,7 @@
                 style="@style/ButtonPurchaseWalletDialog"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 />
         </LinearLayout>
     </LinearLayout>

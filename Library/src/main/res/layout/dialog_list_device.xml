@@ -18,7 +18,7 @@
         android:text="@string/titleSelectDeviceToLogout"
         android:textColor="#FFFFFFFF"
         android:textSize="20sp"
-        app:font="@string/font_REB" />
+        app:fontTextView="@string/font_REB" />
 
     <ImageView
         android:id="@+id/imv_line"
@@ -43,7 +43,7 @@
         android:text="@string/descriptionSelectDeviceToLogout"
         android:textColor="#99FFFFFF"
         android:textSize="14sp"
-        app:font="@string/font_RL" />
+        app:fontTextView="@string/font_RL" />
 
     <ListView
         android:id="@+id/listDevices"
@@ -77,7 +77,7 @@
             android:text="@string/cancel"
             android:textColor="@color/selector_text_button_normal"
             android:textSize="15sp"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
         <com.alticast.viettelottcommons.widget.FontButtonView
             android:id="@+id/btnConfirm"
@@ -89,6 +89,6 @@
             android:text="@string/ok"
             android:textColor="@color/selector_text_button_normal"
             android:textSize="15sp"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
     </RelativeLayout>
 </RelativeLayout>

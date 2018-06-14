@@ -11,7 +11,7 @@
         android:layout_marginTop="@dimen/mediumMargin"
         android:textSize="20sp"
         android:gravity="center_horizontal"
-        app:font="@string/font_B" />
+        app:fontTextView="@string/font_B" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
         android:id="@+id/txtPromotion"
@@ -21,14 +21,14 @@
         android:layout_marginRight="64dp"
         android:gravity="center_horizontal"
         android:textColor="@color/bonus_color"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
         style="@style/Wallet.PackageName"
         android:text="@string/vWalletEnterScratchCardSerialTitle"
         android:layout_marginTop="@dimen/mediumMargin"
         android:gravity="center_horizontal"
-        app:font="@string/font_B" />
+        app:fontTextView="@string/font_B" />
 
     <LinearLayout
         android:layout_width="@dimen/vWalletWidth1"
@@ -50,7 +50,7 @@
                 android:gravity="center_horizontal"
                 android:textColorHint="@color/white50"
                 android:inputType="number"
-                app:font="@string/font_B" />
+                app:fontTextView="@string/font_B" />
         </LinearLayout>
 
         <LinearLayout
@@ -64,7 +64,7 @@
         android:text="@string/vWalletEnterScratchCardPinCodeTitle"
         android:layout_marginTop="@dimen/largeMargin"
         android:gravity="center_horizontal"
-        app:font="@string/font_B" />
+        app:fontTextView="@string/font_B" />
 
     <LinearLayout
         android:layout_width="@dimen/vWalletWidth1"
@@ -86,7 +86,7 @@
                 android:gravity="center_horizontal"
                 android:textColorHint="@color/white50"
                 android:inputType="number"
-                app:font="@string/font_B" />
+                app:fontTextView="@string/font_B" />
         </LinearLayout>
 
         <LinearLayout
@@ -111,7 +111,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="@dimen/smallMargin"
             android:text="@string/agree"
-            app:font="@string/font_B"
+            app:fontTextView="@string/font_B"
             style="@style/ButtonPurchaseDialog"/>
 
         <com.alticast.viettelottcommons.widget.FontButtonView
@@ -120,7 +120,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_marginLeft="@dimen/smallMargin"
-            app:font="@string/font_B"
+            app:fontTextView="@string/font_B"
             android:text="@string/cancel" />
     </LinearLayout>
 

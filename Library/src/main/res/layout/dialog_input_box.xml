@@ -17,7 +17,7 @@
     tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
         android:visibility="gone" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/long_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
         android:background="#17ffffff" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/message_emphasis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
         android:visibility="gone" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
 
 
     <com.alticast.viettelottcommons.widget.FontEditText
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/input"
         style="@style/EditText"
         android:layout_width="match_parent"
@@ -90,7 +90,7 @@
         android:background="#17ffffff" />
 
     <com.alticast.viettelottcommons.widget.FontButtonView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/button1"
         style="@style/Widget.Viettel.ButtonPhase2"
         android:layout_width="match_parent"
@@ -98,7 +98,7 @@
         android:textSize="13sp" />
 
     <com.alticast.viettelottcommons.widget.FontButtonView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/button2"
         style="@style/Widget.Viettel.ButtonPhase2"
         android:layout_width="match_parent"
@@ -107,7 +107,7 @@
         android:textSize="13sp" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
-        app:font="@string/font_M"
+        app:fontTextView="@string/font_M"
         android:id="@+id/tv_login_forgot_pw"
         android:layout_width="wrap_content"
         android:layout_height="25dp"

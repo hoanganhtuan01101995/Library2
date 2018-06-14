@@ -22,7 +22,7 @@
             android:textSize="13sp"
             android:textStyle="bold"
             android:visibility="gone"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
         <com.alticast.viettelottcommons.widget.FontTextView
             android:id="@+id/message"
@@ -33,7 +33,7 @@
             android:textSize="12sp"
             android:textStyle="bold"
             android:visibility="gone"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
 
     </LinearLayout>

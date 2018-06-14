@@ -6,7 +6,7 @@
     </declare-styleable>
 
     <declare-styleable name="FontTextView">
-        <attr name="font" format="string" />
+        <attr name="fontTextView" format="string" />
     </declare-styleable>
     
 

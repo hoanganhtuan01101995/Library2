@@ -37,7 +37,7 @@ public class FontTextView extends TextView {
         if (attrs != null) {
             TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.FontTextView);
             try {
-                String string = typedArray.getString(R.styleable.FontTextView_font);
+                String string = typedArray.getString(R.styleable.FontTextView_fontTextView);
                 setTypeface(Rs.getFont(string));
             } catch (Exception e) {
                 e.printStackTrace();

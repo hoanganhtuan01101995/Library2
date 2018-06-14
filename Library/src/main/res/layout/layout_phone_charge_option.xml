@@ -8,19 +8,19 @@
     <com.alticast.viettelottcommons.widget.FontTextView
         style="@style/Wallet.SectionTitle"
         android:text="@string/vWalletSelectChargeOptionTitle"
-        app:font="@string/font_B" />
+        app:fontTextView="@string/font_B" />
 
     <com.alticast.viettelottcommons.widget.FontTextView
         style="@style/Wallet.SectionDescription"
         android:layout_marginRight="@dimen/wallet_margin"
         android:layout_marginTop="@dimen/wallet_text_margin"
         android:text="@string/vWalletSelectChargeOptionDes"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
     <com.alticast.viettelottcommons.widget.FontTextView
         android:id="@+id/txtPromotionDescription"
         style="@style/Wallet.SectionDescription"
         android:textColor="#FFFFCC05"
-        app:font="@string/font_M" />
+        app:fontTextView="@string/font_M" />
 
     <RelativeLayout
         android:layout_width="match_parent"

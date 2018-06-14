@@ -41,7 +41,7 @@
             android:text="@string/buyfor1day"
             android:textColor="#ffffffff"
             android:textSize="15sp"
-            app:font="@string/font_B" />
+            app:fontTextView="@string/font_B" />
 
     </LinearLayout>
 

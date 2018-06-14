@@ -24,7 +24,7 @@
             android:text="@string/confirmPurchase"
             android:textColor="#FFFFFFFF"
             android:textSize="20sp"
-            app:font="@string/font_REB" />
+            app:fontTextView="@string/font_REB" />
 
         <ImageView
             android:id="@+id/imv_line"
@@ -44,7 +44,7 @@
             android:textColor="#FFFFCC05"
             android:textSize="10sp"
             android:visibility="gone"
-            app:font="@string/font_RL" />
+            app:fontTextView="@string/font_RL" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -66,7 +66,7 @@
                 android:text="Package Title"
                 android:textColor="@color/white"
                 android:textSize="14sp"
-                app:font="@string/font_REB" />
+                app:fontTextView="@string/font_REB" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -82,7 +82,7 @@
                     android:text="@string/priceLabel"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/originalPrice"
@@ -94,7 +94,7 @@
                     android:text="70000 VND"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -115,7 +115,7 @@
                     android:text="50000 VND"
                     android:textColor="@color/yellow"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
             </LinearLayout>
 
             <!--<com.alticast.viettelottcommons.widget.FontTextView-->
@@ -124,7 +124,7 @@
                 <!--android:layout_height="wrap_content"-->
                 <!--android:textColor="#FFFFCC05"-->
                 <!--android:textSize="10sp"-->
-                <!--app:font="@string/font_RL" />-->
+                <!--app:fontTextView="@string/font_RL" />-->
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -139,7 +139,7 @@
                     android:text="@string/durationLabel"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/duration"
@@ -151,7 +151,7 @@
                     android:text="1 month"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
             </LinearLayout>
 
             <com.alticast.viettelottcommons.widget.FontTextView
@@ -163,7 +163,7 @@
                 android:text="Bonus support"
                 android:textColor="@color/white50"
                 android:textSize="14sp"
-                app:font="@string/font_RL" />
+                app:fontTextView="@string/font_RL" />
 
             <LinearLayout
                 android:id="@+id/layoutNote"
@@ -181,7 +181,7 @@
                     android:text="@string/noteLabel"
                     android:textColor="@color/white"
                     android:textSize="14sp"
-                    app:font="@string/font_REB" />
+                    app:fontTextView="@string/font_REB" />
 
                 <com.alticast.viettelottcommons.widget.FontTextView
                     android:id="@+id/note"
@@ -193,7 +193,7 @@
                     android:text="Bonus support"
                     android:textColor="@color/white50"
                     android:textSize="14sp"
-                    app:font="@string/font_RL" />
+                    app:fontTextView="@string/font_RL" />
             </LinearLayout>
 
 
@@ -210,14 +210,14 @@
             <com.alticast.viettelottcommons.widget.FontButtonView
                 android:id="@+id/btnCancel"
                 style="@style/ButtonPurchaseDialog"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 android:text="@string/cancel" />
 
             <com.alticast.viettelottcommons.widget.FontButtonView
                 android:id="@+id/btnConfirm"
                 android:layout_alignParentRight="true"
                 android:text="@string/ok"
-                app:font="@string/font_B"
+                app:fontTextView="@string/font_B"
                 style="@style/ButtonPurchaseDialog"/>
         </RelativeLayout>
     </LinearLayout>
