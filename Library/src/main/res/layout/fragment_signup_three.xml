@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="@string/msgsubTitleSignUpThree"
+        android:textColor="#80FFFFFF"
+        android:textSize="@dimen/signup_title" />
+
+    <RelativeLayout
+        android:layout_width="278dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/input_login" />
+
+        <com.alticast.viettelottcommons.widget.FontEditText
+            android:id="@+id/password_input"
+            style="@style/Viettel.Widget.EditTextPhase2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:hint="@string/create_account_pw_hint1"
+            android:inputType="textPassword"
+            android:textColorHint="#33FFFFFF"
+            app:font="@string/font_RL" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="278dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/input_login" />
+
+        <com.alticast.viettelottcommons.widget.FontEditText
+            android:id="@+id/password_confirm_input"
+            style="@style/Viettel.Widget.EditTextPhase2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:cursorVisible="true"
+            android:hint="@string/create_account_pw_hint2"
+            android:inputType="textPassword"
+            android:textColorHint="#33FFFFFF"
+            android:textCursorDrawable="@drawable/cursor_drawable"
+            app:font="@string/font_RL" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_password_right"
+        android:layout_width="278dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp">
+
+        <ImageView
+            android:id="@+id/imv_check_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_correct" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/password_check_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="@string/msgSignupRightConfirmPassword"
+            android:textColor="#FF00C4BF"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/create_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/btn_send_signup"
+        android:textAllCaps="false"
+        android:text="@string/create_account_button"
+        android:textColor="@color/selector_text_button_normal"
+        android:textSize="@dimen/signup_button" />
+
+</LinearLayout>

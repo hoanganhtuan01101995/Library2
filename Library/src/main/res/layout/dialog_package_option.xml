@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="285dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_login_popup"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="18dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="18dp"
+    tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_B"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="17dp"
+        android:singleLine="false"
+        android:text="@string/titlePackageOptions"
+        android:textColor="#d9d9d9"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#17ffffff" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_M"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/msgPackageOptions"
+        android:textColor="#b4b4b4"
+        android:textSize="12sp" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_M"
+        android:id="@+id/txtUserType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#f1b977"
+        android:textSize="13sp"
+        tools:text="@string/purchase_flexiplus_user_message" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="11dp" />
+
+
+    <com.alticast.viettelottcommons.widget.ListViewMaxHeight
+        android:id="@+id/listPackageOption"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="3dp"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:overScrollMode="never"/>
+    <!--   <ListView
+           android:id="@+id/listPackageOption"
+           android:layout_width="match_parent"
+           android:layout_height="160dp"
+           android:divider="@android:color/transparent"
+           android:overScrollMode="never"
+           android:fadeScrollbars="false"
+           android:dividerHeight="3dp"/>-->
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        app:font="@string/font_M"
+        android:id="@+id/cancel_button"
+        style="@style/Widget.Viettel.Button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/cancel"
+        android:textSize="14sp" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_M"
+        android:id="@+id/hot_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:textColor="#858585"
+        android:textSize="12sp"
+        android:visibility="gone"
+        tools:text="@string/purchase_hot_line" />
+</LinearLayout>
+

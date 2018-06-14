@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="364dp"
+   >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:listSelector="@drawable/bg_default_selector"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
+        android:scrollbarStyle="insideInset"
+        android:divider="@drawable/line_search"
+        android:background="@drawable/round_login_popup"
+        android:overScrollMode="never"
+        tools:ignore="SmallSp,ContentDescription,RtlHardCoded"
+        android:paddingTop="13dp"
+        android:paddingBottom="13dp"/>
+</LinearLayout>

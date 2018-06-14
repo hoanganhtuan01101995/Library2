@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/bg_dialog"
+        android:focusableInTouchMode="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/changeChargePeriodTitle"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp"
+            app:font="@string/font_REB" />
+
+        <ImageView
+            android:id="@+id/imv_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/popup_title_line" />
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imv_line"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ellipsize="end"
+            android:fadeScrollbars="false"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#99FFFFFF"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:font="@string/font_RL" />
+
+        <LinearLayout
+            android:id="@+id/layoutPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/layoutCurrentOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <include
+                    layout="@layout/item_rental"
+                    />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_arrow_right"
+                android:layout_gravity="center_vertical"
+                android:layout_centerVertical="true"
+                />
+            <LinearLayout
+                android:id="@+id/layoutAfterOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <include
+                    layout="@layout/item_rental"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <com.alticast.viettelottcommons.widget.FontButtonView
+                android:id="@+id/change_subscription_button"
+                style="@style/ButtonPurchaseWalletDialog"
+                app:font="@string/font_B"
+                android:text="@string/changeSubscriptionButton" />
+
+            <com.alticast.viettelottcommons.widget.FontButtonView
+                android:id="@+id/close_button"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dp"
+                android:text="@string/keepSubscriptionButton"
+                style="@style/ButtonPurchaseWalletDialog"
+                app:font="@string/font_B"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

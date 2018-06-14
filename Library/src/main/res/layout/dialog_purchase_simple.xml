@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/round_login_popup"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="18dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="18dp"
+    tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="17dp"
+        android:singleLine="false"
+        android:textColor="#d9d9d9"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:font="@string/font_B"
+        tools:text="Package Name" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#17ffffff" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_M"
+        android:id="@+id/message_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#b4b4b4"
+        android:textSize="13sp"
+        tools:text="@string/purchase_subcription_message_1" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_M"
+        android:id="@+id/message_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineSpacingExtra="2dp"
+        android:singleLine="false"
+        android:textColor="#b4b4b4"
+        android:textSize="13sp"
+        tools:text="@string/purchase_subcription_message_2" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_M"
+        android:id="@+id/message_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#f1b977"
+        android:textSize="13sp"
+        tools:text="@string/purchase_flexiplus_user_message" />
+
+    <LinearLayout
+        android:id="@+id/layoutDescriptionPackage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- <TextView
+             android:id="@+id/txtDescriptionPackageTitle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:singleLine="true"
+             android:textColor="#f1b977"
+             android:textSize="13sp"
+             tools:text="purchase" />-->
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            app:font="@string/font_M"
+            android:id="@+id/txtDescriptionPackageMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:singleLine="false"
+            android:textColor="#b4b4b4"
+            android:textSize="13sp"
+            tools:text="@string/purchase_subcription_message_2" />
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="11dp" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/purchase_point_button"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/bg_button_purchase"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/layoutSinglePriceTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:visibility="gone">
+
+                    <com.alticast.viettelottcommons.widget.FontTextView
+                        app:font="@string/font_M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:duplicateParentState="true"
+                        android:singleLine="true"
+                        android:text="@string/purchase_point_prefix"
+                        android:textAppearance="@style/TextAppearance.Viettel.Button"
+                        android:textColor="@color/purchase_button_text"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:src="@drawable/icon_fxpoint" />
+
+                    <com.alticast.viettelottcommons.widget.FontTextView
+                        app:font="@string/font_M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:duplicateParentState="true"
+                        android:singleLine="true"
+                        android:text="@string/purchase_point"
+                        android:textAppearance="@style/TextAppearance.Viettel.Button"
+                        android:textColor="@color/purchase_button_text"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    app:font="@string/font_M"
+                    android:id="@+id/txtPackagePriceTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:singleLine="true"
+                    android:text="@string/purchase_normal_package_price"
+                    android:textAppearance="@style/TextAppearance.Viettel.Button"
+                    android:textColor="@color/purchase_button_text"
+                    android:textSize="13sp"
+                    android:visibility="visible" />
+
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    app:font="@string/font_M"
+                    android:id="@+id/purchase_point_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.Viettel.Button"
+                    android:textColor="@color/purchase_button_text"
+                    android:textSize="13sp"
+                    tools:text="@string/purchase_vnd_month" />
+            </LinearLayout>
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                app:font="@string/font_M"
+                android:id="@+id/txt_purchase_point_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:singleLine="true"
+                android:text="@string/purchase_point_message"
+                android:textAppearance="@style/TextAppearance.Viettel.Button"
+                android:textColor="@color/purchase_button_message_text"
+                android:visibility="gone"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <!-- f1, b9 ,77 -->
+        <!-- 85, 85 ,85 -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+
+        <LinearLayout
+            android:id="@+id/purchase_normal_button"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/bg_button_purchase"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    app:font="@string/font_M"
+                    android:id="@+id/txtNormalPriceType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:duplicateParentState="true"
+                    android:singleLine="true"
+                    android:text="@string/purchase_normal_price"
+                    android:textAppearance="@style/TextAppearance.Viettel.Button"
+                    android:textColor="@color/purchase_button_text"
+                    android:textSize="13sp" />
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    app:font="@string/font_M"
+                    android:id="@+id/purchase_normal_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.Viettel.Button"
+                    android:textColor="@color/purchase_button_text"
+                    android:textSize="13sp"
+                    tools:text="@string/purchase_vnd_month" />
+            </LinearLayout>
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                app:font="@string/font_M"
+                android:id="@+id/txt_purchase_normal_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:singleLine="true"
+                android:text="@string/purchase_normal_message"
+                android:textAppearance="@style/TextAppearance.Viettel.Button"
+                android:textColor="@color/purchase_button_message_text"
+                android:visibility="gone"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:id="@+id/purchase_prepayment_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_button_purchase"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    app:font="@string/font_M"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:paddingRight="3dp"
+                    android:singleLine="true"
+                    android:text="@string/purchase_vwallet_prefix"
+                    android:textAppearance="@style/TextAppearance.Viettel.Button"
+                    android:textColor="@color/purchase_button_text"
+                    android:textSize="13sp"
+                    android:visibility="visible" />
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    app:font="@string/font_M"
+                    android:id="@+id/purchase_prepayment_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textAppearance="@style/TextAppearance.Viettel.Button"
+                    android:textColor="@color/purchase_button_text"
+                    android:textSize="13sp"
+                    tools:text="@string/purchase_vnd_month" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/layoutVWbalance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <com.alticast.viettelottcommons.widget.FontTextView
+                        app:font="@string/font_M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="@string/v_walletBalance"
+                        android:textAppearance="@style/TextAppearance.Viettel.Button"
+                        android:textColor="@color/purchase_button_message_text"
+                        android:textSize="11sp" />
+
+
+                    <com.alticast.viettelottcommons.widget.FontTextView
+                        app:font="@string/font_M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="@string/v_walletBonus"
+                        android:textAppearance="@style/TextAppearance.Viettel.Button"
+                        android:textColor="@color/purchase_button_message_text"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:id="@+id/layoutVWbonus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layoutVWbalance"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="vertical">
+
+
+                    <com.alticast.viettelottcommons.widget.FontTextView
+                        app:font="@string/font_M"
+                        android:id="@+id/txtBalance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000.000 VND"
+                        android:textAppearance="@style/TextAppearance.Viettel.Button"
+                        android:textColor="@color/purchase_button_text"
+                        android:textSize="11sp" />
+
+
+                    <com.alticast.viettelottcommons.widget.FontTextView
+                        app:font="@string/font_M"
+                        android:id="@+id/txtBonus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="000.000 VND"
+                        android:textAppearance="@style/TextAppearance.Viettel.Button"
+                        android:textColor="@color/purchase_button_text"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        app:font="@string/font_M"
+        android:id="@+id/cancel_button"
+        style="@style/Widget.Viettel.Button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/cancel"
+        android:textSize="14sp" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_M"
+        android:id="@+id/hot_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:textColor="#858585"
+        android:textSize="12sp"
+        tools:text="@string/purchase_hot_line" />
+
+</LinearLayout>

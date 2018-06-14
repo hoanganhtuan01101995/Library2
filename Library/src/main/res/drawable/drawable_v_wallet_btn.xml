@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/drawable_border_v_wallet_btn_press" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/drawable_border_v_wallet_btn_press" /> <!-- focused -->
+    <item android:drawable="@drawable/drawable_border_v_wallet_btn_normal" /> <!-- default -->
+</selector>

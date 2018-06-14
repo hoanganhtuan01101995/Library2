@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical">
+    <com.alticast.viettelottcommons.widget.FontTextView
+        style="@style/Wallet.SectionTitle"
+        android:text="@string/vWalletSelectChargeOptionTitle"
+        android:layout_marginTop="@dimen/mediumMargin"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        app:font="@string/font_B" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/txtDescription"
+        style="@style/Wallet.SectionDescription"
+        android:layout_marginTop="@dimen/wallet_text_margin"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+        android:text="@string/vWalletSelectChargeOptionDes"
+        app:font="@string/font_M" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/txtPackageTitle"
+        style="@style/Wallet.PackageName"
+        android:text="@string/enterChargeAmountTitle"
+        android:layout_marginTop="@dimen/mediumMargin"
+        android:gravity="center_horizontal"
+        app:font="@string/font_B" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/txtEnterAmoutDescription"
+        style="@style/Wallet.PackageDescription"
+        android:layout_marginTop="4dp"
+        android:gravity="center_horizontal"
+        app:font="@string/font_M" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:layout_marginLeft="170dp"
+        android:layout_marginRight="170dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.alticast.viettelottcommons.widget.FontEditText
+                android:id="@+id/id_input"
+                style="@style/Viettel.Widget.EditTextPhase2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColorHint="@color/white50"
+                android:inputType="number"
+                app:font="@string/font_B" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/underlineAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/input_login" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="128dp"
+        android:layout_marginLeft="128dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <com.alticast.viettelottcommons.widget.FontButtonView
+            android:id="@+id/btnConfirmCustomCharge"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/smallMargin"
+            android:text="@string/agree"
+            app:font="@string/font_B"
+            style="@style/ButtonPurchaseDialog"/>
+
+        <com.alticast.viettelottcommons.widget.FontButtonView
+            android:id="@+id/btnCancelCustomCharge"
+            style="@style/ButtonPurchaseDialog"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/smallMargin"
+            app:font="@string/font_B"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_charging_amount">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:id="@+id/txtAmount"
+                style="@style/Wallet.ChargeAmount"
+                android:gravity="center_horizontal"
+                android:text="10.000 VNĐ"
+                app:font="@string/font_B" />
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:id="@+id/txtBonus"
+                style="@style/Wallet.ChargeBonus"
+                android:gravity="center_horizontal"
+                android:text="(10 % Bonus)"
+                android:textColor="#FFFFCC05"
+                app:font="@string/font_M" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

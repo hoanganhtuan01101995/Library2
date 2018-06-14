@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="252dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_login_popup"
+    android:orientation="vertical"
+    android:paddingBottom="18dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="18dp"
+    tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="17dp"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:textSize="18.3sp"
+        android:textStyle="bold"
+        app:font="@string/font_B" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#17ffffff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layoutPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            >
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textColor="#ffcc05"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:font="@string/font_B" />
+
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:id="@+id/payment_method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="@string/pay_unit"
+                android:textColor="#ffcc05"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:font="@string/font_B" />
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:id="@+id/txtPeriod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="@string/purchaseDialogPerMonth"
+                android:textColor="#b3f0f0f0"
+                app:font="@string/font_B"
+                android:textSize="10sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/layoutPrice"
+            >
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:id="@+id/purchase_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                android:textColor="#828282"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:font="@string/font_B" />
+
+            <!--  &lt;!&ndash;TODO [확인] pre-payment msg&ndash;&gt;-->
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/purchased_date_views"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="visible">
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/purchased_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:textAllCaps="true"
+            android:textColor="#b3f0f0f0"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:font="@string/font_B" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/purchased_date"
+            android:text="@string/home_purchsed_date"
+            android:textColor="#828282"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:font="@string/font_B" />
+
+    </RelativeLayout>
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/txtWalletMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/purchasedWithVWallet"
+        android:textColor="#80d5b5a0"
+        android:textSize="11sp"
+        android:visibility="gone"
+        app:font="@string/font_B" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/available_date_views"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/available_date"
+            android:textColor="#828282"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:font="@string/font_B" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/available_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textAllCaps="true"
+            android:textColor="#b3f0f0f0"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:font="@string/font_M" />
+
+    </RelativeLayout>
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:singleLine="false"
+        android:text="@string/purchase_canceled_subscription"
+        android:textColor="#b4b4b4"
+        android:textSize="13sp"
+        android:visibility="gone"
+        app:font="@string/font_M" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/detail_button"
+        style="@style/Widget.Viettel.Button"
+        android:layout_width="match_parent"
+        android:layout_height="34.6dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/detail"
+        android:textSize="13sp"
+        android:visibility="gone"
+        app:font="@string/font_M" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/stop_subscription_button"
+        style="@style/Widget.Viettel.Button"
+        android:layout_width="match_parent"
+        android:layout_height="34.6dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/stop_subscription"
+        android:textSize="13sp"
+        android:visibility="gone"
+        app:font="@string/font_M" />
+
+    <com.alticast.viettelottcommons.widget.FontCheckBox
+        android:id="@+id/checkAutoRenewal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:button="@drawable/btn_pop_warning_check"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="5dp"
+        android:text="@string/txtAutoRenewalState"
+        android:textColor="#ffb4b4b4"
+        android:textSize="11.3sp"
+        android:layout_marginBottom="10dp"
+        app:font="@string/font_M" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/close_button"
+        style="@style/Widget.Viettel.Button"
+        android:layout_width="match_parent"
+        android:layout_height="34.6dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/close"
+        android:textSize="13sp"
+        app:font="@string/font_M" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/delete_button"
+        style="@style/Widget.Viettel.Button"
+        android:layout_width="match_parent"
+        android:layout_height="34.6dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/delete"
+        android:textSize="13sp"
+        android:visibility="gone"
+        app:font="@string/font_M" />
+
+</LinearLayout>

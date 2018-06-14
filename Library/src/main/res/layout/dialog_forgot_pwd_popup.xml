@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="285.6dp"
+    android:layout_height="180.6dp"
+    android:layout_gravity="center"
+    android:background="@drawable/round_login_popup"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/forgot_pwd_created"
+        android:textColor="#E1E1E1"
+        android:textSize="18.3sp"
+        app:font="@string/font_M" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/pop_line" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:layout_width="241dp"
+        android:layout_height="84dp"
+        android:gravity="center"
+        android:text="@string/forgot_pwd_created_description"
+        android:textColor="#B4B4B4"
+        android:textSize="12sp"
+        app:font="@string/font_M" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/btn_forgot_pwd_ok"
+        android:layout_width="119.3dp"
+        android:layout_height="29.3dp"
+        android:background="@drawable/selector_btn_forgot_pwd_ok"
+        android:text="@string/forgot_pwd_ok"
+        android:textColor="@color/button_text"
+        android:textSize="12.6sp"
+        app:font="@string/font_M" />
+</LinearLayout>

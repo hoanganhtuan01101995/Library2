@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@color/bg_dialog"
+    android:orientation="vertical">
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="@string/loginInduceYes"
+        android:textColor="#FFFFFFFF"
+        android:textSize="21sp"
+        app:font="@string/font_REB" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#FF00C5BE">
+
+    </View>
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/txtMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/loginNoticeChangeTo3G"
+        android:textColor="#99FFFFFF"
+        android:textSize="12sp"
+        app:font="@string/font_RL" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/btnok"
+        android:layout_width="match_parent"
+        android:layout_height="34.6dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_send_signup"
+        android:text="@string/ok"
+        android:textAllCaps="false"
+        android:textColor="@color/selector_text_button_normal"
+        android:textSize="@dimen/signup_button" />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/wallet_width_item"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/layoutContain"
+        android:layout_width="@dimen/wallet_width_item"
+        android:layout_height="@dimen/wallet_height_item"
+        android:background="@drawable/drawable_border_wallet_normal"
+        >
+        <RelativeLayout
+            android:id="@+id/bottomBg"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="1dp"
+            android:background="@drawable/drawable_border_bottom_wallet_normal"
+            >
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:id="@+id/txtDuration"
+                style="@style/Wallet.PackageDuration"
+                android:text="24 hours"
+                app:font="@string/font_M" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottomBg"
+            android:layout_margin="1dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_centerInParent="true"
+                >
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:id="@+id/txtPrice"
+                    style="@style/Wallet.PackagePrice"
+                    android:text="3.000"
+                    app:font="@string/font_B" />
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:id="@+id/txtUnit"
+                    style="@style/Wallet.PackageDuration"
+                    android:text="VND"
+                    app:font="@string/font_M" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/txtRenewalTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@color/white50"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        app:font="@string/font_M"
+        />
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="325dp"
+    android:layout_height="335dp"
+    android:background="@drawable/pop_bg_w640_m_height"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+    <LinearLayout
+        android:id="@+id/title_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            app:font="@string/font_REB" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/popup_title_line" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#99FFFFFF"
+            android:textSize="14sp"
+            app:font="@string/font_RL" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/subtitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#99FFFFFF"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:font="@string/font_RL" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/subtitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#99FFFFFF"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:font="@string/font_RL" />
+
+    </LinearLayout>
+
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/title_group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_btn_normal"
+        android:text="@string/yes"
+        android:textColor="@color/selector_text_button_normal"
+        android:textSize="14sp"
+        app:font="@string/font_B" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn_normal"
+        android:text="@string/msgForgotPassword"
+        android:textColor="@color/selector_text_button_normal"
+        android:textSize="14sp"
+        app:font="@string/font_B" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn2"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn_normal"
+        android:text="@string/no"
+        android:textColor="@color/selector_text_button_normal"
+        android:textSize="14sp"
+        app:font="@string/font_B" />
+
+</RelativeLayout>

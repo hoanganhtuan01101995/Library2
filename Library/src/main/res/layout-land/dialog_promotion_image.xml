@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+    <ImageView
+        android:id="@+id/imvPromotion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true" />
+
+    <RelativeLayout
+        android:id="@+id/viewShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/sh_home_thumb_top" />
+
+        <RelativeLayout
+            android:id="@+id/viewClose"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/imvBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_login_close_p2" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

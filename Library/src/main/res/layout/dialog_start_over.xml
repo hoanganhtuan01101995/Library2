@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="348dp"
+    android:layout_height="325dp"
+    android:background="@drawable/pop_bg_w640_m_height"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+    <LinearLayout
+        android:id="@+id/title_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="21sp"
+            app:font="@string/font_REB" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/subtitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#99FFFFFF"
+            android:textSize="12sp"
+            app:font="@string/font_RL" />
+
+        <RelativeLayout
+            android:layout_width="277dp"
+            android:layout_height="155dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/poster"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:id="@+id/introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/seekbar"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FFFFFFFF"
+                android:textSize="12.5sp"
+                app:font="@string/font_B" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="15dp">
+
+        <com.alticast.viettelottcommons.widget.FontButtonView
+            android:id="@+id/btnStartOver"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/selector_btn_normal"
+            android:text="@string/startover"
+            android:textColor="@color/selector_text_button_normal"
+            android:textSize="15sp"
+            app:font="@string/font_B" />
+
+        <com.alticast.viettelottcommons.widget.FontButtonView
+            android:id="@+id/btnContinue"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/selector_btn_normal"
+            android:text="@string/continue_btn"
+            android:textColor="@color/selector_text_button_normal"
+            android:textSize="15sp"
+            app:font="@string/font_B" />
+    </RelativeLayout>
+
+</RelativeLayout>

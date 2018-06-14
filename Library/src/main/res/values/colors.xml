@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- PickerUI lines colors -->
+    <color name="lines_panel_pickerui">#ff00f3ed</color>
+
+    <!-- PickerUI panel colors -->
+    <color name="background_panel_pickerui">#fffafafa</color>
+
+    <!-- PickerUI items colors -->
+    <color name="text_center_pickerui">#ff000000</color>
+    <color name="text_no_center_pickerui">#aaa</color>
+    <drawable name="list_item_selected">#aaaaaa</drawable>
+    <color name="bonus_color">#FFFFCC05</color>
+
+    <!-- PickerUI shadow colors -->
+    <color name="grey1">#00CCCCCC</color>
+    <color name="grey2">#10CCCCCC</color>
+    <color name="grey3">#20CCCCCC</color>
+    <color name="grey4">#30CCCCCC</color>
+    <color name="grey5">#50747474</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="transparent">#00000000</color>
+
+
+    <!--<color name="yellow">#fecb06</color>-->
+
+    <color name="_FFFFCC05">#FFFFCC05</color>
+    <color name="logoutYeloow">#FFFECB06</color>
+    <color name="black">#FF000000</color>
+    <color name="black15">#26000000</color>
+    <color name="black70">#B3000000</color>
+    <color name="black50">#80000000</color>
+
+
+    <color name="white50">#80FFFFFF</color>
+    <color name="white60">#99FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white15">#26FFFFFF</color>
+    <color name="white70">#B3FFFFFF</color>
+    <color name="bottomSearch">#FF006263</color>
+
+    <color name="skip_bg">#80166166</color>
+
+
+    <color name="adapter_menu_left_posiont">#330099CC</color>
+    <color name="adapter_menu_left_posiont_base">#ffffff</color>
+
+    <color name="yellow">#FFFFCC05</color>
+    <color name="purchaseColorCancel">#d1383a</color>
+    <color name="purchaseColorNormal">#dcdcdc</color>
+    <!-- 공통 -->
+    <color name="viettelBlue">#FF15A3BD</color>
+    <color name="viettelBlue15">#2615A3BD</color>
+    <color name="fragment_left_background">#cccccc</color>
+    <color name="fragment_actionbar_background">#505050</color>
+    <color name="fragment_background">#242424</color>
+    <color name="list_divider">#000000</color>
+    <color name="text_yellow">#FFCC05</color>
+    <color name="btn_global">#F0F0F0</color>
+    <color name="btn_global_f">#242424</color>
+
+    <color name="dim">#50000000</color>
+    <!-- vod -->
+    <color name="vod_text_divider">#343434</color>
+
+    <!-- search -->
+    <color name="search_hotkeyword_title">#fff</color>
+    <color name="search_hotkeyword">#B4B4B4</color>
+
+    <!-- adapter -->
+    <color name="adapter_title">#F0F0F0</color>
+
+    <!-- 탭 시작 -->
+    <color name="tab_title_point">#FFCC05</color>
+    <color name="tab_title_normal">#F0F0F0</color>
+
+    <color name="background_tab_pressed">#ff2b7a96</color>
+    <color name="background_tab_base">#ff1f2021</color>
+
+    <color name="background_tab_pressed_light">#f171bfdb</color>
+    <color name="background_tab_base_light">#ff353535</color>
+    <!-- 55cdcdcd -->
+
+    <color name="tab_divider">#ff414243</color>
+    <color name="tab_divider_light">#ffb8b8b8</color>
+
+    <color name="tab_underline">#cc414243</color>
+    <color name="tab_underline_light">#66b8b8b8</color>
+    <!-- 탭 끝 -->
+
+    <!-- my home -->
+    <color name="resume_adapter_vod_text">#FFCC05</color>
+    <color name="resume_adapter_rec_text">#9C9C9C</color>
+    <color name="like_text">#828282</color>
+
+    <!-- dialog -->
+    <color name="dialog_subtitle">#828282</color>
+
+    <!-- Common -->
+    <color name="default_selector_pressed">#15ffffff</color>
+    <color name="yellow_selector_preessed">#FFFFCC05</color>
+
+    <!-- Menu -->
+    <color name="bg_menu_item_selected">#ffffcc05</color>
+    <color name="menu_item_text_selected">#ff242424</color>
+    <color name="menu_item_text">#ffdcdcdc</color>
+
+    <!-- Schedule -->
+    <color name="schedule_row_checked">#ff353535</color>
+
+    <!-- my home -->
+    <color name="recording_folder_list">#393939</color>
+
+
+    <color name="select_charging_option_1">#ffb7ceda</color>
+    <color name="select_charging_option_2">#ffd5b5a0</color>
+
+    <color name="white54">#8AFFFFFF</color>
+    <color name="white87">#DEFFFFFF</color>
+    <!--<color name="bg_channel">#FF505050</color>-->
+    <color name="bg_channel">#FF293241</color>
+    <color name="bg_schedule_title">#FF078E8A</color>
+    <color name="text_deactive">#FFBBBBBB</color>
+    <color name="schedule_line">#FF444444</color>
+    <color name="schedule_time">#FFA6A6A6</color>
+
+    <color name="schedule_title_bg">#FF181818</color>
+    <color name="schedule_title_press">#FF00A8A4</color>
+
+    <color name="white20">#33FFFFFF</color>
+    <color name="white10">#1AFFFFFF</color>
+    <color name="white5">#0DFFFFFF</color>
+    <color name="white30">#4DFFFFFF</color>
+
+    <color name="white11">#FF242424</color>
+
+    <color name="select_color">#FF1D222A</color>
+    <color name="main_header">#FF293241</color>
+    <color name="main_bg">#FF0e1623</color>
+    <color name="main_bg_focus">#FF1D212A</color>
+    <color name="main_bg_press">#FFFFFC06</color>
+    <color name="bg_dialog">#FF293241</color>
+
+    <color name="red_error">#FFFF606C</color>
+    <color name="green_success">#FF00C4BF</color>
+    <color name="wallet_blue">#00f3ed</color>
+    <color name="wallet_red">#d1383a</color>
+    <color name="wallet_blue15">#2600f3ed</color>
+
+    <color name="icon_enabled">#FFFFFFFF</color>
+    <color name="icon_disabled">#FF63727B</color>
+    <color name="bg_color">#FF121822</color>
+    <color name="progress">#FF00E8E9</color>
+    <color name="bg_progress">#FF4B4F50</color>
+
+    <color name="menu_active">#FF00E7EB</color>
+    <!--<color name="bottom_bar_bg">#FF4d5d77</color>-->
+    <color name="bottom_bar_bg">#DE4d5d77</color>
+</resources>

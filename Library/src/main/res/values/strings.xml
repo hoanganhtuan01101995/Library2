@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- Scratch Card-->
+    <string name="titleEnterScratchCard">Nhập thẻ cào</string>
+    <string name="enterScratchCardNumber">Nhập số thẻ cào</string>
+    <string name="enterScratchCardPinNumber">Nhập mã PIN thẻ cào</string>
+
+    <!--btn-->
+    <string name="vnd">VNĐ</string>
+    <string name="charge">Nạp tiền</string>
+    <string name="sendPassword">Gửi mật khẩu</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="checkTopUpHistory">Kiểm tra lịch sử Top Up</string>
+
+    <string name="purchasedWithVWallet">(Thanh toán bằng Ví điện tử)</string>
+    <string name="purchaseDialogPerMonth">(Hàng tháng)</string>
+    <string name="purchaseDialogPerWeek">(Hàng tuần)</string>
+    <string name="purchaseDialogPerDay">(Hàng ngày)</string>
+
+    <string name="titleChosePackage">Lựa chọn gói</string>
+    <string name="titleViettel3Gpackage">Gói ViettelTV 3G</string>
+    <string name="msgPurchaseDataPacakge1">Đăng ký để xem truyền hình không giới hạn lưu lượng tốc độ cao dành cho thuê bao 3G Viettel.</string>
+    <string name="msgPurchaseDataPacakge2">Gói cước tự động gia hạn khi hết chu kỳ.</string>
+    <!--<string name="msgPurchaseDataPacakge2">Gói cước tự động gia hạn khi hết chu kỳ. Lựa chọn hủy gói để gói cước không tự động gia hạn vào chu kỳ tiếp theo</string>-->
+    <string name="buyfor1day">Mua Gói Ngày</string>
+    <string name="buyfor7days">Mua Gói Tuần</string>
+    <string name="buyfor30days">Mua Gói Tháng</string>
+
+    <string name="priceOnlyOneDay">%1$s VNĐ</string>
+    <string name="priceOnlyOneWeek">%1$s VNĐ</string>
+    <string name="priceOnlyOneMonth">%1$s VNĐ</string>
+
+    <!-- <string name="priceOneDay">2.000Đ/Ngày</string>
+     <string name="priceOneWeek">7.000Đ/Tuần</string>
+     <string name="priceOneMonth">25.000Đ/Tháng</string>-->
+
+    <string name="priceOneDay">%1$sĐ/Ngày</string>
+    <string name="priceOneWeek">%1$sĐ/Tuần</string>
+    <string name="priceOneMonth">%1$sĐ/Tháng</string>
+
+    <string name="dataPurchaseConfirmMsg">Hệ thống sẽ tự động hủy gói cước cũ của dịch vụ Vietteltv (nếu có).</string>
+    <string name="dataPackageCancel">Thoát</string>
+    <string name="dataPackageConfirmPurchase">Mua</string>
+    <string name="dataPackageConfirmCancel">Quay lại</string>
+
+    <string name="pay_unit_day">"VNĐ/ngày"</string>
+    <string name="pay_unit_days">"VNĐ/%1$dngày"</string>
+    <string name="pay_unit_month">"VNĐ/tháng"</string>
+    <string name="pay_unit_months">"VNĐ/%1$dtháng"</string>
+
+    <string name="msgCannotPlayOnStb">Để sử dụng tính năng này, quý khách vui lòng mua nội dung vừa lựa chọn trên đầu thu trước.</string>
+
+    <string name="msgLoginExpired">Lỗi. Xin hãy kiểm tra kết nối mạng của bạn và đăng nhập lại.</string>
+    <!--<string name="msgCannotPurchase">Bạn không là thuê bao Viettel\nChỉ có thuê bao Viettel có thể mua gói VIP.</string>-->
+    <string name="msgCannotPurchase">Lỗi xác thực ! Quý khách vui lòng khởi động lại ứng dụng và thử lại. (Lưu ý: Hiện tại chỉ thuê bao Viettel có thể mua được gói nội dung)</string>
+
+    <string name="pairingExpiredTitle">Chế độ kết nối đã kết thúc.</string>
+    <string name="pairingExpiredMsg">Nếu bạn muốn giữ trạng thái này, dịch vụ sẽ tự động thay đổi. Bạn có muốn kết nối lại với TV?</string>
+    <string name="pairingExpiredBtn1">Kết nối với TV</string>
+    <string name="pairingExpiredBtn2">Chỉ Sử dụng thiết bị</string>
+
+    <!--package options dialog-->
+    <string name="titlePackageOptions">Lựa Chọn Gói</string>
+    <string name="msgPackageOptions">Để xem được nội dung này, quý khách vui lòng chọn mua 1 trong các gói sau:</string>
+    <string name="bundlePrice">Giá gói combo</string>
+    <string name="packagePrice">Giá gói</string>
+
+    <string name="msgAdExit">Bạn có muốn dừng xem quảng cáo và nội dung không?</string>
+
+    <!--package period-->
+    <string name="periodOndDay">Mua Gói 1 ngày</string>
+    <string name="periodDays">Mua Gói %1$d ngày</string>
+    <string name="txtAutoRenewal">Do not automatically renew</string>
+    <string name="txtAutoRenewalState">Tự động gia hạn</string>
+    <string name="txtExpired">Đã hết hạn</string>
+    <string name="txtAutoRenewalMsg">Gói cước sẽ tự động gia hạn vào chu kỳ cước tiếp theo.</string>
+
+    <string name="buyDayPackage">Mua Gói Ngày</string>
+    <string name="buyWeekPackage">Mua Gói Tuần</string>
+    <string name="buyMonthlyPackage">Mua Gói Tháng</string>
+    <string name="buyPackage">Mua Gói </string>
+
+    <string name="justDay">Ngày</string>
+    <string name="justWeek">Tuần</string>
+    <string name="justMothn">Tháng</string>
+    <string name="justHour">Giờ</string>
+
+
+    <string-array name="months">
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+    </string-array>
+
+    <!--forgot password-->
+    <string name="forgot_pwd_title">Tìm mật khẩu</string>
+    <string name="forgot_pwd_step1">Bước 1:</string>
+    <string name="forgot_pwd_step2">Bước 2:</string>
+    <string name="forgot_pwd_step3">Bước 3:</string>
+    <string name="forgot_pwd_step1_msg">Vui lòng nhập số điện thoại của Quý khách để lấy mã xác nhận -> Bấm “Gửi”.</string>
+    <string name="forgot_pwd_step2_msg">Vui lòng nhập mã xác nhận được gửi tới SMS </string>
+    <string name="forgot_pwd_step3_msg">Tạo mật khẩu mới (Vui lòng ghi nhớ cho lần đăng nhập sau)</string>
+    <string name="forgot_pwd_hint_phone_num">"Số điện thoại."</string>
+    <string name="forgot_pwd_hint_code_num">Mã xác nhận</string>
+    <string name="forgot_pwd_hint_new_pwd">Nhập mật khẩu mới</string>
+    <string name="forgot_pwd_hint_confirm_pwd">Xác nhận mật khẩu mới</string>
+
+    <string name="forgot_pwd_wrong_pwd">Mật khẩu không khớp, vui lòng nhập lại</string>
+    <string name="forgot_pwd_send">"Gửi"</string>
+    <string name="forgot_pwd_resend">"Gửi lại"</string>
+    <string name="forgot_pwd_confirm">Hoàn thành</string>
+    <!--forgot password popup-->
+    <string name="forgot_pwd_created">Mật khẩu đã được thay đổi</string>
+    <string name="forgot_pwd_created_description">Hãy đăng nhập bằng mật khẩu bạn vừa thay đổi.</string>
+    <string name="forgot_pwd_ok">OK</string>
+
+    <!-- Ad Video Player -->
+    <string name="adplayer_skip_after">"Bỏ qua Quảng cáo sau "</string>
+    <string name="adplayer_skip_sec">" giây"</string>
+    <string name="adplayer_skip">Bỏ qua</string>
+
+    <string name="episode">Tập</string>
+    <string name="loading" tools:ignore="TypographyEllipsis">Đang tải...</string>
+
+    <string name="str_hello"> Xin chào </string>
+    <string name="str_btn_channel_list">Danh sách kênh</string>
+    <string name="str_btn_schedule">TV Xem lại - Nhắc lịch</string>
+    <string name="str_btn_cate">Thể loại</string>
+    <string name="title_activity_channel">Kênh TV</string>
+
+    <string name="str_day"> ngày </string>
+
+    <string name="str_monday">Thứ hai,</string>
+    <string name="str_tuesday">Thứ ba,</string>
+    <string name="str_wednesday">Thứ tư,</string>
+    <string name="str_thursday">Thứ năm,</string>
+    <string name="str_friday">Thứ sáu,</string>
+    <string name="str_saturday">Thứ bảy,</string>
+    <string name="str_sunday">Chủ nhật,</string>
+
+
+    <string name="str_yesterday"> HÔM QUA </string>
+    <string name="str_day_ago"> NGÀY TRƯỚC </string>
+
+    <string name="str_tomorrow"> NGÀY MAI </string>
+    <string name="noVodAdded">Không tìm thấy VOD nào</string>
+    <string name="str_day_after">  NGÀY SAU </string>
+
+    <string name="str_noti_delete">  nội dung đã xóa</string>
+    <string name="str_update">Đang cập nhật</string>
+
+    <string name="titleCannotAccess">Không thể truy cập</string>
+    <string name="messCannotAccess">Xin lỗi, danh mục bạn chọn chưa hoạt động</string>
+
+    <string name="cannotWatchContent">Nội dung hiện không thể xem được</string>
+    <string name="cannotWatchContentOnThisDevice">Nội dung hiện không thể xem được trên thiết bị của bạn</string>
+    <string name="cannotWatchVTVCab">Gói cước của Quý khách chỉ hỗ trợ xem miễn phí trên WIFI, vui lòng sử dụng WIFI để xem nội dung này.</string>
+    <string name="cannotWatchInvisible">Gói cước trên STB của Quý khách chưa hỗ trợ xem nội dung này. Vui lòng nâng cấp lên gói cước cao hơn để xem trên thiết bị di động. Liên hệ %s để biết thông tin chi tiết.</string>
+    <string name="networkChangedWifiTo3G">Quý khách hàng vui lòng truy cập wifi để tránh phát sinh lưu lượng 3G, hoặc mua gói cước để được xem truyền hình không giới hạn lưu lượng tốc độ cao.</string>
+
+    <string name="msgTitleDeviceLimitDialog">Vượt ngưỡng đăng nhập</string>
+    <!--<string name="msgsubTitleDeviceLimitDialog1" formatted="false">Bạn đã đăng nhập quá %d thiết bị \n bằng tài khoản %s</string>-->
+    <string name="msgsubTitleDeviceLimitDialog1" formatted="false">Tài khoản %s của bạn đã đăng nhập quá %d màn hình đồng thời</string>
+    <string name="msgsubTitleDeviceLimitDialog2">Để tiếp tục sử dụng, vui lòng đăng xuất \n khỏi thiết bị trước đó. Bạn có muốn chọn \n thiết bị để đăng xuất không?</string>
+
+    <string name="titleSelectDeviceToLogout">Lựa chọn thiết bị để đăng xuất</string>
+    <string name="descriptionSelectDeviceToLogout"> Vui lòng chọn 1 hoặc nhiều thiết bị \n bên dưới để đăng xuất</string>
+    <!--<string name="noticeDeviceLogout">Bạn đã bị đăng xuất do vượt quá giới hạn thiết bị được đăng nhập cùng lúc vào tài khoản. Bạn có muốn đăng nhập lại không? </string>-->
+    <string name="noticeDeviceLogout">Bạn đã bị đăng xuất do mật khẩu bị thay đổi hoặc vượt quá giới hạn tài khoản đăng nhập đồng thời vào các thiết bị khác nhau. Bạn có muốn đăng nhập lại không ?</string>
+
+    <string name="msgPhoneNumber">Số điện thoại</string>
+    <string name="msgPassword">Mật khẩu</string>
+    <string name="msgForgotPassword">Quên mật khẩu</string>
+
+    <!--_________________ PHASE 2 _______________________-->
+    <string name="msgsubTitleSignUpOne">Nhập số điện thoại để nhận mã xác thực</string>
+    <string name="msgsubTitleSignUpTwo">Sử dụng mã xác thực nhận được để tạo tài khoản mới</string>
+    <string name="msgsubTitleFindPassTwo">Sử dụng mã xác thực nhận được để đổi mật khẩu</string>
+    <string name="msgsubTitleSignUpThree">Mật khẩu</string>
+
+    <string name="msgReLogin">Đăng nhập lại</string>
+    <string name="msgSignupRightConfirmPassword">Mật khẩu hợp lệ</string>
+    <string name="msgSignupHintSMSError">Mã xác thực không đúng, vui long kiểm tra lại</string>
+
+    <string name="creat_account">"Tạo tài khoản"</string>
+
+    <string name="save">"Lưu lại"</string>
+
+    <string name="create_new_password">"Tạo mật khẩu mới"</string>
+    <string name="playlist">"Danh sách"</string>
+
+    <string name="selecPlaylist">Thêm vào Playlist</string>
+    <string name="msgGeneral">Chung</string>
+    <string name="msgKid">Thiếu nhi</string>
+    <string name="msgMusic">Âm Nhạc</string>
+    <string name="msgClip">Clips</string>
+
+    <string name="noti_add_playlist" formatted="false">"'%s'đã được thêm vào playlist '%s'"</string>
+    <string name="noti_delete_playlist" formatted="false">"'%s'đã được xóa khỏi playlist"</string>
+    <string name="noti_delete_recent_watch">"Nội dung đã được xóa khỏi mục đang xem"</string>
+
+    <string name="nextEpisodeTitle">"Tập tiếp theo sẽ được Play"</string>
+
+    <string name="msgMyContentRecentWatchTitle">Xem gần đây</string>
+    <string name="msgFavChannel">Kênh yêu thích</string>
+    <string name="msgReserveCategory">Có %d chương trình sắp phát sóng</string>
+    <string name="msgComingup">Sắp chiếu</string>
+    <string name="msgComingupTimeRemain">Còn %s phút</string>
+
+    <string name="msgGeneralList">Danh sách chung</string>
+
+    <string name="availabletowatch">Có thể xem</string>
+    <string name="stillCanWatch">Còn thời hạn xem</string>
+    <string name="needtopurchase">Chưa mua</string>
+
+    <string name="msgSelectAll">Chọn tất cả</string>
+    <string name="msgComingupTablet">Sắp chiếu</string>
+    <string name="reserveTitle">"Nhắc lịch"</string>
+
+    <string name="msgSettingVersion">Thông tin phiên bản</string>
+    <string name="msgSettingAbout">Giới thiệu dịch vụ</string>
+    <string name="msgSettingPolicy">Điều khoản sử dụng dịch vụ</string>
+    <string name="msgSettingChargeAccount">Thông tin phiên bản</string>
+    <string name="Passworddetail">Bấm vào đây để thay đổi mật khẩu</string>
+    <string name="TVConnection">Kết nối TV</string>
+    <string name="TVConnectiondetail">Kết nối và chia sẻ nội dung \n từ điện thoại với TV của bạn</string>
+
+    <string name="Facebookdetail">Chia sẻ các nội dung với bạn bè</string>
+    <string name="msgexpireAnnouce">Nội dung này hiện không còn tồn tại</string>
+
+    <string name="searchTitle">Tìm kiếm</string>
+    <string name="searchRecent">Tìm kiếm gần đây</string>
+    <string name="top5searchKey">Tìm kiếm nhiều nhất</string>
+    <string name="expireAnnouce">"Nội dung này hiện không còn tồn tại"</string>
+
+    <string name="scheduelChannel">"Lịch kênh"</string>
+    <string name="bookmarkTitle">"Bạn đang xem nội dung này trước đó,\n bạn có muốn xem tiếp tại đoạn đó?"</string>
+
+    <string name="lblStartOrver">Xem lại từ đầu</string>
+    <string name="lblContinue">Tiếp tục xem</string>
+    <string name="lastWatched">Thời gian đã xem</string>
+    <string name="wrongPassword">Mật khẩu hiện tại không đúng</string>
+
+    <string name="font_B">B</string>
+    <string name="font_M">M</string>
+    <string name="font_Roboto">Roboto</string>
+    <string name="font_REB">REB</string>
+    <string name="font_RL">RL</string>
+    <string name="pay_unit_week">"VNĐ/week"</string>
+
+    <string name="titleDIRECTOR">ĐẠO DIỄN</string>
+    <string name="titleSTARS">NGÔI SAO</string>
+    <string name="titleACTOR">DIỄN VIÊN</string>
+    <string name="titleSYNOPSIS">TÓM TẮT</string>
+    <string name="titleTrailer">TRAILER</string>
+    <string name="titlePhoto">PHOTO</string>
+    <string name="titleFavorite">Yêu thích</string>
+    <string name="titleMoreLikeThis">Nội dung liên quan</string>
+    <string name="titleWatchNow">Xem luôn</string>
+
+    <string name="titleWatchAtthisMoment">Xem ngay</string>
+    <string name="title_tv_connection">TV Connection</string>
+    <string name="str_tv_connection_title">Không có TV kết nối</string>
+    <string name="str_tv_connection_content_1">Nhận mã kết nối từ TV của bạn</string>
+    <string name="str_tv_connection_content_2">Menu> Viettel App > Kết nối thiết bị</string>
+    <string name="str_tv_connection_content_3"></string>
+    <string name="str_on">BẬT</string>
+    <string name="str_off">TẮT</string>
+    <string name="cd_search">Tìm kiếm</string>
+    <string name="cd_remote">Remote</string>
+    <string name="cd_menu">Menu</string>
+    <string name="str_btn_back">Quay lại</string>
+    <string name="str_imv_schedule">Lập lịch</string>
+
+    <string name="app_name">ViettelTV</string>
+    <string name="app_name_onme">VTVCabOnMe</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Splash\nActivity</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Mở phần điều hướng</string>
+    <string name="navigation_drawer_close">Đóng phần điều hướng</string>
+
+    <string name="action_settings">Cài đặt</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment\nHello blank fragment\nHello blank fragment\nHello blank fragment</string>
+    <string name="title_activity_login">Đăng nhập</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mật khẩu (tùy chọn)</string>
+    <string name="action_sign_in">Đăng nhập hoặc đăng kí</string>
+    <string name="action_sign_in_short">Đăng nhập</string>
+    <string name="error_invalid_email">Địa chỉ email này không hợp lệ</string>
+    <string name="error_invalid_password">Mật khẩu này quá ngắn</string>
+    <string name="error_incorrect_password">Mật khẩu này không đúng</string>
+    <string name="error_field_required">Trường này là cần thiết</string>
+    <string name="permission_rationale">"Quyền truy nhập danh bạ là cần thiết cho việc hoàn thành cung cấp email."
+    </string>
+
+    <string name="title_activity_vod_detail">VodDetailActivity</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+
+    <!--Menu Header-->
+    <string name="logout">Đăng xuất</string>
+
+    <!--Bottom Search-->
+    <string name="bottomSearch_title">Tìm kiếm \n </string>
+
+    <!--2depth contentsView-->
+    <string name="tab_pop">Hay nhất</string>
+    <string name="tab_recent">Mới nhất</string>
+    <string name="tab_abc">A~Z</string>
+
+
+    <string name="quitePopLive">Bạn có muốn dừng chương trình này không?</string>
+
+    <!--FACE BOOK-->
+    <string name="facebookUpTitle">Chia sẻ tới Facebook</string>
+    <string name="facebookPostHint">Tôi nói một số điều về vấn đề này...</string>
+    <string name="facebookPrivacyDes">Thiết lập riêng tư</string>
+    <string name="btnPost">Đăng</string>
+    <string name="facebook_app_id">1247708058578458</string>
+
+    <string name="myaccount_enter_password">"Nhập mật khẩu mới"</string>
+    <string name="myaccount_checknew_pw_re">"Nhập lại mật khẩu mới"</string>
+    <string name="quickSubTitle">Kích hoạt mật khẩu để sử dụng mật khẩu mua</string>
+    <string name="quickTitle">Kích hoạt mật khẩu</string>
+    <string name="relatedVod">Nội dung liên quan</string>
+    <!-- 공통 -->
+    <string name="btnlastestVersion">Đây là phiên bản mới nhất</string>
+    <string name="btnUpdate">Cập nhập phiên bản mới nhất</string>
+    <string name="currentVersion">Phiên bản hiện tại</string>
+    <string name="playerVersion">Phiên bản Player</string>
+
+    <string name="delete">"Xóa"</string>
+    <string name="deleteReservation">"Xóa lịch chương trình"</string>
+    <string name="close">"Đóng"</string>
+    <string name="cancel">"Hủy"</string>
+    <string name="ok">"Đồng ý"</string>
+    <string name="hd">"HD"</string>
+    <string name="sd">"SD"</string>
+    <string name="retail_price">"Mua"</string>
+    <string name="price">"Giá: "</string>
+
+    <string name="point">"Point"</string>
+    <string name="pay_unit">"VNĐ"</string>
+    <string name="detail">"Chi tiết"</string>
+    <string name="stop_subscription">"Dừng thanh toán"</string>
+    <string name="yes">"Có"</string>
+    <string name="no">"Không"</string>
+    <string name="purchase">"Mua"</string>
+    <string name="agree">"Đồng ý"</string>
+    <string name="upgrade">"Nâng cấp"</string>
+    <string name="done">"Hoàn thành"</string>
+    <string name="send">"Gửi"</string>
+    <string name="later">"Để sau"</string>
+    <string name="recent">"Mới"</string>
+    <string name="notice">"Thông báo"</string>
+    <string name="exit_message">Bạn có muốn ngừng dịch vụ ứng dụng của Viettel?</string>
+
+    <!-- My Home - Menu -->
+    <string name="myhome">"%s Trang chủ"</string>
+    <string name="recommend">"Đề cử"</string>
+    <string name="resume_viewing">"Đang xem"</string>
+    <string name="announcement">"Thông báo"</string>
+    <string name="my_content">"Yêu thích"</string>
+    <string name="playlist_label">"Playlist"</string>
+    <string name="recordings">"Đang ghi lại"</string>
+    <string name="reserved_list">"Danh sách ghi lại"</string>
+    <string name="purchase_list">"Hóa đơn"</string>
+    <string name="favorite_channels">"Kênh yêu thích"</string>
+
+    <!-- My Home - Announcement -->
+    <string name="general">"Thông tin chung"</string>
+    <string name="channel">"Kênh"</string>
+    <string name="event">"Sự kiện"</string>
+    <string name="ongoing">"Đang diễn ra"</string>
+    <string name="over">"kết thúc"</string>
+    <string name="play">"Xem"</string>
+    <string name="enter">"Nhập"</string>
+    <string name="connection_code_enter">Xác nhận</string>
+    <!-- <string name="enter">"Xem"</string>-->
+    <string name="more">"Xem Thêm"</string>
+    <string name="tune">"Xem"</string>
+
+    <!-- My Home - Resume Viewing  -->
+    <string name="available_date">"Hạn dùng"</string>
+    <string name="vod">"VOD"</string>
+    <string name="today">"HÔM NAY"</string>
+    <string name="rec">"Ghi lại"</string>
+    <string name="min">"phút"</string>
+    <string name="resumeviewing_popdesc1">"Bạn có muốn xem tiếp ?"</string>
+    <string name="resumeviewing_popdesc2">"Để xóa nội dung này khỏi mục Đang xem chọn [xóa]"</string>
+    <string name="resumeviewing_popdesc3">"Video này không thể xem được trên thiết bị của bạn"</string>
+    <string name="resumeviewing_popdesc4">"Video này đã hết thời hạn xem"</string>
+    <string name="resumeviewing_popdesc5">"Video này đã được xóa khỏi Lịch phát sóng của Viettel"</string>
+    <string name="continue_btn">"Tiếp tục"</string>
+    <string name="startover">"Xem từ đầu"</string>
+    <string name="resumeviewing_notidesc">"\"%s\" được xóa khỏi phần đang xem"</string>
+    <string name="resumeviewing_notidescription"> ""được xóa khỏi phần đang xem"</string>
+
+
+    <!-- My Home - My Content -->
+    <string name="total_vod">"Tổng số VOD"</string>
+    <string name="mycontent_poptitle">Xóa nội dung</string>
+    <string name="mycontent_popdesc1">"Nội dung đã bị xóa khỏi dịch vụ của Viettel"</string>
+    <string name="mycontent_popdesc2">"Để xóa khỏi Video yêu thích bấm phím [xóa]"</string>
+    <string name="mycontent_delete">"Tổng cộng %d nội dung đã xóa"</string>
+    <string name="mycontent_limit">Có hơn %d nội dung được chọn</string>
+    <string name="mychannel_limit">Có hơn %d kênh được chọn</string>
+
+    <!--미번역-->
+    <string name="mycontent_delete_fail">"Việc xóa thất bại"</string>
+    <string name="menu_no_sub">"Không có menu phụ."</string>
+
+    <!-- My Home - Recordings -->
+    <string name="record_time">"Thời gian ghi lại"</string>
+    <string name="min_left">"phút còn lại"</string>
+    <string name="protect">"Bảo vệ"</string>
+    <string name="edit">"Sửa"</string>
+    <string name="recordings_popdesc">"Xuất hiện lỗi khi ghi lại chương trình này\ Chương trình này không thể ghi lại"</string>
+
+    <!-- My Home - Reserved List -->
+    <string name="series_rec">"Ghi lại theo bộ"</string>
+
+    <!-- My Home - Purchase List -->
+    <!--<string name="vod_purchase">"VOD"</string>-->
+    <string name="vod_purchase">"Mua lẻ"</string>
+    <string name="monthly_purchase">"Mua gói"</string>
+    <string name="topup_tab">"Lịch sử nạp tiền"</string>
+    <!--<string name="monthly_purchase">"Hàng tháng"</string>-->
+    <string name="total_used">"Tổng sử dụng"</string>
+    <string name="total_purchase">"Tổng nội dung đã thanh toán"</string>
+    <string name="per_monthly">"Hàng tháng"</string>
+    <string name="canceled">"Đã hủy"</string>
+    <string name="free">"MIỄN PHÍ"</string>
+    <string name="home_purchsed_date">"Ngày mua"</string>
+    <string name="buy">"Mua"</string>
+    <string name="expire">"Hết hạn"</string>
+    <string name="home_expire_date">"Ngày hết hạn"</string>
+    <string name="purchase_status_title">"Trạng thái"</string>
+    <string name="home_buyer">"Người mua"</string>
+    <string name="purchase_popup_desc">"được xóa khỏi hóa đơn"</string>
+    <string name="purchase_cancel_title">"Hủy đăng ký"</string>
+    <string name="purchase_cancel_message">"Bạn có muốn hủy trả tiền hàng tháng ?"</string>
+    <string name="purchase_cancel_confirm_title">"Nhập mật khẩu quản trị"</string>
+    <string name="purchase_cancel_confirm_message">"Hãy nhập mật khẩu để xác nhận lần cuối cùng"</string>
+    <string name="purchase_cancel_complete_message">"Gói này đã được hủy.\nHệ thống sẽ không tự động gia hạn trong tháng tiếp theo"</string>
+    <string name="purchase_canceled">"Hủy gói"</string>
+
+    <!-- My Home - Watch Recording -->
+    <string name="watch_recording_popup_desc">"Bạn có muốn dừng phim?"</string>
+    <string name="end_video">"Tạm dừng"</string>
+    <string name="end_tstv_popup_desc">"Bạn có muốn dừng chức năng Time Shift không?"</string>
+    <string name="end_tstv">"Dừng"</string>
+    <string name="continue_watch_recording_popup_desc">"Bạn muốn tiếp tục xem?"</string>
+
+    <!-- TV Guide - Menu -->
+    <string name="tv_guide_menu">"Lịch TV"</string>
+    <string name="channel_guide_menu">"Danh sách kênh"</string>
+    <string name="channel_genre_menu">"Thể loại kênh"</string>
+
+    <string-array name="channel_guide_spinner">
+        <item>Tất cả</item>
+        <item>Yêu thích</item>
+        <item>Kênh HD</item>
+    </string-array>
+
+    <string-array name="program_list_spinner">
+        <item>Mới</item>
+        <item>ABC</item>
+        <item>Nổi tiếng</item>
+    </string-array>
+
+    <!-- TV Guide - Current Program List -->
+    <string name="now">"Hôm nay"</string>
+
+    <!-- TV Guide - Record Option Popup -->
+    <string name="recode_option_popup_desc1">"Chương trình sau có thể được ghi lại theo bộ"</string>
+    <string name="recode_option_popup_desc2">"Lựa chọn cách bạn muốn ghi lại"</string>
+    <string name="recode_option_button_just_this_once">"Ghi lẻ"</string>
+    <string name="recode_option_button_record_series">"Ghi theo bộ"</string>
+
+    <!-- TV Guide - Overlapped Reserved Program Popup  -->
+    <!--    <string name="overlapped_popup_title">"Chương trình đã được ghi lại rồi"</string>
+        <string name="overlapped_popup_desc">"'%s' đã được đặt ghi lại trước đó rồi. Bạn có muốn hủy?"</string>-->
+
+    <string name="overlapped_popup_title">"Lỗi trùng lịch nhắc"</string>
+    <string name="overlapped_popup_desc">"'%s' Đã được nhắc lịch trước đó, bạn có muốn hủy?"</string>
+
+    <!-- TV Guide - Notification Popup  -->
+    <string name="noti_is_recording">"bắt đầu được ghi lại"</string>
+    <string name="noti_recording_canceled">"được hủy ghi lại"</string>
+    <string name="noti_reserved_watch">"'%s' được đặt lịch nhắc"</string>
+    <string name="noti_canceled_watch">"'%s' đã hủy lịch nhắc"</string>
+    <string name="noti_reserved_record">"sẽ được ghi lại"</string>
+    <string name="noti_reserved_record_canceled">"sẽ được hủy ghi lại"</string>
+    <string name="noti_cancel_record">"hủy ghi lại"</string>
+
+    <!-- TV Guide - Catch Up   -->
+    <string name="catch_up">"Xem lại"</string>
+
+    <!-- TV Guide - Purchase Catch Up Popup   -->
+    <string name="popup_title_purchase_catchup">"Đăng ký dịch vụ Xem lại"</string>
+    <string name="popup_desc_purchase_catchup">"Bạn có thể xem lại các chương trình truyền hình"</string>
+    <string name="popup_btn_just_buy">"Chỉ mua chương trình này"</string>
+    <string name="popup_btn_subscribe">"Đăng ký dịch vụ Xem lại"</string>
+
+    <!-- TV Guide - Purchase Catch Up : Select Purchase Option (One Day)   -->
+    <string name="popup_desc_catchup_oneday">"(Vào mục Hóa đơn trong phần Cài đặt để xem chi tiết)"</string>
+    <string name="popup_desc_catchup_oneday_button1">"Mua %s VNĐ"</string>
+    <string name="popup_desc_catchup_oneday_button2">"Fx Point %s VNĐ"</string>
+
+    <!-- TV Guide - Purchase Catch Up: Select Purchase Option (Subscription)   -->
+    <string name="popup_title_catchup_subscription">"Đăng ký dịch vụ Xem lại"</string>
+    <string name="popup_desc_catchup_subscription">"Gói cước theo tháng"</string>
+
+    <!-- Search -->
+    <string name="search_enter_search_word">"Nhập từ tìm kiếm"</string>
+    <string name="search_hot_keywords">"Từ khóa hot"</string>
+    <string name="search_recent_search_word">"Tìm kiếm gần đây"</string>
+    <string name="delete_all">"Xóa toàn bộ"</string>
+    <!--    <string name="search_movie">"Phim"</string>
+        <string name="search_vod">"VOD"</string>
+        <string name="search_program">"Chương trình"</string>
+        <string name="search_channel">"Kênh"</string>
+        <string name="search_catchup">"Xem lại"</string>
+        <string name="search_vgroup">"Phim bộ"</string>
+        <string name="search_single_vod">"Video yêu cầu"</string>-->
+    <string name="search_movie">"Rạp Phim"</string>
+    <string name="search_vod">"VOD"</string>
+    <string name="search_program">"Chương trình"</string>
+    <!--TODO program channel 확인-->
+    <string name="search_channel">"Kênh"</string>
+    <string name="search_catchup">"TV xem lại"</string>
+    <string name="search_vgroup">"Phim bộ"</string>
+    <string name="search_single_vod">"Video yêu cầu"</string>
+    <string name="search_text">Tìm kiếm</string>
+    <!-- VOD Information  -->
+    <string name="vod_addtocart">"Yêu thích"</string>
+    <string name="vod_buyforapp">"Mua trên ứng dụng"</string>
+    <string name="vod_purchase_svod">"Mua trọn gói"</string>
+    <string name="vod_buyforapp_ty">"Mua trên ứng dụng và TV"</string>
+    <string name="vod_detail_info">"Thông tin chi tiết"</string>
+    <string name="vod_program_info">"Thông tin chương trình"</string>
+    <string name="vod_genre">"Thể loại"</string>
+    <string name="vod_director">"Đạo diễn"</string>
+    <string name="vod_stars">"Diễn viên"</string>
+    <string name="vod_related_content">"Phim tương tự"</string>
+    <string name="vod_event">"Sự kiện"</string>
+    <string name="vod_select_episode">"Chọn tập"</string>
+    <string name="vod_all">"Tất cả"</string>
+    <string name="vod_episode">"Tập %02d"</string>
+    <string name="purchased">"Đã mua"</string>
+    <string name="minRunningTime">"phút"</string>
+
+    <!-- VOD -popup  -->
+    <string name="vod_popup_title1">"Thông báo"</string>
+    <string name="vod_popup_desc1">"Quý khách đã mua hơn %s VNĐ trong 24h.\nVui lòng kiểm tra lại hóa đơn."</string>
+    <string name="vod_popup_desc2">"Nhập mật khẩu để mua.\nBạn có thể xem sau khi nhập mật khẩu"</string>
+
+    <string name="vod_popup_title2">"Nâng cấp lên Flexi+"</string>
+    <string name="vod_popup_desc3">"Bạn đang là thuê bao &lt;font color=\#ffcc05\">Flexi&lt;/font>\nNâng cấp lên gói &lt;font color=\"#ffcc05\">Flexi+&lt;/font> để có thể mua theo Point"</string>
+    <string name="vod_popup_desc3_2">"Chúc mừng bạn đã trở thành thuê bao Flexi+"</string>
+
+    <string name="vod_popup_title3">"Quy định nâng cấp lên Flexi+"</string>
+    <string name="vod_popup_desc4">"Nhập mật khẩu để nâng cấp.\nBạn sẽ nâng cấp sau khi nhập mật khẩu."</string>
+
+    <string name="vod_popup_title4">"Sử dụng Point"</string>
+    <string name="vod_popup_desc5">"Mua bằng Point sẽ rẻ hơn."</string>
+    <string name="vod_popup_desc6">"Hãy sử dụng Point."</string>
+
+    <!-- VOD - noti  -->
+    <string name="vod_noti">"Cảm ơn bạn đã mua"</string>
+
+    <!-- VOD - End Trailer Popup  -->
+    <string name="vod_end_trailer">"Kết thúc Trailer"</string>
+
+    <!-- Play VOD  -->
+    <string name="vod_hide_subtitle">"Ẩn phụ đề"</string>
+    <string name="vod_dubbing">"Thuyết minh"</string>
+    <string name="vod_show_subtitle">"Hiển thị phụ đề"</string>
+
+    <string name="vod_select_dubbing">"Lựa chọn thuyết minh"</string>
+    <string name="vod_select_language">"Chọn ngôn ngữ"</string>
+    <string name="vod_english">"Tiếng Anh"</string>
+    <string name="vod_vietnamese">"Tiếng Việt"</string>
+
+    <!-- Play VOD -Purchase List Notification Popup  -->
+    <string name="vod_popup_desc8">"Bạn có muốn tiếp tục xem?"</string>
+
+    <!-- Play VOD -Stop Single VOD Popup  -->
+    <string name="vod_popup_desc7">"Bạn có muốn dừng phim?"</string>
+    <string name="vod_button_end_video">"Kết thúc"</string>
+    <!--<string name="vod_button_like">"Tạm dừng và thêm yêu thích"</string>-->
+    <string name="vod_button_like">"Thích"</string>
+
+    <!-- Play VOD -Stop Series VOD Popup (Already Purchased)  -->
+    <string name="vod_button_watch_next">"Xem tập kế tiếp"</string>
+    <string name="vod_button_purchase_next">"Mua tập kế tiếp"</string>
+
+    <!-- Watch channel -->
+    <string name="channel_list">"Danh sách kênh"</string>
+
+    <!-- Watch channel - popup -->
+    <string name="channle_popup_desc1">"Chương trình sẽ bắt đầu"</string>
+    <string name="channle_popup_desc2">"Bạn có muốn xem các kênh tương tự?"</string>
+    <string name="channle_popup_button_tune_now">"Xem ngay"</string>
+    <string name="channle_popup_button_tune_later">"Xem sau"</string>
+
+    <!-- Watch channel - noti popup -->
+    <string name="channle_noti_desc">"Chương trình sẽ bắt đầu sau đây"</string>
+
+    <!-- Settings/Help -->
+    <string name="menu_setting">"Cài đặt"</string>
+    <string name="menu_setting_locktv">"Khóa TV"</string>
+    <string name="menu_setting_tv_connection">"Kết nối với TV"</string>
+    <string name="menu_setting_myaccount">"Tài khoản của tôi"</string>
+
+    <!-- login popup -->
+    <string name="updatePackageTitle">"Nâng cấp gói"</string>
+    <string name="alert">"Thông báo"</string>
+    <string name="login_login">"Đăng nhập"</string>
+    <string name="pop_login_desc">"Bạn phải đăng nhập để sử dụng tính năng này"</string>
+    <string name="login_forgot_pw_phase2"><b><u>"Quên mật khẩu?"</u></b></string>
+
+    <!-- Lock TV -->
+    <string name="lock_restriction_pw">"Mật khẩu quản trị"</string>
+    <string name="lock_subtitle">"Dùng để khóa STB"</string>
+    <string name="lock_desc">"Lựa chọn phím [Khóa TV] hoặc [Hủy khóa TV] sau khi nhập mật khẩu quản trị"</string>
+    <string name="lock_watch">"Xem"</string>
+    <string name="lock_free">"Miễn phí"</string>
+    <string name="lock_tvlock">"Khóa TV"</string>
+    <string name="lock_cancel_tvlock">"Hủy khóa TV"</string>
+
+    <!-- Lock TV - noti -->
+    <string name="lock_noti_pw_incorrect">"Mật khẩu không đúng"</string>
+    <string name="lock_noti_complete">"Đã khóa TV"</string>
+    <string name="lock_noti_canceled">"Hủy khóa TV"</string>
+
+    <!-- TV Connection  -->
+    <string name="tvcon_connectedtv">"TV đã được kết nối"</string>
+    <string name="tvcon_connect_newtv">"Kết nối với TV mới"</string>
+    <string name="tvcon_connected_message">%s đã kết nối</string>
+
+    <!-- TV Connection - popup -->
+    <string name="tvcon_popup_pw_title">"Nhập mã kết nối"</string>
+    <string name="tvcon_popup_pw_subtitle">Vui lòng nhập mã kết nối hiển thị trên đầu thu dịch vụ truyền hình số tương tác vào ô trống dưới đây</string>
+    <string name="register">"Đăng ký"</string>
+    <string name="tvcon_popup_inval_title">"Mã xác thực không hợp lệ vì hết thời gian"</string>
+    <string name="tvcon_popup_inval_desc">"Hãy yêu cầu mã xác thực mới từ TV"</string>
+    <string name="reissue">"Yêu cầu mã"</string>
+    <string name="tvcon_popup_wrong_title">"Mã xác thực sai"</string>
+    <string name="tvcon_popup_wrong_subtitle">"Mã kết nối không hợp lệ"</string>
+    <string name="tvcon_popup_disconnect_title">"Không thể kết nối"</string>
+    <string name="tvcon_popup_disconnect_subtitle">"Kiểm tra lại kết nối của STB"</string>
+
+    <!-- My Account  -->
+    <string name="login_id">"ID/Email"</string>
+    <string name="myaccount_id_email_desc">"ID không thể thay đổi"</string>
+    <string name="myaccount_current_pw">"Mật khẩu hiện tại"</string>
+    <string name="myaccount_current_pw_desc">"Nhập mật khẩu hiện tại"</string>
+    <string name="myaccount_crt_pw">Mật khẩu hiện tại</string>
+    <string name="myaccount_new_pw">"Mật khẩu mới"</string>
+    <string name="myaccount_new_pw_desc">"Nhâp mật khẩu mới"</string>
+    <string name="myaccount_old_pw_desc">"Nhâp mật khẩu cũ"</string>
+    <string name="saleCodeHint">"Nhâp mã cửa hàng"</string>
+    <string name="myaccount_checknew_pw">"Kiểm tra mật khẩu mới"</string>
+    <string name="myaccount_checknew_pw_desc">"Nhập lại mật khẩu mới"</string>
+    <string name="myaccount_checknew_pw_desc2">"(Mật khẩu phải giống nhau)"</string>
+    <string name="myaccount_logout">"Đăng xuất"</string>
+    <string name="myaccount_logout_message">"Bạn có chắc muốn đăng xuất khỏi dịch vụ hiện tại của Viettel?"</string>
+    <string name="myaccount_logout_success">"%s Tài khoản đã được đăng xuất"</string>
+    <string name="myaccount_delete_account">"Xóa tài khoản"</string>
+    <string name="myaccount_password_pop">Hãy nhập mật khẩu để xác nhận</string>
+
+    <!--TODO 베트남어 번역-->
+    <string name="myaccount_change_password">Đổi mật khẩu </string>
+    <string name="myaccount_forgot_password">Quên mật khẩu cũ </string>
+    <string name="myaccount_change_password_msg">Mật khẩu của bạn đã được đổi.</string>
+    <string name="myaccount_password_error">Mật khẩu lỗi</string>
+
+    <!-- Delete My Account Popup -->
+    <string name="myaccount_delete_pop_title">"Hãy kiểm tra các thông tin sau trước khi xóa tài khoản của bạn"</string>
+    <string name="myaccount_delete_pop_desc">"Danh sách  kênh yêu thích và các thông tin khác sẽ bị xóa vĩnh viễn"</string>
+    <string name="myaccount_delete_pop_desc2">"(bạn có thể tạo lại tài khoản khác ngay sau khi xóa tài khoản cũ)"</string>
+
+    <!-- My Account - noti -->
+    <string name="noti_account_deleted">"Tài khoản đã bị xóa"</string>
+
+    <!-- Log In Popup -->
+    <string name="login_title">"Đăng nhập"</string>
+    <string name="login_title_desc">"Đăng nhập vào tài khoản Viettel TV"</string>
+    <string name="login_check_msg">"Thông tin đăng nhập không chính xác, vui lòng nhập lại"</string>
+    <string name="login_password">"Mật khẩu"</string>
+    <string name="login_keep_pw">"Lưu thông tin đăng nhập"</string>
+    <string name="login_forgot_pw">"<u>Quên mật khẩu?</u>"</string>
+    <string name="login_facebook">"Đăng nhập bằng tài khoản facebook"</string>
+    <string name="login_new_account_desc">"Tạo tài khoản mới?"</string>
+    <string name="login_signup_button">"Đăng ký"</string>
+
+    <!-- STB Pairing Popup -->
+    <string name="pairing_pop_title">"Kết nối với đầu thu dịch vụ\ntruyền hình số tương tác"</string>
+    <string name="pairing_pop_enter_title">"Nhập mã kết nối"</string>
+    <string name="pairing_pop_desc">"Vui lòng nhập mã kết nối hiển thị trên đầu thu\ndịch vụ truyền hình số tương tác\nvào ô trống dưới đây"</string>
+    <!--  <string name="pairing_pop_title">"Kết nối với STB"</string>-->
+    <!-- <string name="pairing_pop_desc1">"Chỉ sử dụng được dịch vụ này sau khi kết nối với STB của bạn"</string>
+     <string name="pairing_pop_desc2">"Bạn có muốn kết nối với STB?"</string>-->
+
+    <string name="pairing_title">Hướng dẫn cách kết nối thiết bị di động với đầu\nthu dịch vụ truyền hình số tương tác</string>
+    <string name="pairing_induce_text">Quý khách có muốn nhập mã kết nối</string>
+
+    <!-- Find Password Popup -->
+    <string name="pop_find_pw">"Tìm mật khẩu"</string>
+    <string name="pop_find_pw_desc">"Nhập địa chỉ email để có mật khẩu một lần"</string>
+
+    <!-- Change Your Password -->
+    <string name="pop_change_pw_worng">"Email không hợp lệ"</string>
+    <string name="pop_change_pw">"Thay đổi mật khẩu"</string>
+    <string name="pop_change_pw_desc">"Mật khẩu hiện tại chỉ sử dụng tạm thời"</string>
+    <string name="pop_change_pw_desc2">"Thay đổi mật khẩu"</string>
+    <string name="pop_change_pw_desc3">&lt;font color=\"#ffcc05\">Vào mục Cài đặt > Quản lý tài khoản&lt;/font></string>
+
+    <!-- Create New Account -->
+    <string name="create_account_title">"Tạo tài khoản mới"</string>
+    <string name="create_account_id">"Bước 1: Tạo tài khoản mới"</string>
+    <string name="create_account_id_only">"Tài khoản"</string>
+    <string name="create_account_email">"(email)"</string>
+    <string name="create_account_id_desc1">"Nhập email của bạn\nEmail này dùng để cấp mật khẩu"</string>
+    <string name="create_account_id_hint">"Nhập email"</string>
+    <string name="create_account_id_button">"Kiểm tra email"</string>
+    <string name="create_account_pw">"Bước 2: Tạo mật khẩu"</string>
+    <string name="create_account_pw_desc">"Nhập mật khẩu để đăng nhập"</string>
+    <string name="create_account_pw_hint1">"Nhập mật khẩu"</string>
+    <string name="create_account_pw_hint2">"Xác nhận mật khẩu"</string>
+    <string name="create_account_button">"Đăng ký"</string>
+
+    <!-- Check ID Popup -->
+    <string name="pop_check_id_title">"Kiểm tra ID"</string>
+    <string name="pop_check_id_desc1">"ID hợp lệ"</string>
+    <string name="pop_check_id_desc2">"ID này không hợp lệ"</string>
+    <string name="pop_check_id_desc3">"Hãy nhập lại"</string>
+
+    <!-- Quit Create Account Popup -->
+    <string name="pop_quit_create_account_title">"Bạn muốn dừng quá trình tạo tài khoản?"</string>
+    <string name="pop_quit_create_account_desc">"Thông tin bạn nhập vào sẽ bị xóa"</string>
+
+    <!-- Create Account Noti -->
+    <string name="create_valid_code_title">"Xác nhận mã số hợp lệ"</string>
+    <string name="create_valid_code_msg">"Chúng tôi đã xác minh số điện thoại và mã của bạn!"</string>
+    <string name="create_account_noti">"%s Tài khoản đã được tạo"</string>
+
+    <!-- Sync Popup -->
+    <string name="sync_title">"Chọn tùy chọn dưới đây"</string>
+    <string name="sync_tv_to_device">"Đưa nội dung từ TV lên Thiết bị"</string>
+    <string name="sync_device_to_tv">"Đẩy nội dung từ Thiết bị tới TV"</string>
+
+    <string name="sync_err">Phát sinh lỗi đọc dữ liệu.\nXin hãy thử lại</string>
+    <!-- playback -->
+    <string name="playback_unsubscribed_title">"Kênh chưa đăng ký"</string>
+    <string name="playback_unsubscribed_subtitle">"Bạn phải mua để xem được kênh này"</string>
+    <string name="playback_unsubscribed_description">"Bạn có thể mua theo ngày hoặc mua theo tháng"</string>
+    <string name="playback_unsubscribed_single_purchase_button">"Mua theo ngày"</string>
+    <string name="playback_unsubscribed_multi_purchase_button">"Mua theo tháng"</string>
+    <string name="playback_promotion_genre">"Thể loại"</string>
+    <string name="playback_promotion_director">"Đạo diễn"</string>
+    <string name="playback_promotion_stars">"Diễn viên"</string>
+    <string name="playback_timeshift_alert">Xin lỗi, kênh này không thể hỗ trợ\nchức năng Time Shift.</string>
+
+    <!-- Schedule -->
+    <string name="schedule_reminder_button">"Đặt nhắc lịch"</string>
+    <string name="schedule_record_button">"Ghi lại"</string>
+    <string name="schedule_tune_button">Xem</string>
+    <string name="schedule_watch_button">Xem</string>
+    <string name="schedule_synopsis">Tóm tắt</string>
+
+    <!-- 누락 -->
+    <string name="playback_tv_button">Tivi</string>
+    <string name="playback_ch_button">Danh sách kênh</string>
+    <string name="playback_promotion_end">Kết thúc</string>
+
+    <!-- VOD Information  -->
+    <string name="wrongpassword">"Mật khẩu sai"</string>
+    <!--TODO Wrong password -> Password not the same 베트남어-->
+
+    <string name="myaccount_wrongpassword">" Mật khẩu không khớp, vui lòng nhập lại"</string>
+    <!-- <string name="myaccount_wrongpassword">"Mật khẩu sai. Vui lòng nhập lại mật khẩu"</string>-->
+    <string name="agreement_policy">"Chính sách"</string>
+    <string name="agreement_policy_desc">"Quý khách cần cung cấp thông tin cá nhân để tạo tài khoản mới"</string>
+    <string name="connected_desc">"Hãy kết nối với Tivi của bạn để sử dụng nhiều dịch vụ hơn\n Bạn có thể tiếp tục xem\n trên thiết bị di động hoặc trên Tivi"</string>
+
+    <!-- 팝업 -->
+    <string name="purchase_price">"Mua"</string>
+    <string name="expiration_date">"Ngày hết hạn dùng"</string>
+
+    <!-- RCU -->
+    <string name="rcu_title">ĐIỀU KHIỂN</string>
+    <string name="rcu_menu_vod">VOD</string>
+    <string name="rcu_menu_catchup">Xem lại</string>
+    <string name="rcu_menu_menu">MENU</string>
+    <string name="rcu_menu_tv_power">Tắt/bật TV</string>
+    <string name="rcu_menu_stb_power">Tắt/bật STB</string>
+    <string name="rcu_hidden_rcu">RCU</string>
+    <string name="rcu_hidden_touch">Touch Pad</string>
+    <string name="rcu_hidden_keypad">Key Pad</string>
+    <string name="rcu_keypad_exit">Thoát</string>
+    <string name="rcu_keypad_back">Quay lại</string>
+    <string name="rcu_keypad_search">Tìm kiếm</string>
+    <string name="rcu_keypad_info">Thông tin</string>
+    <string name="rcu_keypad_vol">Âm lượng</string>
+    <string name="rcu_keypad_mute">Tắt tiếng</string>
+    <string name="rcu_keypad_ch">Kênh</string>
+
+    <!-- 가이드와 플릿북에 모두 없음 -->
+    <string name="schedule_next_program">CHƯƠNG TRÌNH TIẾP THEO</string>
+
+    <!-- My Content-->
+
+    <string name="my_content_delete_dialog_title">Video yêu thích</string>
+    <string name="my_content_delete_dialog_button1">Xóa</string>
+    <string name="my_content_delete_dialog_button2">Đóng</string>
+
+    <!-- Error Messages-->
+    <string name="error_h1000">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h1001">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h1002">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h1401">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h1404">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h1500">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h1502">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h1503">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+
+    <string name="error_h0400">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0401">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0402">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0403">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0404">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0410">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0411">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0420">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0430">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0440">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0450">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0451">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0452">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0453">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0460">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0461">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0462">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+
+    <string name="error_h0500">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0501">Quý khách vui lòng kiểm tra lại tài khoản và mật khẩu</string>
+    <string name="error_h0502">Tài khoản này chưa được đăng ký</string>
+    <string name="error_h0511">Mật khẩu nhập không đúng</string>
+    <string name="error_h0512">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0513">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0201">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+    <string name="error_h0202">Thiết bị hiện tại chưa được kết nối với đầu thu.</string>
+    <string name="error_h0203">Xin hãy thử lại</string>
+    <string name="error_h0204">Không thể đăng ký thiết bị này</string>
+    <string name="error_h0205">Không thể kết nối với đầu thu</string>
+    <string name="error_h0211">Kênh này không thể xem được trên thiết bị</string>
+    <string name="error_h0212">Nội dung này không thể xem được trên thiết bị</string>
+    <string name="error_h0213">Nội dung này không thể xem được trên thiết bị</string>
+
+    <!--   <string name="error_h0201">Quý khách vui lòng liên hệ với Tổng đài hỗ trợ. (***)</string>
+       <string name="error_h0202">Thiết bị hiện tại chưa được đăng ký bắt cặp với STB.</string>
+       <string name="error_h0203">Phát sinh lỗi đọc dữ liệu. Xin hãy thử lại</string>
+       <string name="error_h0204">Không thể đăng ký thiết bị này.</string>
+       <string name="error_h0205">Không thể kết nối. Vui lòng kiểm tra địa chỉ IP của đầu thu kết nối với TV (STB) : xxx.xxx.xxx.xxx</string>
+       <string name="error_h0211">This channel can not be midrollPlayed on the Device</string>
+       <string name="error_h0212">This VOD can not be midrollPlayed on the Device</string>
+       <string name="error_h0213">This program can not be midrollPlayed on the Device</string>-->
+
+    <string name="error_h0214">Không thể xem nội dung này trên Tivi của bạn</string>
+    <string name="error_h0215">Không thể gửi nội dung hiện tại của bạn lên Tivi</string>
+    <string name="error_h0216">Kênh này chỉ có thể xem được trên OTT</string>
+    <string name="error_h0217">Đầu thu của bạn hiện tại đã bị tắt nguồn. Vui lòng bật Tivi để tiến hành  đồng bộ</string>
+    <string name="error_drm">Quý khách vui lòng kiểm tra lại kết nối mạng và thử lại</string>
+
+    <string name="error_prepaid_only">Nội dung này chỉ hỗ trợ trên đầu thu dịch vụ truyền hình số Viettel. Vui lòng dùng đầu thu để xem sử dụng nội dung này</string>
+    <string name="error_postpaid_only">Đây là một nội dung trả sau. Khách hàng chỉ có thể mua với trả trước.</string>
+    <!-- Empty Message -->
+    <string name="empty_message_my_content">Không có Video thêm vào mục Video yêu thích</string>
+    <string name="empty_message_resume_list">Không có Video nào</string>
+    <string name="empty_message_vod_list">Không có Video nào</string>
+    <string name="empty_message_search_result">Không có kết quả tìm kiếm nào</string>
+    <string name="empty_message_reserved_list">Không có Danh sách nhắc lịch</string>
+    <string name="empty_message_announcement_list">Không có Thông báo</string>
+    <!--<string name="empty_message_purchase_list">Không có Danh sách mua</string>-->
+    <string name="empty_message_purchase_list">Bạn hiện chưa mua gói cước nào</string>
+    <string name="empty_message_purchase_retail_list">Bạn hiện chưa mua VOD nào</string>
+    <string name="empty_message_favorite_channel">Không có Kênh yêu thích</string>
+    <string name="empty_message_channel">Không có Kênh nào</string>
+    <string name="empty_message_program">Không có Chương trình</string>
+    <string name="empty_message_schedule">Không có lịch phát sóng</string>
+
+    <!-- Purcase -->
+    <string name="discount_text">"Khuyến mại (%1$s). Giá chỉ còn"</string>
+    <!--<string name="discount_text">Giá khuyến mại</string>-->
+    <string name="purchase_subcription_message_1">Thanh toán theo tháng</string>
+    <string name="purchase_subcription_message_2">Hệ thống tự động gia hạn khi hết tháng</string>
+    <!--
+        <string name="purchase_subcription_message_2">Hệ thống tự động gia hạn vào ngày đầu tiên của tháng mới</string>
+    -->
+    <string name="purchase_package_message_1">Xem trong %d ngày tính từ khi thanh toán</string>
+    <string name="purchase_package_message_2">Hệ thống tự động hủy gói sau %d ngày tính từ khi thanh toán</string>
+    <string name="purchase_single_message">Được xem trong %d tiếng kể từ khi thanh toán</string>
+    <string name="purchase_flexiplus_user_message">(Quý khách đang là thuê bao Flexi+)</string>
+    <string name="purchase_flexi_user_message">(Quý khách đang là thuê bao Flexi)</string>
+    <string name="purchase_point_prefix">Mua bằng</string>
+    <string name="purchase_vnd_month">%s VNĐ/tháng</string>
+    <string name="purchase_vnd_day">%1$s VNĐ/%2$dngày</string>
+    <string name="purchase_vnd_hour">%1$s VNĐ/%2$dgiờ</string>
+    <string name="purchase_normal_price">"Giá bán: "</string>
+    <string name="purchase_normal_package_price">"Mua trọn gói: "</string>
+    <string name="purchase_point">"Point: "</string>
+    <string name="purchase_watch_vod">"Xem phim: "</string>
+    <string name="purchase_point_message">(Fx Point áp dụng cho thuê bao Flexi+)</string>
+    <string name="purchase_normal_message">(Giá trên áp dụng cho thuê bao Flexi)</string>
+    <string name="purchase_subcription_alternative_message">(Các nội dung hấp dẫn được cập nhập thường xuyên hàng tháng)</string>
+    <string name="purchase_package_alternative_message">(Mua trọn bộ để xem rẻ hơn)</string>
+    <string name="purchase_hot_line">Tổng đài hỗ trợ: %s</string>
+    <string name="purchase_confirm">Xác nhận thanh toán</string>
+    <string name="purchase_confirm_message">Quý khách chắc chắn mua</string>
+    <string name="purchase_confirm_point_price">Point %s</string>
+    <string name="purchase_confirm_normal_price">Mua gộp %s</string>
+    <string name="purchase_upgrade_message">Để sử dụng Fx Point, xin vui lòng chuyển đổi thành thuê bao Flexi+ với nhiều ưu đãi</string>
+    <string name="purchase_upgrade_confirm_message">Quý khách đồng ý chuyển đổi thành thuê bao &lt;font color=\"#1a92b6\">Flexi+&lt;/font>?</string>
+    <string name="purchase_upgrade_confirm_price">Gói Flexi+: &lt;font color=\"#ffcc05\">%s VNĐ/tháng&lt;/font></string>
+    <string name="purchase_canceled_subscription">Việc hủy trả tiền hàng tháng đã được chấp nhận.\n※ Danh sách mua sẽ bị xóa vào cuối mỗi tháng.</string>
+
+    <!-- Update popup -->
+    <string name="update_title">Cập nhật phiên bản mới</string>
+    <string name="update_message">Phiên bản mới đã có.\nVui lòng cập nhật phiên bản mới nhất để tiếp tục sử dụng dịch vụ</string>
+    <string name="update_button">Cập nhật</string>
+
+    <!-- Splash popup -->
+    <string name="splash_error_message">Lỗi kết nối.\nVui lòng kiểm tra lại tình trạng kết nối và thử lại.</string>
+    <string name="splash_error_button">Kết nối lại</string>
+    <string name="systemVersion">Phiên bản hệ thống</string>
+
+
+    <string name="login_id_num">"Số điện thoại"</string>
+
+
+    <!-- Find Password  -->
+    <string name="findPassword_title">"Tìm mật khẩu"</string>
+    <string name="findPassword_id_desc1_phone">"Vui lòng nhập số điện thoại của quý khách --> bấm Gửi"</string>
+    <string name="findPassword_sms_desc1_phone">"Nhập mã xác nhận --> bấm Gửi\nMật khẩu sẽ được gửi vào số điện thoại của bạn đang sử dụng làm tài khoản.
+"</string>
+    <string name="findPassword_invalid_sms_msg">Hệ thống không thể nhận diện mã bạn vừa nhập\nVui lòng nhập lại mã</string>
+    <string name="findPassword_invalid_sms_title">"Mã Xác Nhận không hợp lệ"</string>
+
+    <!-- Create New Account phone num -->
+    <string name="create_account_id_phone">"Bước 1: Tạo tài khoản mới"</string>
+    <string name="create_account_id_phone_number"></string>
+    <string name="create_account_id_desc1_phone">"Vui lòng nhập số điện thoại đang sử dụng của quý khách.\nSố điện thoại trên sẽ được dùng để nhận và phục hồi mật khẩu."</string>
+    <string name="create_account_sms_desc1_phone">"Vui lòng nhập Mã Xác Nhận được gửi tới SMS.\nMã Xác Nhận được dùng để tạo tài khoản mới."</string>
+    <string name="create_account_id_hint_phone">"Không nhập kí tự '-'"</string>
+    <string name="create_account_sms_hint_phone">"Nhập mã"</string>
+    <string name="create_account_id_button_phone">"Gửi"</string>
+    <string name="create_account_id_re_button_phone">"Gửi lại"</string>
+    <string name="create_account_sms_button_phone">"Nhập"</string>
+    <!-- <string name="create_account_sms_button_phone">"Xác nhận"</string>-->
+    <string name="create_account_id_invalide_title">Kiểm tra số điện thoại</string>
+    <string name="create_account_id_invalide_sub">Số điện thoại này không hợp lệ</string>
+    <string name="create_account_id_invalide_des">Xin vui lòng nhập lại số điện thoại của quý khách</string>
+    <string name="create_account_auth_cnt_title">Thời gian hiệu lực Mã Xác Nhận còn %s</string>
+    <string name="create_account_auth_cnt_over">Thời gian xác nhận đã hết. Lựa chọn [Gửi lại] để nhận mã mới</string>
+    <string name="create_account_already_title">Đã đăng ký</string>
+    <string name="create_account_already_sub">Số điện thoại này của Quý khách đã đăng ký trên hệ thống</string>
+    <string name="create_account_already_des">Vui lòng sử dụng chức năng \"Quên mật khẩu\" trong giao diện đăng nhập để lấy mật khẩu</string>
+    <string name="sec">giây</string>
+
+    <!-- warining -->
+    <string name="warning">Cảnh báo</string>
+    <string name="warningDes">Quý khách đã dùng cho các dịch vụ nội dung vượt quá # VNĐ trong tháng.\n</string>
+    <string name="warning1">Trang chủ>Danh sách mua</string>
+    <string name="warning2">Trang chủ>Cài đặt>Kích hoạt mật khẩu</string>
+    <string name="warningDesc">Để được sử dụng mật khẩu khi mua</string>
+    <string name="warningBtnDes">Quý khách xác nhận muốn tiếp tục mua nội dung?</string>
+    <string name="warningCheck">Không hiển thị lại thông báo này</string>
+
+    <!-- purhase reConfirm -->
+    <string name="purchaseOption">Chọn hình thức mua</string>
+    <string name="reConfirmTitle">Xác nhận thanh toán</string>
+    <string name="reConfirmSubTitle">Quý khách có chắc chắn mua?</string>
+
+    <!--Main Menu-->
+    <string name="titleHotMovie">Video theo yêu cầu</string>
+    <string name="titleClip">CLIP</string>
+
+    <!--purchase-->
+    <!-- TODO Mua lẻ -> Mua-->
+    <!--<string name="retailPurchase">Mua lẻ</string>-->
+    <string name="retailPurchase">Mua lẻ</string>
+    <string name="btnPackagePurchase">Mua theo gói</string>
+
+
+    <string name="loginInduceYes">Đăng nhập</string>
+    <string name="loginInduceAuto3g"><b><u>Đăng nhập sử dụng 3G/4G</u></b></string>
+    <string name="loginInduceAuto3gNoUnderline">Đăng nhập sử dụng 3G/4G Viettel</string>
+    <string name="loginNoticeChangeTo3G">Không có kết nối 3G/4G, \nQuý khách vui lòng kiểm tra kết nối.</string>
+    <string name="loginNoticeChangeWifiTo3G">Mời bạn tắt Wifi, bật 3G/4G và chọn đăng nhập \"Đăng nhập sử dụng 3G/4G Viettel\"</string>
+    <string name="loginInduceNo">Hủy</string>
+
+    <!-- Announcement btn menu -->
+    <string name="watchVideo">Xem</string>
+    <string name="tuneToChannel">Xem kênh</string>
+    <string name="goToMenu">Đến Trang chủ</string>
+
+    <!--facebook to connect -->
+    <string name="facebookLoginTitle">Kết nối với tài khoản Facebook</string>
+    <string name="facebookLoginMsg1">Kết nối với tài khoản Facebook của quý khách để đăng thông tin VOD trên thông tin mới (Newsfeed)</string>
+    <string name="facebookLoginMsg2">Quý khách có muốn kết nối với Facebook không?</string>
+    <string name="facebookSuccessUpload">được chia sẻ thành công</string>
+    <string name="facebookOption">Bật chức năng Facebook để chia sẻ với bạn bè</string>
+
+    <!--TODO [확인] 베트남어 Quality-->
+    <string name="videoQuality">Chất lượng</string>
+    <string name="videolanguage">Language</string>
+    <string name="auto">Tự động</string>
+
+    <!--Menu -->
+    <string name="phoneNumberMenu">Số điện thoại :</string>
+    <string name="accountMenu">Tài khoản : </string>
+    <string name="txtHello">Xin chào :</string>
+
+    !-- Prepayment 문구 -->
+    <!-- Top up Fragment-->
+
+    <string name="typePhone">Thanh toán qua điện thoại</string>
+    <string name="typeScard">Thanh toán qua Scratch Card</string>
+    <string name="titleSelectTopUpOption">Chọn hình thức Top Up</string>
+    <string name="titleSelectChargingOption">Chọn hình thức thanh toán</string>
+    <string name="selectChargingDialogMsg1">Không đủ tiền trong tài khoản Viettel TV Togo\nNạp tiền để tiếp tục dịch vụ!</string>
+    <string name="selectChargingDialogMsg2">Sử dụng điện thoại hoặc thẻ cào để thanh toán V-Wallet. Chỉ tài khoản di động và thẻ cào Viettel mới có thế sử dụng.</string>
+
+    <string name="v_walletBalance">V –Wallet Tài khoản</string>
+    <string name="v_walletBonus">V –Wallet Bonus</string>
+    <string name="topupDescription">Dùng điện thoại hoặc thẻ cào\nđể thanh toán V-Wallet\nChỉ ViettelMobile Phone\nvà thẻ cào có thể được sử dụng</string>
+    <string name="purchase_vwallet_prefix">Mua qua V-Wallet</string>
+    <!--Mobile Phone-->
+    <string name="titleSelectChargingAmount">Chọn số lượng thanh toán</string>
+    <string name="selectChargeingAmountMsg">Chọn mức giá để thanh toán từ điện thoại\nNếu không có tùy chọn phù hợp, chọn nút Enter Charge Amount để trực tiếp điền mức giá</string>
+    <string name="titleEnterChargeAmount">Nhập số lượng thanh toán</string>
+    <string name="enterChargeAmountMsg">Mức thanh toán thấp nhất là 50.000 VNĐ\nXin hãy nhập số lớn hơn 50.000VNĐ để thanh toán</string>
+    <string name="enterChargeAmountNotice">(thanh toán từ 50.000VNĐ)</string>
+    <string name="titleEnterMobilePhoneNumber">Nhập số điện thoại</string>
+    <string name="enterMobilePhoneNumberMsg">Hãy nhập số điện thoại để nhận mã OTP \nA Mã OTP sẽ được gửi tới số điện thoại của bạn.</string>
+    <string name="titleInputMobilePhoneNumber">Số điện thoại (chỉ người dùng Viettel)</string>
+    <string name="inputMobilePhoneNumberNotice">không nhập ‘-’ (gạch)</string>
+    <string name="rememberPhoneNumberMsg">Nhớ số điện thoại của tôi</string>
+    <string name="titleEnterOneTimePassword">Nhập mã OTP</string>
+    <string name="titleInputOneTimePassword">Mã OTP</string>
+    <string name="oneTimePasswordMsg">Hãy nhập mã OTP nhận từ tin nhắn điện thoại\n(Giới hạn thời gian mã OTP trong 3 phút)</string>
+    <string name="titleChargeConfirm">Xác nhận thanh toán</string>
+    <string name="chargeConfirmMsg">Thanh toán V_Wallet và tiếp tục sử dụng với STB hoặc ứng dụng di động đã kết nối với STB (Điều này không thể bị hủy)</string>
+    <string name="chargeComfirmPopupMsg">Bạn có chắc chắn thanh toán \ntài khoản V-Wallet?</string>
+    <string name="titleChargeComplete">Hoàn tất thanh toán</string>
+    <string name="chargeCompleteMsg">V-Wallet đã được nạp thành công\n(Điều này không thể bị hủy)</string>
+    <string name="chargeBonusMsg">(Đây là khuyến mãi thêm từ Viettel)</string>
+
+    <string name="chargeDate">Ngày thanh toán:</string>
+    <string name="chargingAmount">Số lượng thanh toán</string>
+    <string name="chargingBonus">Khuyến mãi thanh toán</string>
+    <string name="chargedAmount">Mức thanh toán</string>
+    <string name="chargedBonus">Khuyến mãi đã thanh toán</string>
+
+    <string name="update_package_message">Gói cước hiện tại chỉ hỗ trợ xem trên %s màn hình\n\nBạn có muốn nâng cấp gói cước để xem trên nhiều màn hình?</string>
+    <string name="out_of_money_message">Tài khoản trong ví điện tử của bạn không đủ.\nBạn có muốn nạp thêm tiền vào ví ?</string>
+    <string name="confirmChargeWallet">Nạp thêm tiền vào tài khoản</string>
+
+    <string name="todayNormal">"Hôm nay"</string>
+    <string name="str_tomorrowNormal">Ngày mai</string>
+    <string name="str_mondayNormal">Thứ hai</string>
+    <string name="str_tuesdayNormal">Thứ ba</string>
+    <string name="str_wednesdayNormal">Thứ tư</string>
+    <string name="str_thursdayNormal">Thứ năm</string>
+    <string name="str_fridayNormal">Thứ sáu</string>
+    <string name="str_saturdayNormal">Thứ bảy</string>
+    <string name="str_sundayNormal">Chủ nhật</string>
+    <string name="str_yesterdayNormal">Hôm qua</string>
+
+
+    <string name="msgConfirmSwitchDeviceDialog">Bạn có muốn logout device khac?</string>
+
+    <!--_________________ PHASE 2 _______________________-->
+
+    <string name="msgTitleCreatePassword">Create New Password </string>
+
+
+    <string name="msgFavPlaylist">Playlist</string>
+
+    <string name="msgSettingVersiondetail">v.1.0</string>
+    <string name="msgSettingAboutdetail">Bấm vào đây để xem thông tin dịch vụ</string>
+    <string name="msgSettingPolicydetail">Bấm vào đây để xem điều khoản sử dụng dịch vụ</string>
+    <string name="Password">Mật khẩu</string>
+    <string name="SaleCode">Mã cửa hàng</string>
+    <string name="SaleCodeTitle">Cập nhật cửa hàng</string>
+    <string name="SaleCodeDetail">Chưa nhập mã cửa hàng</string>
+    <string name="SaleCodeDescription">Nhập mã cửa hàng</string>
+    <string name="saleOff">Giảm 50% khi đăng kí gói cước</string>
+    <string name="ChargeAccount">Phương thức thanh toán</string>
+    <string name="Facebook">Facebook</string>
+    <string name="ChildProtection">Child Protection</string>
+    <string name="ChildProtectiondetail">You can make your child \n only watch the contents in \'Kid\' menu</string>
+    <string name="SeriesContinousPlay">Series Continous Play</string>
+    <string name="SeriesContinousPlaydetail">Next episode is automatically playing ,\n after 10 sec later the series VOd ends</string>
+    <string name="AutoShutdown">Auto Shutdown</string>
+    <string name="AutoShutdowndetail">When you watch contents without any action, \n application will be automatically shutdown</string>
+
+    <!-- Wallet-->
+    <string name="walletTitle">Tài khoản</string>
+    <string name="subcribeNowTitle">Mua ngay</string>
+    <string name="mobilePhoneNumberTitle">Vui lòng chỉ nhập số thuê bao Viettel</string>
+    <string name="mobilePhoneNumberDes">không nhập dấu \'-\'</string>
+    <string name="enterChargeAmountTitle">Nhập số tiền cần nạp</string>
+    <string name="enterChargeAmountNote">tối thiểu %s VNĐ</string>
+    <string name="chargeScratchTitle">Nạp từ thẻ cào Viettel</string>
+    <string name="chargeScratchDescription">Thời gian khuyến mãi (1/1/2017 - 2/2/2017)</string>
+    <string name="chargePhoneTitle">Nạp từ tài khoản di động Viettel</string>
+    <string name="promotionTime">Thời gian khuyến mại</string>
+    <string name="chargePhoneDescription">Thời gian khuyến mãi (1/1/2017 - 2/2/2017)</string>
+    <string name="paymentHistoryTitle">Lịch sử thanh toán</string>
+    <string name="paymentHistoryDescription">Tất cả những nội dung mà bạn đã thanh toán</string>
+    <string name="accountInfoTitle">Thông tin tài khoản: </string>
+    <string name="freeWifiTitle">Miễn phí xem với wifi</string>
+    <string name="freeWifiDesctiption">Bạn có thể xem miễn phí các nội dung khi xem trên wifi</string>
+    <string name="freeWifiDuration">Còn lại %s ngày miễn phí</string>
+    <string name="freeDayTitle">ngày còn lại</string>
+    <string name="basicPackageTitle">Gói Basic</string>
+    <string name="smallPackageTitle">Small Package</string>
+    <string name="bigPackageTitle">Big Package</string>
+    <string name="mainPackageTitle">Thông tin gói cước</string>
+    <string name="vWalletTitle">Ví điện tử</string>
+    <string name="vWalletEnterMobileNumberTitle">Nhập số điện thoại</string>
+    <string name="vWalletEnterMobileNumberDes">Một mã xác nhận sẽ được gửi tới số điện thoại của quý khách</string>
+    <string name="vWalletEnterScratchCardTitle">Nhập mã thẻ cào</string>
+    <string name="vWalletEnterScratchCardSerialTitle">Nhập số seri</string>
+    <string name="vWalletEnterScratchCardPinCodeTitle">Nhập mã thẻ cảo</string>
+    <string name="vWalletSelectChargeOptionTitle">Lựa chọn số tiền cần nạp</string>
+    <string name="vWalletSelectChargeOptionDes">Vui lòng chọn số tiền cần nạp. Nếu số tiền cần nạp khác với các mệnh giá có sẵn, vui lòng nhập số tiền bạn mong muốn</string>
+    <string name="vWalletEnterChargeAmountDes">Số tiền tối thiểu nạp từ %s VNĐ. Bạn hãy nhập số lớn hơn số tiền tối thiểu</string>
+    <string name="vWalletBalanceTitle">Tài khoản gốc</string>
+    <string name="vWalletBonusTitle">Tài khoản khuyến mại</string>
+    <string name="vWalletRememberPhoneTitle">Lưu số điện thoại cho lần nạp sau</string>
+    <string name="vWalletDesctiption">Bạn có thể sử dụng ví điện tử để thanh toán hoặc mua các gói cước, video, clip, sự kiện giải trí</string>
+    <string name="vWalletChargeConfirmTitle">Xác nhận nạp tiền</string>
+    <string name="vWalletChargeConfirmDes">Nạp tiền và tận hưởng các dịch vụ cùng Viettel TV</string>
+    <string name="vWalletChargeAmountTitle">Số tiền nạp</string>
+    <string name="vWalletChargeBonusTitle">Số tiền khuyến mại</string>
+    <string name="vWalletChargeBonusDes">(This is additional bonus from Viettel)</string>
+    <string name="vWalletEnterOTPTitle">Nhập mã xác nhận</string>
+    <string name="vWalletEnterOTPDescription">Vui long nhập mã xác nhận đã gửi vào số điện thoại. ( Mã xác nhận chỉ có hiệu lực trong vòng 3 phút)</string>
+    <string name="vWalletChargeCompleteTitle">Nạp tiền thành công</string>
+    <string name="vWalletChargeCompleteDes">Tài khoản điện tử đã được nạp tiền thành công</string>
+    <string name="vWalletChargeDate">Ngày nạp:</string>
+    <string name="vWalletBtnCheckTopupHistory">Lịch sử nạp tiền</string>
+    <string name="vWalletOTPTitle">Mã xác nhận</string>
+    <string name="settingChargeAccountDes">Vui lòng lựa chọn phương thức thanh toán phù hợp</string>
+    <string name="settingChargeAccountPhoneTitle">Tài khoản điện thoại</string>
+    <string name="settingChargeAccountPhoneDes">Chỉ áp dụng cho thuê bao Viettel</string>
+    <string name="settingChargeAccountVWalletTitle">Ví điện tử</string>
+    <string name="settingChargeAccountVWalletDes">Áp dụng cho cả tất cả các thuê bao</string>
+    <string name="mainPackageDesctiption">Lưu ý: Miễn phí phí toàn bộ lưu lượng data 3G/4G Viettel khi truy cập và sử dụng dịch vụ ViettelTV</string>
+    <string name="basicPackageDesctiption">Không giới hạn lưu lượng data 3G/4G khi xem tất cả nội dung: Kênh truyền hình, Video, Phim, Sự kiện...</string>
+    <string name="basicPackageCanceledDesctiption">Bạn có thể gia hạn</string>
+    <string name="basicPackageSubcribingDesctiption">Bạn có thể hủy gia hạn</string>
+    <string name="additionalPackageTitle">Các gói khác</string>
+    <string name="additionalPackageTitle2">Danh sách gói</string>
+    <string name="cancelSubcription">Bạn có thể hủy gia hạn</string>
+    <string name="subscribeSubcription">Đã hủy gia hạn</string>
+    <string name="subscribedBasicPackageTitle">Gói cước đã mua</string>
+    <string name="packageOptionChangeTitle">Thay đổi gói cước</string>
+    <string name="packageOptionChangeDescription">Bạn có thể thay đổi gói cước nếu muốn</string>
+    <string name="cancelSubcriptionTitle">Hủy gia hạn</string>
+    <string name="cancelSubcriptionMessage">Bạn có muốn hủy gia hạn gói cước này?</string>
+    <string name="subcriptionTitle">Gia hạn</string>
+    <string name="subcriptionMessage">Bạn muốn gia hạn với gói cước này?</string>
+    <string name="chargeInterval">Thời hạn</string>
+    <string name="subscriptionStart">Ngày bắt đầu</string>
+    <string name="changeSubscriptionButton">Thay đổi gói cước</string>
+    <string name="keepSubscriptionButton">Giữ nguyên gói cước</string>
+    <string name="changeChargePeriod">Chuyển gói</string>
+    <string name="changeChargePeriodPurchaseDetail">Đổi gói cước</string>
+    <string name="changeAutoRenewPurchaseDetail">Tự động gia hạn</string>
+    <string name="cancelSubscription">Hủy gia hạn</string>
+    <string name="moreDetail">Xem chi tiết</string>
+    <string name="subcribe">Gia hạn</string>
+    <string name="status_subcribe">Tự động gia hạn</string>
+    <string name="status_cancel">Đã hủy gia hạn</string>
+    <string name="changeChargePeriodTitle">Thay đổi gói cước</string>
+    <string name="changeChargePeriodDescription">Lựa chọn gói cước bạn muốn</string>
+    <string name="current">Hiện tại</string>
+    <string name="afterChange">Sau thay đổi</string>
+    <string name="renew">Ngày gia hạn</string>
+    <string name="wallet_perday">Hàng ngày</string>
+    <string name="wallet_perweek">Hàng tuần</string>
+    <string name="wallet_permonth">Hàng tháng</string>
+    <string name="wallet_free">Miễn phí</string>
+
+    <!-- Purchase -->
+    <string name="purchase_option_title">Lựa chọn mua</string>
+    <string name="period_3g_package_title">3G Data Package</string>
+    <string name="period_3g_package_description">You can watch the select content by purchasing Viettel 3G data package during the charge period of each package</string>
+    <string name="period_3g_package_auto_renew">※ Gói cước sẽ tự động gia hạn vào chu kì cước tiếp theo</string>
+    <string name="period_coupon_title">Nhập mã Coupon ID để nhận ưu đãi</string>
+    <string name="period_coupon_invalid">Mã coupon không hợp lệ</string>
+    <string name="period_coupon_detail">Giảm 50% khi đăng kí gói cước</string>
+    <string name="coupon_rate">Giảm %s khi đăng ký gói cước</string>
+    <string name="coupon_price">Giảm %s VNĐ khi đăng ký gói cước</string>
+    <string name="promotionNote">(Giá thanh toán đã được chiết khẩu %s khuyến mại)</string>
+
+    <string name="package_option_title">Lựa chọn gói</string>
+    <string name="package_option_description">Bạn có thể xem nội dung này sau khi mua một trong các gói sau</string>
+    <string name="cancelPackageGuide1">Để hủy gia hạn vào Menu</string>
+    <string name="cancelPackageGuide2">, chọn Tài khoản</string>
+    <string name="cancelPackageGuide">Để hủy gia hạn vào Menu imagePlace , chọn Tài khoản</string>
+    <string name="durationLabel">"Thời hạn"</string>
+    <string name="noteLabel">"Lưu ý"</string>
+    <string name="priceLabel">"Giá"</string>
+    <string name="confirmPurchaseQuest">"Xác nhận thanh toán"</string>
+    <string name="confirmPurchase">"Xác nhận thanh toán"</string>
+    <string name="paymentOptionTitle">"Phương thức thanh toán"</string>
+    <string name="not_viettel_sub_titl">"Purchase is not available"</string>
+    <string name="not_viettel_sub_description">"Package Purchase is only available for Viettel 3G mobile subscribers"</string>
+    <string name="not_viettel_sub_guide_title">"Please get more help from below"</string>
+    <string name="not_viettel_sub_hotline">"Hotline 19008198 (200 VND/min)"</string>
+    <string name="not_viettel_sub_website">"Website: http://vietteltelecom.vn/"</string>
+
+    <!-- Annoucement-->
+    <string name="announcementTitle">Announcement</string>
+
+    <string name="playnow">"Xem luôn"</string>
+
+    <!--TV Connection-->
+    <string name="verifyCode">Hãy nhập mã kết nối</string>
+    <string name="firstTime">First time to connect to your TV</string>
+    <string name="connectitle2">You can wach the all Channels \n VODs of TV in your Mobile Device</string>
+    <string name="connectitle3">Whenever!Whenrever!</string>
+
+    <!--Annoucement-->
+    <string name="annouceTitle">Annoucement</string>
+
+    <string name="lastTimeWatchTitle">Thời gian đã xem: %s</string>
+    <string name="bingle_message_next_content">%s tiếp theo sẽ được Play</string>
+    <string name="content_episode">Tập</string>
+    <string name="content_vod">Vod </string>
+    <string name="content_catchup">Chương trình xem lại</string>
+
+    <string name="about_series">"Thông tin"</string>
+    <string name="episodeList">"Danh sách tập"</string>
+
+    <string name="pop_quit_create_password_title">"Bạn có muốn dừng quá trình đổi mật khẩu?"</string>
+    <string name="block_account_alert">"Tài khoản %s bị chặn do số lần truy cập tại một thời điểm vượt quá giới hạn. Để biết thêm chi tiết vui lòng gọi 18008119"</string>
+
+    <string name="playNext">Xem tập tiếp theo</string>
+    <string name="stopWatch">Dừng xem</string>
+
+    <string name="encryptionContent">Nội dung này hiện tại chưa được hỗ trợ trên thiết bị Chromecast, Quý khách vui lòng xem trên thiết bị di động!</string>
+    <string name="stopCasting">"Dừng truyền"</string>
+
+    <string name="selectToConnect">Select to connect</string>
+    <string name="selectADeviceToConnect">Select a device to connect</string>
+    <!--<string name="onAirChannel">Kênh TV</string>-->
+    <string name="onAirChannel">Kênh xem nhiều nhất</string>
+
+    <string name="RCM_trendingNow">Đang hot</string>
+    <string name="RCM_topPickForU">Dành riêng cho bạn</string>
+    <string name="RCM_becauseYouWatch">Liên quan đến nội dung</string>
+    <string name="RCM_becauseYouWatchTypeA">Liên quan đến nội dung</string>
+    <string name="RCM_becauseYouWatchTypeB">Liên quan đến nội dung type B</string>
+    <string name="RCM_becauseYouWatchTypeC">Liên quan đến nội dung</string>
+
+    <!-- V-WALLET-->
+    <string name="vWallet_select_topup_title">Lựa chọn số tiền cần nạp</string>
+    <string name="vWallet_topup_via_scard_title">Nạp tiền qua thẻ cào</string>
+    <string name="vWallet_confirm_message">Bạn có chắc chắn nạp tiền vào ví điện tử?</string>
+
+    <string name="sale_code_success_alert">Mã cửa hàng đã được cập nhật</string>
+    <string name="sale_code_error_alert">Mã cửa hàng không hợp lệ. Vui lòng nhập không quá 50 kí tự và chỉ gồm chữ cái, số và kí tự gạch dưới!</string>
+
+    <string name="post_paid_title">Trả sau</string>
+    <string name="post_paid_alert">chỉ dành cho thuê bao Viettel</string>
+    <string name="pre_paid_title">Trả trước</string>
+</resources>

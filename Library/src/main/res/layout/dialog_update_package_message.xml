@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@color/bg_dialog"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/updatePackageTitle"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        app:font="@string/font_REB" />
+
+    <ImageView
+        android:id="@+id/imv_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/popup_title_line" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/txtMessage"
+        style="@style/Wallet.PackageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textSize="12sp"
+        app:font="@string/font_RL" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <com.alticast.viettelottcommons.widget.FontButtonView
+            android:id="@+id/btnCancel"
+            style="@style/ButtonPurchaseDialog"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:text="@string/cancel"
+            app:font="@string/font_B" />
+        <com.alticast.viettelottcommons.widget.FontButtonView
+            android:id="@+id/btnConfirm"
+            style="@style/ButtonPurchaseDialog"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:text="@string/agree"
+            app:font="@string/font_B" />
+
+
+    </LinearLayout>
+</LinearLayout>
+

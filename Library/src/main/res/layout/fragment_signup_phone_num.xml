@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login_popup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="ContentDescription,RtlHardcoded">
+
+        <!--TODO [확인] 문구 확인-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp">
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                app:font="@string/font_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:includeFontPadding="false"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
+                android:singleLine="true"
+                android:text="@string/create_account_title"
+                android:textColor="#242424"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/close_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_login_close" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1px"
+            android:background="#30000000" />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                app:font="@string/font_B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/create_account_id_phone"
+                android:textColor="#242424"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                app:font="@string/font_M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:singleLine="false"
+                android:text="@string/create_account_id_desc1_phone"
+                android:textColor="#242424"
+                android:textSize="10.6dp" />
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                app:font="@string/font_M"
+                android:id="@+id/email_check_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="false"
+                android:textColor="#f44"
+                android:textSize="12dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:weightSum="1">
+
+                <com.alticast.viettelottcommons.widget.FontEditText
+                    app:font="@string/font_M"
+                    android:id="@+id/id_input"
+                    style="@style/Viettel.Widget.EditText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:hint="@string/create_account_id_hint_phone"
+                    android:inputType="phone"
+                    android:textSize="12.6dp" />
+
+                <com.alticast.viettelottcommons.widget.FontButtonView
+                    app:font="@string/font_M"
+                    android:id="@+id/verify_button"
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_login"
+                    android:enabled="false"
+                    android:singleLine="true"
+                    android:text="@string/create_account_id_button_phone"
+                    android:textColor="@color/btn_login_text"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                app:font="@string/font_M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:singleLine="false"
+                android:text="@string/create_account_sms_desc1_phone"
+                android:textColor="#242424"
+                android:textSize="10.6dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:weightSum="1">
+
+
+                <com.alticast.viettelottcommons.widget.FontEditText
+                    app:font="@string/font_M"
+                    android:id="@+id/sms_input"
+                    style="@style/Viettel.Widget.EditText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:hint="@string/create_account_sms_hint_phone"
+                    android:inputType="phone"
+                    android:textSize="12.6dp" />
+
+
+                <com.alticast.viettelottcommons.widget.FontButtonView
+                    app:font="@string/font_M"
+                    android:id="@+id/sms_button"
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_login"
+                    android:enabled="false"
+                    android:singleLine="true"
+                    android:text="@string/create_account_sms_button_phone"
+                    android:textColor="@color/btn_login_text"
+                    android:textSize="13sp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/authCntLayout"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    app:font="@string/font_M"
+                    android:id="@+id/authInvalideCnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:text="Enter within"
+                    android:textColor="#FFC80005"
+                    android:textSize="10.6dp" />
+
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    app:font="@string/font_M"
+                    android:id="@+id/auchCnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="sss"
+                    android:textColor="#FFC80005"
+                    android:textSize="10.6dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                app:font="@string/font_B"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:singleLine="true"
+                android:text="@string/create_account_pw"
+                android:textColor="#242424"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                app:font="@string/font_M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="false"
+                android:text="@string/create_account_pw_desc"
+                android:textColor="#242424"
+                android:textSize="13sp" />
+
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                app:font="@string/font_M"
+                android:id="@+id/password_check_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="4dp"
+                android:singleLine="false"
+                android:textColor="#f44"
+                android:textSize="12sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <com.alticast.viettelottcommons.widget.FontEditText
+                    app:font="@string/font_M"
+                    android:id="@+id/password_input"
+                    style="@style/Viettel.Widget.EditText"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:hint="@string/create_account_pw_hint1"
+                    android:inputType="textPassword"
+                    android:textSize="12.6dp" />
+
+                <Space
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <com.alticast.viettelottcommons.widget.FontEditText
+                    app:font="@string/font_M"
+                    android:id="@+id/password_confirm_input"
+                    style="@style/Viettel.Widget.EditText"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:hint="@string/create_account_pw_hint2"
+                    android:inputType="textPassword"
+                    android:textSize="12.6dp" />
+
+
+                <com.alticast.viettelottcommons.widget.FontButtonView
+                    app:font="@string/font_M"
+                    android:id="@+id/create_button"
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_login"
+                    android:enabled="false"
+                    android:singleLine="true"
+                    android:text="@string/create_account_button"
+                    android:textColor="@color/btn_login_text"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1px"
+            android:background="#30000000" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="14dp" />
+
+
+    </LinearLayout>
+</ScrollView>

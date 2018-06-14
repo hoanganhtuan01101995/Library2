@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pop_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="9dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="9dp"
+    tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/ib_login_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/btn_login_close_p2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:ignore="ContentDescription,RtlHardcoded">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/logo_viettel_login" />
+
+            <RelativeLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp">
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:id="@+id/txt_phonenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="@string/login_id_num"
+                    android:textColor="#80FFFFFF"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/input_login_tablet" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_phonenumber"
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/icon_phonenumber" />
+
+                <com.alticast.viettelottcommons.widget.FontEditText
+                    android:id="@+id/id_input"
+                    style="@style/Viettel.Widget.EditTextPhase2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView3"
+                    android:layout_marginBottom="8dp"
+                    android:layout_toEndOf="@+id/imageView3"
+                    android:layout_toRightOf="@+id/imageView3"
+                    android:hint="@string/create_account_id_hint_phone"
+                    android:inputType="number"
+                    app:font="@string/font_B" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp">
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:id="@+id/txt_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/login_password"
+                    android:textColor="#80FFFFFF"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/input_login_tablet" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_password"
+                    android:src="@drawable/icon_password" />
+
+                <com.alticast.viettelottcommons.widget.FontEditText
+                    android:id="@+id/password_input"
+                    style="@style/Viettel.Widget.EditTextPhase2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_password"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="32dp"
+                    android:inputType="textPassword"
+                    app:font="@string/font_B" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_forgot_password"
+                android:layout_width="370dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical">
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:id="@+id/tv_login_forgot_pw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/login_forgot_pw_phase2"
+                    android:textColor="#80FFFFFF"
+                    android:textSize="@dimen/signup_title_tablet"
+                    app:font="@string/font_RL" />
+
+                <com.alticast.viettelottcommons.widget.FontCheckBox
+                    android:id="@+id/auto_login_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tv_login_forgot_pw"
+                    android:layout_marginTop="14dp"
+                    android:button="@drawable/btn_login_checkbox"
+                    android:checked="true"
+                    android:drawablePadding="2dp"
+                    android:text="@string/login_keep_pw"
+                    android:textColor="#8000000C"
+                    android:textSize="13sp"
+                    android:visibility="gone"
+                    app:font="@string/font_M" />
+            </RelativeLayout>
+
+
+            <ImageButton
+                android:id="@+id/bt_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/selector_btn_signin"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/bt_sign_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/selector_btn_signup"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    >
+
+    <!-- PickerUI items dimens-->
+    <dimen name="height_normal_item_pickerui">60dp</dimen>
+    <dimen name="textsize_center_pickerui_item">15sp</dimen>
+    <dimen name="textsize_near_center_pickerui_item">15sp</dimen>
+    <dimen name="textsize_far_center_pickerui_item">15sp</dimen>
+    <dimen name="textsize_small_pickerui_item">11dp</dimen>
+
+    <!-- PickerUI lines dimens -->
+    <dimen name="margin_top_line_top_pickerui">120dp</dimen>
+    <dimen name="margin_top_line_top_pickerui_image">140dp</dimen>
+    <dimen name="margin_top_line_bottom_pickerui">180dp</dimen>
+    <dimen name="height_lines_center_pickerui">2.5dp</dimen>
+
+    <!-- PickerUI panel dimens -->
+    <dimen name="height_hidden_panel_pickerui">300dp</dimen>
+
+    <dimen name="sptinyMargin">2dp</dimen>
+    <dimen name="tinyMargin">4dp</dimen>
+    <dimen name="smallMargin">8dp</dimen>
+    <dimen name="middleMargin">12dp</dimen>
+    <dimen name="mediumMargin">16dp</dimen>
+    <dimen name="largeMargin">32dp</dimen>
+    <dimen name="extraMargin">64dp</dimen>
+
+    <dimen name="posterMarginBorder">14dp</dimen>
+    <dimen name="posterSpace">4dp</dimen>
+    <dimen name="list_channel_margin_left">8dp</dimen>
+
+    <dimen name="signup_title">12sp</dimen>
+    <dimen name="signup_editext">20sp</dimen>
+    <dimen name="signup_topbar">16sp</dimen>
+    <dimen name="signup_number">39sp</dimen>
+    <dimen name="signup_number_normal">22sp</dimen>
+    <dimen name="signup_button">15sp</dimen>
+    <dimen name="signup_button_margin_top">36dp</dimen>
+
+    <!-- Login -->
+    <dimen name="margin_logo">50dp</dimen>
+
+    <!--TABLET-->
+    <dimen name="signup_title_tablet">16sp</dimen>
+    <dimen name="signup_number_tablet">46sp</dimen>
+    <dimen name="signup_editext_tablet">22sp</dimen>
+    <dimen name="signup_number_normal_tablet">26sp</dimen>
+    <dimen name="signup_button_tablet">16sp</dimen>
+    <dimen name="signup_topbar_tablet">18sp</dimen>
+
+    <!--Wallet-->
+    <dimen name="wallet_margin">16dp</dimen>
+    <dimen name="wallet_text_margin">12dp</dimen>
+    <dimen name="wallet_section_margin">12dp</dimen>
+    <dimen name="wallet_width_item">95dp</dimen>
+    <dimen name="wallet_height_item">100dp</dimen>
+    <dimen name="wallet_item_padding">16dp</dimen>
+    <dimen name="wallet_rental_padding">8dp</dimen>
+
+    <!--VWallet-->
+    <dimen name="vWalletWidth1">300dp</dimen>
+    <dimen name="vWalletWidth2">330dp</dimen>
+
+    <dimen name="date_wheel_dialog_width">600dp</dimen>
+
+    <dimen name="bookmark_image_width">278dp</dimen>
+    <dimen name="bookmark_image_height">156dp</dimen>
+    <dimen name="bookmark_dialog_width">320dp</dimen>
+    <dimen name="bookmark_dialog_height">325dp</dimen>
+
+    <dimen name="player_width">580dp</dimen>
+    <dimen name="player_height">400dp</dimen>
+
+    <dimen name="ads_margin_bottom">45dp</dimen>
+
+</resources>

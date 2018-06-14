@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="325dp"
+    android:layout_height="448dp"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/pop_bg_w640_m_height"
+    android:focusableInTouchMode="true"
+    tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/titleSelectDeviceToLogout"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        app:font="@string/font_REB" />
+
+    <ImageView
+        android:id="@+id/imv_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/popup_title_line" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imv_line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ellipsize="end"
+        android:fadeScrollbars="false"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/descriptionSelectDeviceToLogout"
+        android:textColor="#99FFFFFF"
+        android:textSize="14sp"
+        app:font="@string/font_RL" />
+
+    <ListView
+        android:id="@+id/listDevices"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:layout_below="@+id/txtDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:fadeScrollbars="false"
+        android:overScrollMode="never"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="15dp">
+
+        <com.alticast.viettelottcommons.widget.FontButtonView
+            android:id="@+id/btnCancel"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/selector_btn_normal"
+            android:text="@string/cancel"
+            android:textColor="@color/selector_text_button_normal"
+            android:textSize="15sp"
+            app:font="@string/font_B" />
+
+        <com.alticast.viettelottcommons.widget.FontButtonView
+            android:id="@+id/btnConfirm"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/selector_btn_normal"
+            android:text="@string/ok"
+            android:textColor="@color/selector_text_button_normal"
+            android:textSize="15sp"
+            app:font="@string/font_B" />
+    </RelativeLayout>
+</RelativeLayout>

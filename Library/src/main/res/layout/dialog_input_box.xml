@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_login_popup"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:minHeight="203dp"
+    android:orientation="vertical"
+    android:paddingBottom="18dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="18dp"
+    tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_M"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="17dp"
+        android:textColor="#ffcc05"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_M"
+        android:id="@+id/long_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="17dp"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="15dp"
+        android:background="#17ffffff" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_M"
+        android:id="@+id/message_emphasis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:singleLine="false"
+        android:textColor="#ffcc05"
+        android:textSize="13sp"
+        android:visibility="gone" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_M"
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:textColor="#b4b4b4"
+        android:textSize="12sp" />
+
+
+    <com.alticast.viettelottcommons.widget.FontEditText
+        app:font="@string/font_M"
+        android:id="@+id/input"
+        style="@style/EditText"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:gravity="center_vertical"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:textColor="#242424"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="12dp"
+        android:background="#17ffffff" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        app:font="@string/font_M"
+        android:id="@+id/button1"
+        style="@style/Widget.Viettel.ButtonPhase2"
+        android:layout_width="match_parent"
+        android:layout_height="34.6dp"
+        android:textSize="13sp" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        app:font="@string/font_M"
+        android:id="@+id/button2"
+        style="@style/Widget.Viettel.ButtonPhase2"
+        android:layout_width="match_parent"
+        android:layout_height="34.6dp"
+        android:layout_marginTop="5dp"
+        android:textSize="13sp" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        app:font="@string/font_M"
+        android:id="@+id/tv_login_forgot_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="14dp"
+        android:singleLine="true"
+        android:text="@string/login_forgot_pw"
+        android:textColor="#b2ffffff"
+        android:textSize="13sp" />
+</LinearLayout>

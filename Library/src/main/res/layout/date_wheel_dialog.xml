@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pickerui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="@dimen/date_wheel_dialog_width"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true">
+
+        <com.alticast.viettelottcommons.widget.wheel.blur.picker.PickerUI
+            android:id="@+id/picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            pickerui:autoDismiss="false"
+            pickerui:backgroundColor="#ff293241"
+            pickerui:blur="false"
+            pickerui:blur_FilterColor="#ff5e48"
+            pickerui:blur_downScaleFactor="@integer/blur_downscale_min"
+            pickerui:blur_radius="@integer/blur_radius_min"
+            pickerui:blur_use_renderscript="false"
+            pickerui:itemsClickables="true"
+            pickerui:linesCenterColor="#00f3ed"
+            pickerui:textCenterColor="#FFFFFFFF"
+            pickerui:textNoCenterColor="#66FFFFFF" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<com.alticast.viettelphone.widget.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="42.5dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingLeft="9dp"
+    android:paddingRight="9dp"
+    android:paddingTop="5dp"
+    tools:ignore="ContentDescription,RtlHardCoded,SmallSp">
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/selector_device_list"
+        android:duplicateParentState="true"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/list_dialog_text"
+        android:textSize="13.3sp"
+        android:textStyle="bold"
+        app:font="@string/font_B" />
+
+
+</com.alticast.viettelphone.widget.CheckableLinearLayout>

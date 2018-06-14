@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_dialog"
+    android:id="@+id/scrollView"
+    >
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/period_3g_package_title"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp"
+            app:font="@string/font_REB" />
+
+        <ImageView
+            android:id="@+id/imv_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/popup_title_line" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imv_line"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ellipsize="end"
+            android:fadeScrollbars="false"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#99FFFFFF"
+            android:textSize="14sp"
+            app:font="@string/font_RL" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtProductShortDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:ellipsize="end"
+            android:fadeScrollbars="false"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/wallet_blue"
+            android:textSize="10sp"
+            app:font="@string/font_RL" />
+
+        <com.alticast.viettelottcommons.widget.MyListView
+            android:id="@+id/listDevices"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtDescription"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:cacheColorHint="#00000000"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10dp"
+            android:fadeScrollbars="false"
+            android:overScrollMode="never"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical" />
+
+        <!--<ListView-->
+            <!--android:id="@+id/listDevices"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="165dp"-->
+            <!--android:layout_below="@+id/txtDescription"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:cacheColorHint="#00000000"-->
+            <!--android:divider="@android:color/transparent"-->
+            <!--android:dividerHeight="10dp"-->
+            <!--android:fadeScrollbars="false"-->
+            <!--android:overScrollMode="never"-->
+            <!--android:scrollbarStyle="outsideInset"-->
+            <!--android:scrollbars="vertical" />-->
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtAutoRenew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listDevices"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:ellipsize="end"
+            android:fadeScrollbars="false"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/period_3g_package_auto_renew"
+            android:textColor="#FFFFCC05"
+            android:textSize="10sp"
+            app:font="@string/font_RL" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtCouponTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listDevices"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:ellipsize="end"
+            android:fadeScrollbars="false"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/period_coupon_title"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            app:font="@string/font_RL" />
+
+        <com.alticast.viettelottcommons.widget.FontEditText
+            android:id="@+id/edtCoupon"
+            style="@style/Viettel.Widget.EditTextCoupon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:maxLength="12"
+            android:inputType="number"
+            android:gravity="center_horizontal"
+            android:hint="Ấn vào đây để nhập mã coupon"
+            android:textSize="12sp"
+            android:textColorHint="@color/white50"
+            app:font="@string/font_B" />
+        <LinearLayout
+            android:id="@+id/dividerCoupon"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/white30"
+             />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtCouponHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listDevices"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:fadeScrollbars="false"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/wallet_blue"
+            android:textSize="10sp"
+            app:font="@string/font_RL" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp">
+
+            <com.alticast.viettelottcommons.widget.FontButtonView
+                android:id="@+id/btnCancel"
+                style="@style/ButtonPurchaseDialog"
+                app:font="@string/font_B"
+                android:text="@string/cancel" />
+
+            <com.alticast.viettelottcommons.widget.FontButtonView
+                android:id="@+id/btnConfirm"
+                android:layout_alignParentRight="true"
+                android:text="@string/purchase"
+                app:font="@string/font_B"
+                style="@style/ButtonPurchaseDialog"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+

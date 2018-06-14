@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btnBuy1Day"
+    android:layout_width="match_parent"
+    android:layout_height="34.6dp"
+    android:background="@drawable/bg_button_package_period"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp">
+
+        <com.alticast.viettelottcommons.widget.FontCheckBox
+            android:id="@+id/checkId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/selector_period_radio"
+            android:clickable="false"
+            android:duplicateParentState="true"
+            android:focusable="false"
+            app:font="@string/font_M"
+            android:focusableInTouchMode="false" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtRentalPeriod"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:duplicateParentState="true"
+            android:gravity="center_vertical"
+            android:text="@string/buyfor1day"
+            app:font="@string/font_M"
+            android:textColor="@color/button_text"
+            android:textSize="12.6sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:duplicateParentState="true"
+        android:paddingRight="12dp">
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:duplicateParentState="true"
+            android:gravity="center_vertical"
+            android:text="3,000"
+            app:font="@string/font_M"
+            android:textColor="@color/yellow"
+            android:textSize="13.6sp" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:duplicateParentState="true"
+            android:layout_marginLeft="3dp"
+            android:gravity="center_vertical"
+            android:text="@string/vnd"
+            app:font="@string/font_M"
+            android:textColor="@color/yellow"
+            android:textSize="10.6sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="252dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_login_popup"
+    android:orientation="vertical"
+    android:paddingBottom="18dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="18dp"
+    tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="17dp"
+        android:singleLine="true"
+        android:text="@string/packageOptionChangeTitle"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:font="@string/font_B" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#17ffffff" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/layoutPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/layoutCurrentOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <include
+                layout="@layout/item_rental"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layoutAfterOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            >
+            <include
+                layout="@layout/item_rental"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_arrow_right"
+            android:layout_toRightOf="@id/layoutCurrentOption"
+            android:layout_toLeftOf="@id/layoutAfterOption"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/change_subscription_button"
+        style="@style/Widget.Viettel.Button"
+        android:layout_width="match_parent"
+        android:layout_height="34.6dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/changeSubscriptionButton"
+        android:textSize="13sp"
+        app:font="@string/font_M" />
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/close_button"
+        style="@style/Widget.Viettel.Button"
+        android:layout_width="match_parent"
+        android:layout_height="34.6dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/keepSubscriptionButton"
+        android:textSize="13sp"
+        app:font="@string/font_M" />
+
+</LinearLayout>

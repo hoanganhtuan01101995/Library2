@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/bg_dialog"
+        android:focusableInTouchMode="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/confirmPurchase"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp"
+            app:font="@string/font_REB" />
+
+        <ImageView
+            android:id="@+id/imv_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/popup_title_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/drawable_border_wallet_normal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:id="@+id/packageName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ellipsize="end"
+                android:fadeScrollbars="false"
+                android:gravity="center"
+                android:lineSpacingExtra="4dp"
+                android:text="Package Title"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:font="@string/font_REB" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fadeScrollbars="false"
+                    android:text="@string/priceLabel"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:font="@string/font_REB" />
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:id="@+id/originalPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="12dp"
+                    android:fadeScrollbars="false"
+                    android:text="70000 VND"
+                    android:textColor="@color/white50"
+                    android:textSize="14sp"
+                    app:font="@string/font_RL" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="6dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_info_popup_arrow" />
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:id="@+id/totalPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="12dp"
+                    android:fadeScrollbars="false"
+                    android:text="50000 VND"
+                    android:textColor="@color/yellow"
+                    android:textSize="14sp"
+                    app:font="@string/font_REB" />
+            </LinearLayout>
+
+            <!--<com.alticast.viettelottcommons.widget.FontTextView-->
+                <!--android:id="@+id/txtPromotionNote"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="#FFFFCC05"-->
+                <!--android:textSize="10sp"-->
+                <!--app:font="@string/font_RL" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fadeScrollbars="false"
+                    android:text="@string/durationLabel"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:font="@string/font_REB" />
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:id="@+id/duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="12dp"
+                    android:fadeScrollbars="false"
+                    android:text="1 month"
+                    android:textColor="@color/white50"
+                    android:textSize="14sp"
+                    app:font="@string/font_RL" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutPromotion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fadeScrollbars="false"
+                    android:text="@string/noteLabel"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:font="@string/font_REB" />
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:id="@+id/note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="12dp"
+                    android:fadeScrollbars="false"
+                    android:text="Giá đã bao gồm khuyến mại"
+                    android:textColor="@color/white50"
+                    android:textSize="14sp"
+                    app:font="@string/font_RL" />
+            </LinearLayout>
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:id="@+id/txtAutoRenew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/period_3g_package_auto_renew"
+                android:textColor="#FFFFCC05"
+                android:textSize="10sp"
+                app:font="@string/font_RL" />
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fadeScrollbars="false"
+                android:textColor="@color/white50"
+                android:textSize="14sp"
+                app:font="@string/font_RL" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp">
+
+            <com.alticast.viettelottcommons.widget.FontButtonView
+                android:id="@+id/btnCancel"
+                style="@style/ButtonPurchaseDialog"
+                app:font="@string/font_B"
+                android:text="@string/cancel" />
+
+            <com.alticast.viettelottcommons.widget.FontButtonView
+                android:id="@+id/btnConfirm"
+                android:layout_alignParentRight="true"
+                android:text="@string/confirm"
+                style="@style/ButtonPurchaseDialog"
+                app:font="@string/font_B"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+

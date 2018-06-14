@@ -1,0 +1,6 @@
+include ':app'
+
+def rootProjectDescriptor = settings.rootProject
+def commonModuleDir = file('Library')
+settings.createProjectDescriptor(rootProjectDescriptor, 'library', commonModuleDir)
+include ':library'

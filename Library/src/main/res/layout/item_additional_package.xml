@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/drawable_border_wallet_normal">
+
+    <RelativeLayout
+        android:id="@+id/layoutRight"
+        android:layout_width="105dp"
+        android:layout_height="88dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="1dp"
+        android:background="@drawable/drawable_border_right_wallet_normal">
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtSubscribe"
+            style="@style/Wallet.PackageName"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="@string/subcribeNowTitle"
+            android:textColor="@color/white50"
+            android:textSize="13sp"
+            android:visibility="gone"
+            app:font="@string/font_M" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtRenewalTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/viettelBlue"
+            android:textSize="10sp"
+            app:font="@string/font_M"
+            />
+
+        <RelativeLayout
+            android:id="@+id/layoutPriceAndDuration"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/txtRenewalTime">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:id="@+id/txtPrice"
+                    style="@style/Wallet.PackagePrice"
+                    android:text="3.000"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:font="@string/font_B" />
+
+                <com.alticast.viettelottcommons.widget.FontTextView
+                    android:id="@+id/txtDuration"
+                    style="@style/Wallet.PackageDuration"
+                    android:text="30 days"
+                    android:layout_marginTop="4dp"
+                    android:textSize="10sp"
+                    android:textColor="@color/white"
+                    app:font="@string/font_M" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/layoutRight"
+        android:paddingLeft="@dimen/wallet_margin"
+        android:paddingRight="@dimen/wallet_margin"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtPackageTitle"
+            style="@style/Wallet.PackageName"
+            android:text="@string/paymentHistoryTitle"
+            app:font="@string/font_B" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtPackageDescription"
+            style="@style/Wallet.PackageDescription"
+            android:layout_marginTop="4dp"
+            android:text="@string/paymentHistoryDescription"
+            android:lines="3"
+            android:ellipsize="end"
+            app:font="@string/font_M" />
+    </LinearLayout>
+</RelativeLayout>

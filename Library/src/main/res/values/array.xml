@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fontIds">
+        <item>B</item>
+        <item>M</item>
+        <item>Roboto</item>
+        <item>REB</item>
+        <item>RL</item>
+    </string-array>
+    <string-array name="fontFiles">
+        <item>RixHeadB50v_icon.ttf</item>
+        <item>RixHeadM50v_icon.ttf</item>
+        <item>Roboto-Regular.ttf</item>
+        <item>RixHeadEB_EU.ttf</item>
+        <item>RixHeadL_EU.ttf</item>
+    </string-array>
+
+</resources>

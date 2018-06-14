@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal"
+        android:background="@color/grey5"
+        ></LinearLayout>
+    <com.alticast.viettelottcommons.widget.FontTextView
+        style="@style/Wallet.SectionTitle"
+        android:text="@string/vWalletSelectChargeOptionTitle"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/mediumMargin"
+        app:font="@string/font_B" />
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/txtFreeWifiDescription"
+        style="@style/Wallet.SectionDescription"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="@dimen/wallet_text_margin"
+        android:gravity="center_horizontal"
+        android:textSize="14sp"
+        android:text="@string/vWalletSelectChargeOptionDes"
+        app:font="@string/font_M" />
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/txtPromotionDescription"
+        style="@style/Wallet.SectionDescription"
+        android:text="Promotion season (1/1/2016 - 2/2/2016)"
+        android:layout_marginRight="@dimen/largeMargin"
+        android:layout_marginLeft="@dimen/largeMargin"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:textSize="13sp"
+        android:gravity="center_horizontal"
+        android:textColor="#FFFFCC05"
+        app:font="@string/font_M" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="160dp"
+        android:paddingRight="160dp"
+        >
+        <ListView
+            android:id="@+id/listAmountOption"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:cacheColorHint="#00000000"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10dp"
+            android:fadeScrollbars="false"
+            android:overScrollMode="never"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical" />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btnBuy1Day"
+    android:layout_width="match_parent"
+    android:layout_height="34.6dp"
+    android:background="@drawable/bg_button_package_period"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp">
+
+        <com.alticast.viettelottcommons.widget.FontCheckBox
+            android:id="@+id/checkId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/selector_device_list"
+            android:clickable="false"
+            android:duplicateParentState="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            app:font="@string/font_M" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:id="@+id/txtPurchaseOption"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:textColor="@color/button_text"
+        android:textSize="12.6sp"
+        app:font="@string/font_M" />
+
+</RelativeLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/bg_dialog"
+        android:focusableInTouchMode="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="SmallSp,ContentDescription,RtlHardCoded">
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/confirmPurchase"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp"
+            app:font="@string/font_REB" />
+
+        <ImageView
+            android:id="@+id/imv_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/popup_title_line" />
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/txtAccountType"
+            style="@style/Wallet.PackageName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/vWallet_confirm_message"
+            android:textSize="12sp"
+            app:font="@string/font_RL" />
+
+        <LinearLayout
+            android:id="@+id/layoutInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/drawable_border_wallet_normal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:id="@+id/description"
+                style="@style/Wallet.PackageName"
+                android:fadeScrollbars="false"
+                android:text="@string/vWalletChargeAmountTitle"
+                android:textColor="@color/white50"
+                android:textSize="14sp"
+                app:font="@string/font_RL" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.alticast.viettelottcommons.widget.FontTextView
+                        android:id="@+id/txtTopupAmout"
+                        style="@style/VWallet.Money"
+                        android:text="0"
+                        app:font="@string/font_M" />
+
+                    <com.alticast.viettelottcommons.widget.FontTextView
+                        style="@style/VWallet.Unit"
+                        android:layout_marginLeft="4dp"
+                        android:text="VNĐ"
+                        app:font="@string/font_M" />
+                    <com.alticast.viettelottcommons.widget.FontTextView
+                        android:id="@+id/txtBonus"
+                        style="@style/VWallet.Bonus"
+                        android:layout_marginLeft="4dp"
+                        android:textColor="#FFFFCC05"
+                        app:font="@string/font_M" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.alticast.viettelottcommons.widget.FontTextView
+                android:layout_marginTop="12dp"
+                android:fadeScrollbars="false"
+                style="@style/Wallet.PackageName"
+                android:text="@string/vWalletChargeBonusTitle"
+                android:textSize="14sp"
+                app:font="@string/font_RL" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.alticast.viettelottcommons.widget.FontTextView
+                        android:id="@+id/txtTopupBonus"
+                        style="@style/VWallet.Money"
+                        android:text="0"
+                        app:font="@string/font_M" />
+
+                    <com.alticast.viettelottcommons.widget.FontTextView
+                        style="@style/VWallet.Unit"
+                        android:layout_marginLeft="4dp"
+                        android:text="VNĐ"
+                        app:font="@string/font_M" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp">
+
+            <com.alticast.viettelottcommons.widget.FontButtonView
+                android:id="@+id/btnCancel"
+                style="@style/ButtonPurchaseDialog"
+                app:font="@string/font_B"
+                android:text="@string/cancel" />
+
+            <com.alticast.viettelottcommons.widget.FontButtonView
+                android:id="@+id/btnConfirm"
+                android:layout_alignParentRight="true"
+                android:text="@string/ok"
+                app:font="@string/font_B"
+                style="@style/ButtonPurchaseDialog"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+

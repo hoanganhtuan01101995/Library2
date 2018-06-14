@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hidden_panel"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_hidden_panel_pickerui"
+    android:layout_alignParentBottom="true"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/container_dropshadow"
+    android:visibility="gone"
+    tools:visibility="visible">
+
+    <com.alticast.viettelottcommons.widget.wheel.blur.picker.PickerUIListView
+        android:id="@+id/picker_ui_listview"
+        style="@style/PickerUI.ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/pickerui_item" />
+
+    <View
+        android:id="@+id/picker_line_top"
+        style="@style/line_center_default"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/margin_top_line_top_pickerui" />
+
+    <View
+        android:id="@+id/picker_line_bottom"
+        style="@style/line_center_default"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/margin_top_line_bottom_pickerui" />
+
+    <ImageView
+        android:id="@+id/icon_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="@dimen/margin_top_line_top_pickerui_image"
+        android:src="@drawable/btn_datelist_ok"
+        />
+
+</RelativeLayout>

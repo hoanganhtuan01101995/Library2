@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <com.alticast.viettelottcommons.widget.FontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="@string/msgsubTitleSignUpTwo"
+        android:textColor="#80FFFFFF"
+        android:textSize="@dimen/signup_title_tablet" />
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/input_login_tablet" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/icon_sms_p2" />
+
+        <com.alticast.viettelottcommons.widget.FontEditText
+            android:id="@+id/sms_input"
+            style="@style/Viettel.Widget.EditTextTabletPhase2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32dp"
+            android:hint="@string/create_account_sms_hint_phone"
+            android:inputType="phone"
+            android:textColorHint="#33FFFFFF"
+            app:font="@string/font_RL" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/authCntLayout"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/authInvalideCnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter within"
+            android:textColor="#8000F3ED"
+            android:textSize="10sp"
+            app:font="@string/font_M" />
+
+
+        <com.alticast.viettelottcommons.widget.FontTextView
+            android:id="@+id/auchCnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sss"
+            android:textColor="#8000F3ED"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:font="@string/font_M" />
+    </LinearLayout>
+
+    <com.alticast.viettelottcommons.widget.FontButtonView
+        android:id="@+id/sms_button_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/btn_send_signup"
+        android:text="@string/confirm"
+        android:textAllCaps="true"
+        android:textColor="@color/selector_text_button_normal"
+        android:textSize="@dimen/signup_button_tablet" />
+
+</LinearLayout>
